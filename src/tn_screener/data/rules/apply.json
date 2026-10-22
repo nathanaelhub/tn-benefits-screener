@@ -1,0 +1,43 @@
+{
+  "program": "apply",
+  "rules": [
+    {
+      "id": "apply.snap",
+      "title": "Apply for SNAP online through Tennessee's OneDHS portal, or call 866-311-4287",
+      "kind": "contact",
+      "url": "https://onedhs.tn.gov/csp?id=start_snap_application",
+      "phone": "866-311-4287",
+      "effective_from": "2026-10-01",
+      "cite": [{"source": "fns_snap_tn_directory",
+                "quote": "Apply for Benefits [https://onedhs.tn.gov/csp?id=start_snap_application]"},
+               {"source": "fns_snap_tn_directory", "quote": "866-311-4287"}]
+    },
+    {
+      "id": "apply.tenncare",
+      "title": "Apply for TennCare and CoverKids at TennCare Connect, or call 855-259-0701",
+      "kind": "contact",
+      "url": "https://tenncareconnect.tn.gov/",
+      "phone": "855-259-0701",
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_apply", "quote": "TennCareConnect.TN.gov [https://tenncareconnect.tn.gov/]"},
+               {"source": "tenncare_erg", "quote": "Or call TennCare Connect at 855-259-0701."}]
+    },
+    {
+      "id": "apply.wic",
+      "title": "Apply for WIC at a local health department clinic, or call 1-800-DIAL-WIC (1-800-342-5942)",
+      "kind": "contact",
+      "url": "https://www.tn.gov/health/wic.html",
+      "phone": "1-800-342-5942",
+      "effective_from": "2026-07-01",
+      "cite": [{"source": "tn_wic", "quote": "1-800-DIAL-WIC (1-800-342-5942)"}]
+    },
+    {
+      "id": "apply.211",
+      "title": "Dial 211 for free help finding and applying for local assistance",
+      "kind": "contact",
+      "phone": "211",
+      "effective_from": "2026-06-25",
+      "cite": [{"source": "tjc_snap_guide", "quote": "Call 211 to be screened for eligibility."}]
+    }
+  ]
+}

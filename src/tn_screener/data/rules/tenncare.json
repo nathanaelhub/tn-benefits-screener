@@ -1,0 +1,127 @@
+{
+  "program": "tenncare",
+  "rules": [
+    {
+      "id": "tenncare.fpl_100",
+      "title": "100% of poverty, monthly",
+      "table": {"1": 1330, "2": 1804, "3": 2277, "4": 2750, "5": 3224, "6": 3697, "7": 4170, "8": 4644},
+      "each_additional": 473.33,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg", "quote": "This chart shows the family size with monthly income limits.",
+                "rows": "{n} \\| {v} \\|"},
+               {"source": "tenncare_erg", "quote": "Note: For each additional person, add $5,680 yearly."}]
+    },
+    {
+      "id": "tenncare.fpl_133",
+      "title": "133% of poverty, monthly",
+      "table": {"1": 1769, "2": 2399, "3": 3028, "4": 3658, "5": 4288, "6": 4917, "7": 5547, "8": 6176},
+      "each_additional": 629.53,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg", "quote": "This chart shows the family size with monthly income limits.",
+                "rows": "{n} \\| (?:[\\d,]+ \\| ){2}{v} \\|"}]
+    },
+    {
+      "id": "tenncare.fpl_142",
+      "title": "142% of poverty, monthly",
+      "table": {"1": 1889, "2": 2561, "3": 3233, "4": 3905, "5": 4578, "6": 5250, "7": 5922, "8": 6594},
+      "each_additional": 672.13,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg", "quote": "This chart shows the family size with monthly income limits.",
+                "rows": "{n} \\| (?:[\\d,]+ \\| ){4}{v} \\|"}]
+    },
+    {
+      "id": "tenncare.fpl_195",
+      "title": "195% of poverty, monthly",
+      "table": {"1": 2594, "2": 3517, "3": 4440, "4": 5363, "5": 6286, "6": 7209, "7": 8132, "8": 9055},
+      "each_additional": 923,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg", "quote": "This chart shows the family size with monthly income limits.",
+                "rows": "{n} \\| (?:[\\d,]+ \\| ){5}{v} \\|"}]
+    },
+    {
+      "id": "tenncare.fpl_250",
+      "title": "250% of poverty, monthly",
+      "table": {"1": 3325, "2": 4509, "3": 5692, "4": 6875, "5": 8059, "6": 9242, "7": 10425, "8": 11609},
+      "each_additional": 1183.33,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg", "quote": "This chart shows the family size with monthly income limits.",
+                "rows": "{n} \\| (?:[\\d,]+ \\| ){8}{v} \\|"}]
+    },
+    {
+      "id": "tenncare.infant",
+      "title": "Children under 1: TennCare up to 195% of poverty",
+      "value": 195,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg",
+                "quote": "Low-income children age 0 up to 1st birthday. | 195% of the poverty level."}]
+    },
+    {
+      "id": "tenncare.child_1_5",
+      "title": "Children 1 to 5: TennCare up to 142% of poverty",
+      "value": 142,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg",
+                "quote": "Low-income children age 1 to 6th birthday. | 142% of the poverty level."}]
+    },
+    {
+      "id": "tenncare.child_6_18",
+      "title": "Children 6 to 18: TennCare up to 133% of poverty",
+      "value": 133,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg",
+                "quote": "Low-income children age 6 to 19th birthday. | 133% of the poverty level."}]
+    },
+    {
+      "id": "tenncare.coverkids",
+      "title": "CoverKids: children under 19 (and unborn children) not eligible for TennCare, up to 250% of poverty",
+      "value": 250,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg",
+                "quote": "Available to children under age 19 and the unborn children of women who are not eligible under another TennCare category. | At or below 250% of the poverty level."}]
+    },
+    {
+      "id": "tenncare.pregnant",
+      "title": "Pregnant women: TennCare up to 250% of poverty",
+      "value": 250,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg", "quote": "Low-income pregnant women. Note: Newborns born to Medicaid-eligible women are deemed eligible for one year. | 250% of the poverty level."}]
+    },
+    {
+      "id": "tenncare.caretaker",
+      "title": "Parents and caretaker relatives of children under 18: TennCare up to 100% of poverty",
+      "value": 100,
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg",
+                "quote": "Available to parents and Caretaker Relatives of dependent children under age 18 or 18 and a full-time student for the parent to qualify. | 100% of the poverty level."}]
+    },
+    {
+      "id": "tenncare.disregard",
+      "title": "A 5-percentage-point income disregard applies for the person's highest-limit group, so incomes just over a limit can still qualify",
+      "value": 5,
+      "effective_from": "2014-01-01",
+      "cite": [{"source": "ecfr_42_435_603",
+                "quote": "subtract an amount equivalent to 5 percentage points of the Federal poverty level for the applicable family size only to determine the eligibility of an individual for medical assistance under the eligibility group with the highest income standard"}]
+    },
+    {
+      "id": "tenncare.pregnant_family_size",
+      "title": "A pregnant woman counts as herself plus the babies she expects",
+      "effective_from": "2014-01-01",
+      "cite": [{"source": "ecfr_42_435_603",
+                "quote": "In the case of determining the family size of a pregnant woman, the pregnant woman is counted as herself plus the number of children she is expected to deliver."}]
+    },
+    {
+      "id": "tenncare.other_adults",
+      "title": "Adults 19-64 without children in the home generally don't qualify unless they are pregnant, disabled, or a former foster youth under 26",
+      "kind": "deferral",
+      "effective_from": "2026-01-15",
+      "cite": [{"source": "tenncare_erg", "quote": "Former Foster Care up to Age 26"}]
+    },
+    {
+      "id": "tenncare.aged_blind_disabled",
+      "title": "People 65 or older or with a disability are screened under different (non-MAGI) rules",
+      "kind": "deferral",
+      "effective_from": "2014-01-01",
+      "cite": [{"source": "ecfr_42_435_603", "quote": "Eligibility Groups for which MAGI-based methods do not apply."}]
+    }
+  ]
+}
