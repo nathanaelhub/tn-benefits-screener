@@ -1,0 +1,97 @@
+WIC Income Eligibility Guidelines 2026-2027 | Food and Nutrition Administration
+ Skip to main content
+ Official websites use .gov
+ A .gov website belongs to an official government organization in the United States.
+ Secure .gov websites use HTTPS
+ A lock ( 
+ Lock
+ Locked padlock
+ ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+WIC Income Eligibility Guidelines 2026-2027
+ Publication Date
+ Wednesday, April 29, 2026
+ Resource Type
+ Federal Register Notices
+ Link
+ Federal Register Notice [https://www.federalregister.gov/documents/2026/04/29/2026-08323/special-supplemental-nutrition-program-for-women-infants-and-children-wic-20262027-income]
+ PDF Link
+ Print Version [https://www.govinfo.gov/content/pkg/FR-2026-04-29/pdf/2026-08323.pdf]
+ Summary
+The United States Department of Agriculture (“Department”) announces adjusted income eligibility guidelines to be used by state agencies in determining the income eligibility of persons applying.
+Dates
+These guidelines are effective July 1, 2026.
+Description
+Section 17(d)(2)(A) of the Child Nutrition Act of 1966, as amended (42 USC 1786(d)(2)(A) [https://www.govinfo.gov/link/uscode/42/1786]), requires the Secretary of Agriculture to establish income criteria to be used with nutritional risk criteria in determining a person's eligibility for participation in the WIC program. The law provides that persons will be income-eligible for the WIC program if they are members of families that satisfy the income standard prescribed for reduced-price school meals under section 9(b) of the Richard B. Russell National School Lunch Act (42 USC 1758(b) [https://www.govinfo.gov/link/uscode/42/1758]). Under section 9(b), the income limit for reduced-price school meals is 185 percent of the federal poverty guidelines, as adjusted. Section 9(b) also requires that these guidelines be revised annually to reflect changes in the Consumer Price Index. The annual revision for 2026 was published by the Department of Health and Human Services (HHS) at 91 FR 1797 [https://www.federalregister.gov/citation/91-FR-1797] on Jan. 15, 2026. The guidelines published by HHS are referred to as the “poverty guidelines.” Consistent with the method used to compute income eligibility guidelines for reduced-price meals under the National School Lunch Program, the poverty guidelines were multiplied by 1.85 and the results rounded upward to the next whole dollar.
+Program Regulations at 7 CFR 246.7(d)(1) [https://www.ecfr.gov/current/title-7/section-246.7#p-246.7(d)(1)] specify that state agencies may prescribe income guidelines either equaling the income guidelines established under Section 9 of the Richard B. Russell National School Lunch Act for reduced-price school meals, or identical to state or local guidelines for free or reduced-price health care. However, in conforming WIC income guidelines to state or local health care guidelines, the state cannot establish WIC guidelines which exceed the guidelines for reduced-price school meals, or which are less than 100 percent of the federal poverty guidelines.
+Currently, the Department is publishing the maximum and minimum WIC income eligibility guidelines by household size for the period of July 1, 2026, through June 30, 2027. Consistent with section 17(f)(17) of the Child Nutrition Act of 1966, as amended (42 USC 1786(f)(17) [https://www.govinfo.gov/link/uscode/42/1786]), a state agency may implement the revised WIC income eligibility guidelines concurrently with the implementation of income eligibility guidelines under the Medicaid program established under Title XIX of the Social Security Act (42 USC 1396 [https://www.govinfo.gov/link/uscode/42/1396],et seq.). State agencies may coordinate implementation with the revised Medicaid guidelines, i.e., earlier in the year, but in no case may implementation take place later than July 1, 2026. State agencies that do not coordinate implementation with the revised Medicaid guidelines must implement the WIC income eligibility guidelines on or before July 1, 2026.
+Income Eligibility Guidelines
+Effective from July 1, 2026 to June 30, 2027
+48 Contiguous States, D.C., Guam and TerritoriesHousehold Size | Federal poverty guidelines - 100% | Reduced-price meals - 185% | 
+ | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | 
+1 | $15,960 | $1,330 | $665 | $614 | $307 | $29,526 | $2,461 | $1,231 | $1,136 | $568 | 
+2 | 21,640 | 1,804 | 902 | 833 | 417 | 40,034 | 3,337 | 1,669 | 1,540 | 770 | 
+3 | 27,320 | 2,277 | 1,139 | 1,051 | 526 | 50,542 | 4,212 | 2,106 | 1,944 | 972 | 
+4 | 33,000 | 2,750 | 1,375 | 1,270 | 635 | 61,050 | 5,088 | 2,544 | 2,349 | 1,175 | 
+5 | 38,680 | 3,224 | 1,612 | 1,488 | 744 | 71,558 | 5,964 | 2,982 | 2,753 | 1,377 | 
+6 | 44,360 | 3,697 | 1,849 | 1,707 | 854 | 82,066 | 6,839 | 3,420 | 3,157 | 1,579 | 
+7 | 50,040 | 4,170 | 2,085 | 1,925 | 963 | 92,574 | 7,715 | 3,858 | 3,561 | 1,781 | 
+8 | 55,720 | 4,644 | 2,322 | 2,144 | 1,072 | 103,082 | 8,591 | 4,296 | 3,965 | 1,983 | 
+Add per family member | +$5,680 | +$474 | +$237 | +$219 | +$110 | +$10,508 | +$876 | +$438 | +$405 | +$203 | 
+AlaskaHousehold Size | Federal poverty guidelines - 100% | Reduced-price meals - 185% | 
+ | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | 
+1 | $19,950 | $1,663 | $832 | $768 | $384 | $36,908 | $3,076 | $1,538 | $1,420 | $710 | 
+2 | 27,050 | 2,255 | 1,128 | 1,041 | 521 | 50,043 | 4,171 | 2,086 | 1,925 | 963 | 
+3 | 34,150 | 2,846 | 1,423 | 1,314 | 657 | 63,178 | 5,265 | 2,633 | 2,430 | 1,215 | 
+4 | 41,250 | 3,438 | 1,719 | 1,587 | 794 | 76,313 | 6,360 | 3,180 | 2,936 | 1,468 | 
+5 | 48,350 | 4,030 | 2,015 | 1,860 | 930 | 89,448 | 7,454 | 3,727 | 3,441 | 1,721 | 
+6 | 55,450 | 4,621 | 2,311 | 2,133 | 1,067 | 102,583 | 8,549 | 4,275 | 3,946 | 1,973 | 
+7 | 62,550 | 5,213 | 2,607 | 2,406 | 1,203 | 115,718 | 9,644 | 4,822 | 4,451 | 2,226 | 
+8 | 69,650 | 5,805 | 2,903 | 2,679 | 1,340 | 128,853 | 10,738 | 5,369 | 4,956 | 2,478 | 
+Add per family member | +$7,100 | +$592 | +$296 | +$274 | +$137 | +$13,135 | +$1,095 | +$548 | +$506 | +$253 | 
+HawaiiHousehold Size | Federal poverty guidelines - 100% | Reduced-price meals - 185% | 
+ | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | 
+1 | $18,360 | $1,530 | $765 | $707 | $354 | $33,966 | $2,831 | $1,416 | $1,307 | $654 | 
+2 | 24,890 | 2,075 | 1,038 | 958 | 479 | 46,047 | 3,838 | 1,919 | 1,772 | 886 | 
+3 | 31,420 | 2,619 | 1,310 | 1,209 | 605 | 58,127 | 4,844 | 2,422 | 2,236 | 1,118 | 
+4 | 37,950 | 3,163 | 1,582 | 1,460 | 730 | 70,208 | 5,851 | 2,926 | 2,701 | 1,351 | 
+5 | 44,480 | 3,707 | 1,854 | 1,711 | 856 | 82,288 | 6,858 | 3,429 | 3,165 | 1,583 | 
+6 | 51,010 | 4,251 | 2,126 | 1,962 | 981 | 94,369 | 7,865 | 3,933 | 3,630 | 1,815 | 
+7 | 57,540 | 4,795 | 2,398 | 2,214 | 1,107 | 106,449 | 8,871 | 4,436 | 4,095 | 2,048 | 
+8 | 64,070 | 5,340 | 2,670 | 2,465 | 1,233 | 118,530 | 9,878 | 4,939 | 4,559 | 2,280 | 
+Add per family member | +$6,530 | +$545 | +$273 | +$252 | +$126 | +$12,081 | +$1,007 | +$504 | +$465 | +$233 | 
+Income Eligibility Guidelines Household Size Larger than 8
+Effective from July 1, 2026, to June 30, 2027
+48 Contiguous States, D.C., Guam and TerritoriesHousehold Size | Federal poverty guidelines - 100% | Reduced-price meals - 185% | 
+ | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | 
+9 | $61,400 | $5,117 | $2,559 | $2,362 | $1,181 | $113,590 | $9,466 | $4,733 | $4,369 | $2,185 | 
+10 | 67,080 | 5,590 | 2,795 | 2,580 | 1,290 | 124,098 | 10,342 | 5,171 | 4,773 | 2,387 | 
+11 | 72,760 | 6,064 | 3,032 | 2,799 | 1,400 | 134,606 | 11,218 | 5,609 | 5,178 | 2,589 | 
+12 | 78,440 | 6,537 | 3,269 | 3,017 | 1,509 | 145,114 | 12,093 | 6,047 | 5,582 | 2,791 | 
+13 | 84,120 | 7,010 | 3,505 | 3,236 | 1,618 | 155,622 | 12,969 | 6,485 | 5,986 | 2,993 | 
+14 | 89,800 | 7,484 | 3,742 | 3,454 | 1,727 | 166,130 | 13,845 | 6,923 | 6,390 | 3,195 | 
+15 | 95,480 | 7,957 | 3,979 | 3,673 | 1,837 | 176,638 | 14,720 | 7,360 | 6,794 | 3,397 | 
+16 | 101,160 | 8,430 | 4,215 | 3,891 | 1,946 | 187,146 | 15,596 | 7,798 | 7,198 | 3,599 | 
+Add per family member | +$5,680 | +$474 | +$237 | +$219 | +$110 | +$10,508 | +$876 | +$438 | +$405 | +$203 | 
+AlaskaHousehold Size | Federal poverty guidelines - 100% | Reduced-price meals - 185% | 
+ | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | 
+9 | $76,750 | $6,396 | $3,198 | $2,952 | $1,476 | $141,988 | $11,833 | $5,917 | $5,462 | $2,731 | 
+10 | 83,850 | 6,988 | 3,494 | 3,225 | 1,613 | 155,123 | 12,927 | 6,464 | 5,967 | 2,984 | 
+11 | 90,950 | 7,580 | 3,790 | 3,499 | 1,750 | 168,258 | 14,022 | 7,011 | 6,472 | 3,236 | 
+12 | 98,050 | 8,171 | 4,086 | 3,772 | 1,886 | 181,393 | 15,117 | 7,559 | 6,977 | 3,489 | 
+13 | 105,150 | 8,763 | 4,382 | 4,045 | 2,023 | 194,528 | 16,211 | 8,106 | 7,482 | 3,741 | 
+14 | 112,250 | 9,355 | 4,678 | 4,318 | 2,159 | 207,663 | 17,306 | 8,653 | 7,988 | 3,994 | 
+15 | 119,350 | 9,946 | 4,973 | 4,591 | 2,296 | 220,798 | 18,400 | 9,200 | 8,493 | 4,247 | 
+16 | 126,450 | 10,538 | 5,269 | 4,864 | 2,432 | 233,933 | 19,495 | 9,748 | 8,998 | 4,499 | 
+Add per family member | +$7,100 | +$592 | +$296 | +$274 | +$137 | +$13,135 | +$1,095 | +$548 | +$506 | +$253 | 
+HawaiiHousehold Size | Federal poverty guidelines - 100% | Reduced-price meals - 185% | 
+ | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | Annual | Monthly | Twice-monthly | Bi-weekly | Weekly | 
+9 | $70,600 | $5,884 | $2,942 | $2,716 | $1,358 | $130,610 | $10,885 | $5,443 | $5,024 | $2,512 | 
+10 | 77,130 | 6,428 | 3,214 | 2,967 | 1,484 | 142,691 | 11,891 | 5,946 | 5,489 | 2,745 | 
+11 | 83,660 | 6,972 | 3,486 | 3,218 | 1,609 | 154,771 | 12,898 | 6,449 | 5,953 | 2,977 | 
+12 | 90,190 | 7,516 | 3,758 | 3,469 | 1,735 | 166,852 | 13,905 | 6,953 | 6,418 | 3,209 | 
+13 | 96,720 | 8,060 | 4,030 | 3,720 | 1,860 | 178,932 | 14,911 | 7,456 | 6,882 | 3,441 | 
+14 | 103,250 | 8,605 | 4,303 | 3,972 | 1,986 | 191,013 | 15,918 | 7,959 | 7,347 | 3,674 | 
+15 | 109,780 | 9,149 | 4,575 | 4,223 | 2,112 | 203,093 | 16,925 | 8,463 | 7,812 | 3,906 | 
+16 | 116,310 | 9,693 | 4,847 | 4,474 | 2,237 | 215,174 | 17,932 | 8,966 | 8,276 | 4,138 | 
+Add per family member | +$6,530 | +$545 | +$273 | +$252 | +$126 | +$12,081 | +$1,007 | +$504 | +$465 | +$233 | 
+ Page updated: April 29, 2026

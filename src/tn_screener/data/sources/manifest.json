@@ -1,0 +1,210 @@
+{
+  "ecfr_42_435_603": {
+    "title": "42 CFR 435.603 Medicaid MAGI-based income methodologies",
+    "publisher": "Electronic Code of Federal Regulations",
+    "url": "https://www.ecfr.gov/current/title-42/section-435.603",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "5a9a6de00621bac2e9ef580b213e31ea2bd04b2de87c22d6cb9f12230751ba33"
+  },
+  "ecfr_7_246_2": {
+    "title": "7 CFR 246.2 WIC definitions",
+    "publisher": "Electronic Code of Federal Regulations",
+    "url": "https://www.ecfr.gov/current/title-7/section-246.2",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "89175531d0e4a8436f12bb9ff5f108efd88cf5dff51805925ea704a23a52c03d"
+  },
+  "ecfr_7_246_7": {
+    "title": "7 CFR 246.7 WIC certification of participants",
+    "publisher": "Electronic Code of Federal Regulations",
+    "url": "https://www.ecfr.gov/current/title-7/section-246.7",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "03e382c568783a826028cf90c7707849223b1b313211b3893ad3d9897ac95023"
+  },
+  "ecfr_7_273_10": {
+    "title": "7 CFR 273.10 SNAP determining household eligibility and benefit levels",
+    "publisher": "Electronic Code of Federal Regulations",
+    "url": "https://www.ecfr.gov/current/title-7/section-273.10",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "bb8c9f79b3e734d165b54485b4400b243443f1845ae318d122dfd86a3ff7da4e"
+  },
+  "ecfr_7_273_9": {
+    "title": "7 CFR 273.9 SNAP income and deductions",
+    "publisher": "Electronic Code of Federal Regulations",
+    "url": "https://www.ecfr.gov/current/title-7/section-273.9",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "2844334a27728b7bf87ee638b1f5d4f0d99b82e131821379440778fbb8cd588c"
+  },
+  "fns_bbce_chart": {
+    "title": "Broad-Based Categorical Eligibility (BBCE) state chart",
+    "publisher": "USDA Food and Nutrition Service",
+    "url": "https://www.fns.usda.gov/snap/broad-based-categorical-eligibility",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "b4d0edf9138a5f73af7fba0319e437fe682b172aaf53af20ab0958a090a4e498"
+  },
+  "fns_snap_eligibility": {
+    "title": "SNAP Eligibility",
+    "publisher": "USDA Food and Nutrition Service",
+    "url": "https://www.fns.usda.gov/snap/recipient/eligibility",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "fd39dc841d0a6b780eac743e665471fdb5c8e16fc603e762f88f9fe9e9a5d2ea"
+  },
+  "fns_snap_standards_fy27": {
+    "title": "SNAP Cost-of-Living Adjustments: FY 2027 standards, allotments and deductions",
+    "publisher": "USDA Food and Nutrition Service",
+    "url": "https://www.fns.usda.gov/snap/allotment/cola",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "e7f240ca6727bccbbdb46e1f14bcb4958fc5d76cbd887edd3677cb630d31faa9"
+  },
+  "fns_snap_state_directory": {
+    "title": "SNAP State Directory of Resources",
+    "publisher": "USDA Food and Nutrition Service",
+    "url": "https://www.fns.usda.gov/snap/state-directory",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "0b7f6386393619773181b1c6b1ad472d203e3f51844f16f800d841a01e25e363"
+  },
+  "fns_snap_tn_directory": {
+    "title": "SNAP State Directory: Tennessee",
+    "publisher": "USDA Food and Nutrition Service",
+    "url": "https://www.fns.usda.gov/snap-directory-entry/tennessee",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "7faf33738e2a9f1ed363fb960f79aa734893a32db28d67f2e3482dff1c5e1b38"
+  },
+  "fns_sua_table": {
+    "title": "SNAP Standard Utility Allowances by State (FY 2026 table)",
+    "publisher": "USDA Food and Nutrition Service",
+    "url": "https://www.fns.usda.gov/sites/default/files/resource-files/2026-05-21-SUA-Table-FY26.xlsx",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "b5f5ca7b7ae372e20b037631f9ab113897e684271daf2bc9dfbcc4d962a8ea9b"
+  },
+  "fns_wic_ieg": {
+    "title": "WIC Income Eligibility Guidelines, July 1, 2026 to June 30, 2027",
+    "publisher": "USDA Food and Nutrition Service",
+    "url": "https://www.fns.usda.gov/wic/fr-042926",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "d1a67117f382390edf667ad70831c897286e56ee20c39c78111f659008217070"
+  },
+  "hhs_poverty_2026": {
+    "title": "2026 Poverty Guidelines",
+    "publisher": "U.S. Department of Health and Human Services (ASPE)",
+    "url": "https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "7e54b7fdbb52bf2bb890c2a8feac3a12ea5b27504c09cbc63e72cc91766937f4"
+  },
+  "hoodline_bbce": {
+    "title": "SNAP shakeup could put more food on Memphis tables (June 2026)",
+    "publisher": "Hoodline",
+    "url": "https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/",
+    "official": false,
+    "retrieved": "2026-10-22",
+    "sha256": "29870c161825e94f203bec07bda622b9446bc782cb28507c6e51a50ebabdbbe9"
+  },
+  "tdhs_24_09": {
+    "title": "SNAP Policy 24.09: Citizenship Requirement",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/content/dam/tn/human-services/documents/24.09%20SNAP%20Citizenship%20Requirement.pdf",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "08c3d1c87a5b049005fc7631b9367caa1dc461e710786dc53d21b93ca09897b1"
+  },
+  "tdhs_24_11": {
+    "title": "SNAP Policy 24.11: Work Requirements",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/content/dam/tn/human-services/documents/24.11_SNAP_Work_Requirements_-_Esigned_unlined.pdf",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "650de3284ffe0f35a609ce0083059929f9dd287ccca1aa603fdc75fd23861f67"
+  },
+  "tdhs_24_12": {
+    "title": "SNAP Policy 24.12: Resources",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/content/dam/tn/human-services/documents/Policy_24.12_SNAP_Resources_-esigned.pdf",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "b044a5ada9d20ad2467e533de6b0c05b5cba50fc5be9fb4c254b9b983b20bf29"
+  },
+  "tdhs_24_14": {
+    "title": "SNAP Policy 24.14: Income",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/content/dam/tn/human-services/documents/24.14%20SNAP%20Income.pdf",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "92ab81b83d137b40a515bb8de6b8b97e8a37c15618efc5ff776cdfcb973390f2"
+  },
+  "tdhs_24_18": {
+    "title": "SNAP Policy 24.18: Deductions from Income",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/content/dam/tn/human-services/documents/Policy%2024.18%20SNAP%20Deductions%20from%20Income_Esigned.pdf",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "f33013b80e33829884ccd196b874d154c0608b6ee6340324f32380e58f87902e"
+  },
+  "tdhs_24_24": {
+    "title": "SNAP Policy 24.24: Categorically Eligible SNAP Recipients",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/content/dam/tn/human-services/documents/24.24%20Categorically%20Eligible%20SNAP%20Recipients.pdf",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "196a0b353dd3820b6542c2e0624110f6a707134f5864957fd7c866f25821cd98"
+  },
+  "tdhs_24_27": {
+    "title": "SNAP Policy 24.27: Students in Higher Education",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/content/dam/tn/human-services/documents/Policy%2024.27%20SNAP%20Students%20in%20Higher%20Educ.pdf",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "efd436e07757e6bc23a333dd0139cc28e454ce0d1c4889d197384e919735bf25"
+  },
+  "tdhs_policy_index": {
+    "title": "TDHS Publications and Manuals (SNAP policy index)",
+    "publisher": "Tennessee Department of Human Services",
+    "url": "https://www.tn.gov/humanservices/information-and-resources/dhs-publications.html",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "58d9bdb6c7e24484a19704c664aad1d71c6f3f9ff2a58727aab939bedaffd787"
+  },
+  "tenncare_apply": {
+    "title": "How Do I Apply for TennCare?",
+    "publisher": "Division of TennCare",
+    "url": "https://www.tn.gov/tenncare/members-applicants/how-do-i-apply-for-tenncare.html",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "cbb5d1a38d4f1c2e8f2b54975cacd408a53334805d3a3189e15815858f3eebf7"
+  },
+  "tenncare_erg": {
+    "title": "TennCare Eligibility Reference Guide",
+    "publisher": "Division of TennCare",
+    "url": "https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "627b342f8a62db812fe4a242226cfad6442e01213bac6abfb9430d9cef3e3cb1"
+  },
+  "tjc_snap_guide": {
+    "title": "SNAP Guide for Tennesseans (updated 06.25.2026)",
+    "publisher": "Tennessee Justice Center",
+    "url": "https://www.tnjustice.org/_files/ugd/07a490_b27db0ba3f0f4d5b80207832c4a81583.pdf",
+    "official": false,
+    "retrieved": "2026-10-22",
+    "sha256": "96c27d6baa9246d6a4591067b7fef8247b33d787dbceba3d2669e9cd0ca78ca0"
+  },
+  "tn_wic": {
+    "title": "Tennessee Women, Infants & Children (WIC) Program",
+    "publisher": "Tennessee Department of Health",
+    "url": "https://www.tn.gov/health/wic.html",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "b7664726ea31adf07bb98e8b4c95c293f7f13fed2e5c0bb69f2cdd081800bae2"
+  }
+}

@@ -1,0 +1,191 @@
+Eligibility Reference Guide
+ Skip to Main Content
+ For information on important changes to D-SNP, please visit our D-SNP page.
+ [https://www.tn.gov/tenncare/long-term-services-supports/dual-eligible-special-needs-plan--d-snp-.html]
+ Eligibility Reference Guide
+ The information below shows the income and resource limits applicants and members must meet for TennCare to determine eligibility. You can also print out the Eligibility Reference Guide.
+For more information on how to apply for TennCare, go to the How Do I Apply for TennCare? webpage. Or call TennCare Connect at 855-259-0701.
+ Monthly and Yearly Income in Dollars
+This chart shows the family size with monthly income limits.
+ Family Size | 100% FPL | 120% FPL | 133% FPL | 135% FPL | 142% FPL | 195% FPL | 200% FPL | 211% FPL | 250% FPL | 
+1 | $1,330 | $1,596 | $1,769 | $1,796 | $1,889 | $2,594 | $2,660 | $2,807 | $3,325 | 
+2 | $1,804 | $2,164 | $2,399 | $2,435 | $2,561 | $3,517 | $3,607 | $3,806 | $4,509 | 
+3 | $2,277 | $2,732 | $3,028 | $3,074 | $3,233 | $4,440 | $4,554 | $4,804 | $5,692 | 
+4 | $2,750 | $3,300 | $3,658 | $3,713 | $3,905 | $5,363 | $5,500 | $5,803 | $6,875 | 
+5 | $3,224 | $3,868 | $4,288 | $4,352 | $4,578 | $6,286 | $6,447 | $6,802 | $8,059 | 
+6 | $3,697 | $4,436 | $4,917 | $4,991 | $5,250 | $7,209 | $7,394 | $7,800 | $9,242 | 
+7 | $4,170 | $5,004 | $5,547 | $5,630 | $5,922 | $8,132 | $8,340 | $8,799 | $10,425 | 
+8 | $4,644 | $5,572 | $6,176 | $6,269 | $6,594 | $9,055 | $9,287 | $9,798 | $11,609 | 
+ This chart shows the family size with yearly income limits.
+Note: For each additional person, add $5,680 yearly.
+ Family Size | 100% FPL | 120% FPL | 133% FPL | 135% FPL | 142% FPL | 195% FPL | 200% FPL | 211% FPL | 250% FPL | 
+1 | $15,960 | $19,152 | $21,227 | $21,546 | $22,664 | $31,122 | $31,920 | $33,676 | $39,900 | 
+2 | $21,640 | $25,968 | $28,782 | $29,214 | $30,729 | $42,198 | $43,280 | $45,661 | $54,100 | 
+3 | $27,320 | $32,784 | $36,336 | $36,882 | $38,795 | $53,274 | $54,640 | $57,646 | $68,300 | 
+4 | $33,000 | $39,600 | $43,890 | $44,550 | $46,860 | $64,350 | $66,000 | $69,630 | $82,500 | 
+5 | $38,680 | $46,416 | $51,445 | $52,218 | $54,926 | $75,426 | $77,360 | $81,615 | $96,700 | 
+6 | $44,360 | $53,232 | $58,999 | $59,886 | $62,992 | $86,502 | $88,720 | $93,600 | $110,900 | 
+7 | $50,040 | $60,048 | $66,554 | $67,554 | $71,057 | $97,578 | $100,080 | $105,585 | $125,100 | 
+8 | $55,720 | $66,864 | $74,108 | $75,222 | $79,123 | $108,654 | $111,440 | $117,570 | $139,300 | 
+ TennCare Coverage Groups and Eligibility Requirements
+This chart shows the TennCare Coverage Groups along with the Percent of the Federal Poverty Level (FPL).
+ TennCare Medicaid Coverage Groups and Descriptions
+This chart has TennCare coverage category information.
+ Children Category:
+ Program | Description | Income Limit | Resource Limit | 
+Age 0-19 | Low-income children age 0 up to 1st birthday.
+ | 195% of the poverty level.
+ | None.
+ | 
+Age 0-19 | Low-income children age 1 to 6th birthday. | 142% of the poverty level. | None. | 
+Age 0-19 | Low-income children age 6 to 19th birthday.
+ | 133% of the poverty level.
+ | None.
+ | 
+Medically Needy Child
+ | Children up to age 21. Must either have low income or have sufficient unreimbursed medical bills to spend down to requisite income limits.
+ | Monthly spend-down level of:
+$241 (1 person)
+$258 (2 persons)
+$317 (3 persons)
+$325 (4 persons)
+$392 (5 persons)
+$408 (6 persons)
+$467 (7 persons)
+$517 (8 persons) | $2,000 (1 person)
+$3,000 (2 persons)
+Add $100 per additional person.
+ | 
+Standard Uninsured
+ | Children under age 19 who do not have access to insurance. The category is only open to children who lose Medicaid eligibility and rollover into Standard.
+ | Below 211% of the poverty level.
+ | None.
+ | 
+Standard Medically Eligible
+ | Children under age 19 who do not have access to insurance and who have health conditions that make the child uninsurable. The category is only open to children who lose Medicaid eligibility and rollover into Standard.
+ | At 211% of the poverty level or above.
+ | None.
+ | 
+CoverKids
+ | Available to children under age 19 and the unborn children of women who are not eligible under another TennCare category.
+ | At or below 250% of the poverty level.
+ | None.
+ | 
+ Families Category:
+ Program | Description | Income Limit | Resource Limit | 
+Caretaker Relative
+ | Available to parents and Caretaker Relatives of dependent children under age 18 or 18 and a full-time student for the parent to qualify.
+ | 100% of the poverty level.
+ | None.
+ | 
+Transitional or Extended Medicaid
+ | Children and Caretaker Relatives who lose Medicaid due to an increase in income or spousal support.
+ | Rules for Caretaker Relative for three of the last six months immediately preceding the month eligibility is lost.
+ | None.
+ | 
+ Women Category:
+ Program | Description | Income Limit | Resource Limit | 
+Pregnant
+ | Low-income pregnant women. Note: Newborns born to Medicaid-eligible women are deemed eligible for one year.
+ | 250% of the poverty level.
+ | None.
+ | 
+Pregnant Medically Needy
+ | Pregnant women. Must either have low income or have sufficient unreimbursed medical bills to spend down to requisite income limits.
+ | Monthly spend-down level of:
+$241 (1 person)
+$258 (2 persons)
+$317 (3 persons)
+$325 (4 persons)
+$392 (5 persons)
+$408 (6 persons)
+$467 (7 persons)
+$517 (8 persons) | $2,000 (1 person)
+$3,000 (2 persons)
+Add $100 per additional person.
+ | 
+ Former Foster Care Category:
+ Program | Description | Income Limit | Resource Limit | 
+Former Foster Care up to Age 26
+ | Individuals under age 26 who aged out of foster care and received Medicaid at that time. Individuals who turned 18 before January 1, 2023, must have aged out of foster care in Tennessee. Individuals who turned 18 on or after January 1, 2023, may have aged out of foster care in any state.
+ | None.
+ | None.
+ | 
+ Aged, Blind, & Disabled (ABD) Category:
+ Program | Description | Income Limit | Resource Limit | 
+SSI (Supplemental Security Income)
+ | Active: Low-income aged, blind, or disabled recipients of federal SSI cash payments as determined by the SSA. Eligibility for SSI is determined by the Social Security Administration (SSA).
+ | $994 per month (1 person)
+$1,491 (2 persons)
+ | $2,000 (1 person)
+$3,000 (2 persons)
+Add $100 per additional person.
+ | 
+Institutional Medicaid (IM)
+ | Low-income individuals who require care in a medical institution, like a nursing facility or hospital, or intermediate care facility for individuals with intellectual disabilities or who receive Home and Community-Based Services in their home.
+ | $2,982 per month
+ | $2,000
+ | 
+Katie Beckett (KB)
+ | Provides medical assistance to children under age 18 with disabilities or complex medical needs who live at home and do not otherwise qualify for Medicaid due to their parent's income or resources.
+ | $2,982 per month
+ | $2,000
+ | 
+SSI Related (Pickle/Passalong, Disabled Adult Child, Widow/Widower)
+ | Pickle/Pass Along: Lost SSI since April 1977 due to OASDI cost-of-living increase.
+DAC: Lost SSI since July 1987 due to receipt/increase of DAC benefits.
+Widow/Widower: Lost SSI since 1984 due to receipt of OASDI from a deceased spouse, does not receive Medicare Part A, and is at least 50 and up to age 65.
+ | $994 per month (1 person)
+$1,491 (2 persons)
+ | $2,000 (1 person)
+$3,000 (2 persons)
+Add $100 per additional person.
+ | 
+Breast or Cervical Cancer (BCC)
+ | Individuals under 65 who are not eligible for any other category of Medicaid and have been diagnosed as the result of a screening at a Centers for Disease Control and Prevention (CDC) site.
+ | 250% of the poverty level.
+ | None.
+ | 
+ECF (Employment and Community First CHOICES)
+ | Individuals who have an intellectual or developmental disability(ies) (I/DD) who qualify for nursing home care or who are "at-risk” of nursing home placement are eligible for Medicaid either as SSI cash recipients or in an ECF CHOICES category and who receive Home and Community-Based Services.
+ | 217-Like Group: $2,982 per month.
+Working Disabled Group: At or below 250% of the poverty level, but for their earned income, they would be eligible for SSI.
+At-Risk Group: At or below 150% of the poverty level.
+ | $2,000
+ | 
+ Medicare Cost Sharing Category:
+ Program | Description | Income Limit | Resource Limit | 
+QMB
+(Qualified Medicare Beneficiary)
+ | TennCare pays Medicare premiums, deductibles, and co-insurance for those eligible for Medicare.
+ | Up to 100% of the poverty level.
+ | $9,950 (1 person)
+$14,910
+(2 persons)
+ | 
+SLMB
+(Specified Low-Income Medicare Beneficiaries)
+ | TennCare pays Medicare Part B premiums only.
+ | At least 100% but less than 120% of the poverty level.
+ | $9,950 (1 person)
+$14,910
+(2 persons)
+ | 
+QI 1
+(Qualified Individuals)
+ | TennCare pays Medicare Part B premiums only.
+Individuals cannot be eligible for another category of Medicaid at the same time.
+ | At least 120% but less than 135% of the poverty level.
+ | $9,950 (1 person)
+$14,910
+(2 persons)
+ | 
+QDWI
+(Qualified Disabled Working Individual)
+ | TennCare pays Medicare Part A buy-in for individuals no longer entitled to premium-free Medicare Part A because they returned to work.
+ | Not more than 200% of the poverty level.
+ | $4,000 (1 person)
+$6,000
+(2 persons)
+ | 
+ Close

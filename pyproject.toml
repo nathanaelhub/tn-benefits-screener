@@ -1,0 +1,30 @@
+[project]
+name = "tn-benefits-screener"
+version = "0.1.0"
+description = "A cited Tennessee benefits screener (SNAP, WIC, TennCare/CoverKids) for Claude: plain code does the eligibility math, Claude does the conversation, and an eval harness checks both."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "Nathanael Johnson", email = "nathanaeljdj@gmail.com" }
+]
+dependencies = [
+    "mcp>=2.2,<3",
+]
+
+[project.scripts]
+tn-screener = "tn_screener.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "anyio>=4"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+markers = ["live: downloads the real sources (deselected by default)"]
+addopts = "-m 'not live'"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tn_screener"]

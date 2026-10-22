@@ -1,0 +1,103 @@
+Supplemental Nutrition Assistance Program (SNAP) FY 2026 Standard Utility Allowances (SUA) by State
+Effective October 1, 2025 - September 30, 2026
+State (with Region and Household Size) | Heating and Cooling Utility Allowance  (HCSUA) | Basic/ Limited Utility Allowance (BUA/LUA) | Electricity | Gas and Fuel | Water | Sewage | Trash | Phone | SMD Offset
+Alabama | 637 | 466 | 0 | 0 | 0 | 0 | 0 | 53 | 4
+Alaska - Central | 625 | 0 | 134 | 310 | 59 | 61 | 37 | 26 | 0
+Alaska - Northern | 825 | 0 | 170 | 492 | 44 | 45 | 38 | 35 | 0
+Alaska - Northwest | 1107 | 0 | 158 | 761 | 63 | 48 | 40 | 37 | 0
+Alaska - Southcentral | 591 | 0 | 109 | 308 | 42 | 65 | 40 | 27 | 0
+Alaska - Southeast | 517 | 0 | 72 | 244 | 49 | 81 | 34 | 36 | 0
+Alaska - Southwest | 1064 | 0 | 169 | 676 | 111 | 54 | 17 | 36 | 0
+Arizona - 1 to 3 members | 323 | 149 | 0 | 0 | 0 | 0 | 0 | 44 | 6
+Arizona - 4 or more members | 438 | 201 | 0 | 0 | 0 | 0 | 0 | 44 | 6
+Arkansas | 342 | 274 | 0 | 0 | 0 | 0 | 0 | 51 | 4
+California | 663 | 170 | 0 | 0 | 0 | 0 | 0 | 20 | 4
+Colorado | 594 | 377 | 71 | 71 | 71 | 71 | 71 | 97 | 7
+Connecticut | 976 | 430 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Delaware | 543 | 369 | 102 | 102 | 102 | 102 | 102 | 24 | 0
+District of Columbia | 384 | 348 | 90 | 90 | 90 | 90 | 90 | 76 | 0
+Florida | 430 | 348 | 0 | 0 | 0 | 0 | 0 | 56 | 0
+Georgia | 405 | 358 | 0 | 0 | 0 | 0 | 0 | 47 | 4
+Guam - 1 member* | 0 | 0 | 193 | 37 | 39 | 29 | 31 | 29 | 0
+Guam - 2 members* | 0 | 0 | 224 | 37 | 51 | 29 | 31 | 29 | 0
+Guam - 3 members* | 0 | 0 | 224 | 37 | 51 | 29 | 31 | 29 | 0
+Guam - 4 members* | 0 | 0 | 267 | 74 | 71 | 29 | 31 | 29 | 0
+Guam - 5 members* | 0 | 0 | 304 | 74 | 87 | 29 | 31 | 29 | 0
+Guam - 6 members* | 0 | 0 | 347 | 74 | 114 | 29 | 31 | 29 | 0
+Guam - 7 members* | 0 | 0 | 394 | 111 | 140 | 29 | 31 | 29 | 0
+Guam - 8 members* | 0 | 0 | 413 | 111 | 154 | 29 | 31 | 29 | 0
+Guam - 9 members* | 0 | 0 | 442 | 111 | 176 | 29 | 31 | 29 | 0
+Guam - 10 members* | 0 | 0 | 442 | 111 | 176 | 29 | 31 | 29 | 0
+Guam - 11 members* | 0 | 0 | 453 | 111 | 183 | 29 | 31 | 29 | 0
+Guam - 12 members* | 0 | 0 | 453 | 111 | 183 | 29 | 31 | 29 | 0
+Guam - 13 member +* | 0 | 0 | 453 | 111 | 183 | 29 | 31 | 29 | 0
+Hawaii - 1 member* | 0 | 0 | 299 | 299 | 67 | 100 | 100 | 43 | 0
+Hawaii - 2 members* | 0 | 0 | 324 | 324 | 75 | 100 | 100 | 43 | 0
+Hawaii - 3 members* | 0 | 0 | 376 | 376 | 83 | 100 | 100 | 43 | 0
+Hawaii - 4 to 5 members* | 0 | 0 | 469 | 469 | 98 | 100 | 100 | 43 | 0
+Hawaii - 6 members* | 0 | 0 | 554 | 554 | 112 | 100 | 100 | 43 | 0
+Hawaii - 7 to 10 members* | 0 | 0 | 625 | 625 | 135 | 100 | 100 | 43 | 0
+Idaho | 390 | 133 | 133 | 133 | 133 | 133 | 133 | 49 | 0
+Illinois | 546 | 457 | 78 | 78 | 78 | 78 | 78 | 67 | 0
+Indiana | 486 | 283 | 62 | 62 | 62 | 62 | 62 | 36 | 0
+Iowa | 554 | 292 | 0 | 0 | 0 | 0 | 0 | 36 | 4
+Kansas | 469 | 345 | 0 | 0 | 0 | 0 | 0 | 44 | 10
+Kentucky | 388 | 331 | 0 | 0 | 0 | 0 | 0 | 64 | 4
+Louisiana | 465 | 0 | 0 | 0 | 0 | 0 | 0 | 76 | 4
+Maine | 1096 | 598 | 0 | 0 | 0 | 0 | 0 | 0 | 114
+Maryland** | 572 | 350 | 0 | 0 | 0 | 0 | 0 | 41 | 0
+Massachusetts | 914 | 556 | 0 | 0 | 0 | 0 | 0 | 64 | 6
+Michigan | 682 | 0 | 181 | 33 | 119 | 119 | 30 | 31 | 4
+Minnesota | 667 | 0 | 235 | 0 | 0 | 0 | 0 | 62 | 0
+Mississippi | 308 | 228 | 0 | 0 | 0 | 0 | 0 | 50 | 0
+Missouri | 509 | 373 | 162 | 162 | 162 | 162 | 162 | 81 | 7
+Montana | 799 | 267 | 116 | 116 | 116 | 116 | 116 | 34 | 0
+Nebraska | 615 | 321 | 63 | 63 | 63 | 63 | 63 | 54 | 0
+Nevada | 446 | 361 | 77 | 77 | 77 | 77 | 77 | 52 | 0
+New Hampshire | 1018 | 373 | 217 | 0 | 0 | 0 | 0 | 39 | 0
+New Jersey*** | - | - | - | - | - | - | - | - | -
+New Mexico | 419 | 289 | 0 | 0 | 0 | 0 | 0 | 51 | 0
+New York - Nassau and Suffolk Counties | 988 | 419 | 0 | 0 | 0 | 0 | 0 | 32 | 0
+New York - New York City | 1062 | 419 | 0 | 0 | 0 | 0 | 0 | 32 | 0
+New York - Rest of New York State | 877 | 388 | 0 | 0 | 0 | 0 | 0 | 32 | 0
+North Carolina - 1 member | 636.74 | 392 | 0 | 0 | 0 | 0 | 0 | 42.11 | 0
+North Carolina - 2 members | 699 | 431 | 0 | 0 | 0 | 0 | 0 | 42.11 | 0
+North Carolina - 3 members | 768 | 474 | 0 | 0 | 0 | 0 | 0 | 42.11 | 0
+North Carolina - 4 members | 837 | 518 | 0 | 0 | 0 | 0 | 0 | 42.11 | 0
+North Carolina - 5 or more members | 912 | 564 | 0 | 0 | 0 | 0 | 0 | 42.11 | 0
+North Dakota | 772 | 286 | 126 | 126 | 126 | 126 | 126 | 35 | 7
+Ohio | 766 | 479 | 108 | 108 | 108 | 108 | 108 | 46 | 0
+Oklahoma | 412 | 354 | 0 | 0 | 0 | 0 | 0 | 49 | 0
+Oregon | 515 | 404 | 65 | 65 | 65 | 65 | 65 | 81 | 0
+Pennsylvania | 857 | 488 | 128 | 128 | 128 | 128 | 128 | 107 | 0
+Rhode Island | 844 | 0 | 0 | 0 | 0 | 0 | 0 | 27 | 7
+South Carolina | 388 | 265 | 0 | 0 | 0 | 0 | 0 | 27 | 9
+South Dakota | 950 | 265 | 109 | 109 | 109 | 109 | 109 | 60 | 14
+Tennessee - 1 members* | 451 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 2 members* | 466 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 3 members* | 485 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 4 members* | 503 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 5 members* | 519 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 6 members* | 536 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 7 members* | 551 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 8 members* | 568 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 9 members* | 587 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Tennessee - 10 or more members* | 602 | 162 | 0 | 0 | 0 | 0 | 0 | 36 | 0
+Texas | 445 | 400 | 0 | 0 | 0 | 0 | 0 | 62 | 4
+Utah | 514 | 431 | 0 | 0 | 0 | 0 | 0 | 59 | 0
+Vermont | 1096 | 311 | 0 | 0 | 0 | 0 | 0 | 37 | 7
+Virgin Islands* | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 34 | 0
+Virginia - 1 to 3 members* | 375 | 0 | 0 | 0 | 0 | 0 | 0 | 54 | 10
+Virginia - 4 or more members* | 476 | 0 | 0 | 0 | 0 | 0 | 0 | 54 | 10
+Washington | 515 | 406 | 0 | 0 | 0 | 0 | 0 | 58 | 0
+West Virginia | 518 | 330 | 88 | 88 | 88 | 88 | 88 | 0 | 0
+Wisconsin | 870 | 436 | 139 | 34 | 112 | 112 | 47 | 106 | 0
+Wyoming | 510 | 340 | 0 | 0 | 0 | 0 | 0 | 57 | 10
+*Indicates the State is not a mandatory SUA State |  |  |  |  |  | 
+**Indicates the State does not follow the fiscal year for their SUA approvals. Maryland's SUA is effective January 1 |  |  |  |  |  |  |  |  | 
+***Pending |  |  |  |  |  |  |  |  | 
+Note: Standard Medical Deduction (SMD) offsets have been taken out of the HCSUA amount shown in column B |  |  |  |  |  | 
+ |  |  |  |  |  | 
+
+
+

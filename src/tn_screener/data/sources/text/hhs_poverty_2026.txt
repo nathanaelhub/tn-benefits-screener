@@ -1,0 +1,87 @@
+Poverty Guidelines | ASPE
+ Skip to main content
+ The .gov means it’s official.
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+ The site is secure.
+ The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Poverty Guidelines
+ Poverty Guidelines
+ Prior HHS Poverty Guidelines and Federal Register References
+ Frequently Asked Questions
+ Further Resources
+ Mollie Orshansky
+ Poverty Guidelines API
+ Poverty Estimates, Trends, and Analysis
+ Marginal Tax Rates/Benefit Cliffs
+ Paid Family Leave
+ Program Participation
+ The Poverty Guidelines API [https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines/poverty-guidelines-api] is now available with the 2026 data.
+U.S. Federal Poverty Guidelines Used to Determine Financial Eligibility for Certain Programs
+The 2026 poverty guidelines are published in the Federal Register [https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.govinfo.gov%2Fcontent%2Fpkg%2FFR-2026-01-15%2Fpdf%2F2026-00755.pdf&data=05%7C02%7CJessica.Jach%40hhs.gov%7C2a6cd0353af84512a84c08de54511981%7Cd58addea50534a808499ba4d944910df%7C0%7C0%7C639040904446608485%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=waa9ztROumwQz63zg5w6gioCOJsIJV8xEqcKlufQEuc%3D&reserved=0]
+HHS Poverty Guidelines for 2026
+Join our listserv [https://list.nih.gov/cgi-bin/wa.exe?SUBED1=GUIDELINES-L&A=1] to stay up-to-date on the latest news regarding the poverty guidelines.
+2026 POVERTY GUIDELINES FOR THE 48 CONTIGUOUS STATES AND THE DISTRICT OF COLUMBIA | 
+Persons in family/household | Poverty guideline | 
+1 | $15,960 | 
+2 | $21,640 | 
+3 | $27,320 | 
+4 | $33,000 | 
+5 | $38,680 | 
+6 | $44,360 | 
+7 | $50,040 | 
+8 | $55,720 | 
+For families/households with more than 8 persons, add $5,680 for each additional person. | 
+2026 POVERTY GUIDELINES FOR ALASKA | 
+Persons in family/household | Poverty guideline | 
+1 | $19,950 | 
+2 | $27,050 | 
+3 | $34,150 | 
+4 | $41,250 | 
+5 | $48,350 | 
+6 | $55,450 | 
+7 | $62,550 | 
+8 | $69,650 | 
+For families/households with more than 8 persons, add $7,100 for each additional person. | 
+2026 POVERTY GUIDELINES FOR HAWAII | 
+Persons in family/household | Poverty guideline | 
+1 | $18,360 | 
+2 | $24,890 | 
+3 | $31,420 | 
+4 | $37,950 | 
+5 | $44,480 | 
+6 | $51,010 | 
+7 | $57,540 | 
+8 | $64,070 | 
+For families/households with more than 8 persons, add $6,530 for each additional person. | 
+Resources
+Prior Poverty Guidelines and Federal Register References
+A chart with percentages (e.g., 125 percent) of the guidelines (PDF)
+Frequently Asked Questions (FAQs) on the Poverty Guidelines and Poverty
+Further Resources on Poverty Measurement, Poverty Lines, and Their History
+ASPE research on poverty
+The Census Bureau's Poverty Home Page [https://www.census.gov/topics/income-poverty/poverty.html]
+About the Poverty Guidelines
+The poverty guidelines apply to households, families, and individuals regardless of age. The Census poverty thresholds – used for statistical purposes – are defined differently for people and householders age 65 and older than those under 65. The poverty guidelines have never had this distinction.
+Programs using the guidelines (or percentage multiples of the guidelines — for instance, 125 percent or 185 percent of the guidelines) in determining eligibility include Head Start, the Supplemental Nutrition Assistance Program (SNAP), the National School Lunch Program, the Low-Income Home Energy Assistance Program, and the Children’s Health Insurance Program. Note that in general, cash public assistance programs (Temporary Assistance for Needy Families and Supplemental Security Income) do NOT use the poverty guidelines in determining eligibility. The Earned Income Tax Credit program also does NOT use the poverty guidelines to determine eligibility. For a more detailed list of programs that do and don’t use the guidelines, see the Frequently Asked Questions (FAQs).
+The poverty guidelines (unlike the Census poverty thresholds) are designated by the year in which they are issued. For instance, the guidelines issued in January 2025 are designated the 2025 poverty guidelines. However, the 2025 HHS poverty guidelines only reflect price changes through calendar year 2024; accordingly, they are approximately equal to the Census Bureau poverty thresholds for calendar year 2024. (The 2024 thresholds are expected to be issued in final form in September 2025; the Census Bureau normally makes available a preliminary version of the thresholds early each calendar year.)
+The poverty guidelines may be formally referenced as “the poverty guidelines updated periodically in the Federal Register by the U.S. Department of Health and Human Services under the authority of 42 U.S.C. 9902(2).”
+Note for the 2026 Poverty Guidelines
+The poverty guidelines are calculated by comparing the average monthly CPI-U for the current year with the average monthly CPI-U from the prior year. Because of the federal government shutdown in October 2025, the Bureau of Labor Statistics did not publish the Consumer Price Index for All Urban Consumers (CPI-U) for that month. As a result, the calculation of the 2026 poverty guidelines compares the average CPI-U for the 11 available months of 2025 (excluding October) with the average CPI-U for all 12 months of 2024. 
+Guidelines for Contiguous 48 States, Alaska and Hawaii
+The separate poverty guidelines for Alaska and Hawaii reflect Office of Economic Opportunity administrative practice beginning in the 1966-1970 period. Note that the poverty thresholds — the original version of the poverty measure — have never had separate figures for Alaska and Hawaii. The poverty guidelines are not defined for Puerto Rico, the U.S. Virgin Islands, American Samoa, Guam, the Republic of the Marshall Islands, the Federated States of Micronesia, the Commonwealth of the Northern Mariana Islands, and Palau. In cases in which a Federal program using the poverty guidelines serves any of those jurisdictions, the Federal office which administers the program is responsible for deciding whether to use the contiguous-states-and-D.C. guidelines for those jurisdictions or to follow some other procedure.
+Poverty Guidelines and the Census Poverty Thresholds
+There are two different versions of the federal poverty measure: poverty thresholds and poverty guidelines.
+The poverty thresholds are the original version of the federal poverty measure. They are updated each year by the Census Bureau. The thresholds are used mainly for statistical purposes — for instance, preparing estimates of the number of Americans in poverty each year. (In other words, all official poverty population figures are calculated using the poverty thresholds, not the guidelines). Poverty thresholds since 1973 (and for selected earlier years) and weighted average poverty thresholds since 1959 [https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-thresholds.html] are available on the Census Bureau’s Web site. For an example of how the Census Bureau applies the thresholds to a family’s income to determine its poverty status, see “How the Census Bureau Measures Poverty [https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html]” on the Census Bureau’s web site.
+The poverty guidelines are the other version of the federal poverty measure. They are issued each year in the Federal Register by the Department of Health and Human Services (HHS). The guidelines are a simplification of the poverty thresholds for use for administrative purposes — for instance, determining financial eligibility for certain federal programs. 
+The poverty guidelines are sometimes loosely referred to as the “federal poverty level” (FPL), but that phrase is ambiguous and should be avoided, especially in situations (e.g., legislative or administrative) where precision is important.
+Key differences between poverty thresholds and poverty guidelines are outlined in a table under Frequently Asked Questions (FAQs). 
+The January 2026 poverty guidelines are calculated by taking the 2024 Census Bureau’s poverty thresholds and adjusting them for price changes between 2024 and 2025 using the Consumer Price Index (CPI-U). The poverty thresholds used by the Census Bureau for statistical purposes are complex and are not composed of standardized increments between family sizes. Since many program officials prefer to use guidelines with uniform increments across family sizes, the poverty guidelines include rounding and standardizing adjustments.
+ Files
+ Document
+ Chart Showing different multiples of the poverty guidelines for 2026 (xlsx, 55.73 KB)
+ Document
+ Chart showing different multiples of the poverty guidelines for 2026 (pdf, 198.43 KB)
+ Document
+ Chart showing different multiples of the poverty guidelines for prior years (xlsx, 48.14 KB)
+ Document
+ Chart showing different multiples of the poverty guidelines for prior years (xlsx, 45.27 KB)

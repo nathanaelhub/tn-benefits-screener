@@ -1,0 +1,205 @@
+                                    SNAP Resources
+
+Policy 24.12                                                          Eﬀective: March 1, 2021
+
+
+
+Introduction
+The Tennessee Department of Human Services (TDHS) shall follow federal and state guidelines
+regarding resource standards of eligibility for all Supplemental Nutrition Assistance Program
+(SNAP) applicant households.
+Scope
+This policy was developed to instruct staﬀ on the resource eligibility standards, how to
+determine if certain resources should be considered when determining eligibility, and how the
+equity value of nonexempt liquid and non-liquid resources is determined.
+Policy
+The maximum allowable liquid and non-liquid assets for all members of a household must not
+exceed the uniform national resource standards of eligibility to all applicant households.
+Households that contain elderly or disabled members have a higher resource limit. And
+households that are classiﬁed as categorically eligible do not have to meet the resource limits
+unless the household receives a substantial lottery or gambling winnings. See also Policy 24.13
+SNAP Lottery or Gambling Winnings.
+The maximum allowable resource limit may be adjusted annually. Staﬀ shall refer to the FA
+standards desk guide for the most up to date standard.
+Countable Resources
+The value of the following resources count towards the resource limits in determining SNAP
+eligibility:
+1. Cash on hand;
+2. Money in a checking or savings account in a bank or other savings institution, including credit
+   unions. Do not include as a resource the monthly amount which has been counted as income
+   in the period under consideration:
+3. Savings certiﬁcates;
+Date of Last Review: 11/30/2023                                                  Eﬀective Date: 03/01/2021
+Date of Next Review: 11/30/2026                                                                 RDA: SW22
+                                                                                                Page 1 of 5
+Subject: SNAP Resources                                                                    Policy 24.12
+
+4. Stocks or bonds;
+5. Proceeds from the sale of property received as a lump sum;
+6. Proceeds from an estate settlement received as a lump sum;
+7. Pension plans not covered in Exempt Resource. If the cash value of an excluded type of plan
+   is rolled over into a countable resource, the cash value loses its exclusion and the funds will
+   be included in countable resources;
+8. Non-Recurring Lump-Sum or Retroactive Payments (see also Actions on Cases Receiving
+   Lump Sum Payments);
+9. Gross monthly earned income tax credits or lump sum Earned Income Tax Credit payments
+   are counted in the second month after receipt for new households, new assistance members,
+   or individuals oﬀ the program for more than thirty (30) days. Also, any amount of Earned
+   Income Tax Credit remaining after the twelve (12) month exclusion must be considered for
+   individuals receiving SNAP beneﬁts;
+10.Equity in real property
+    a. Unless otherwise exempt, the equity of all non-liquid resources such as non-exempt
+       buildings, non-exempt land, recreational properties, and property such as boats, vacation
+       homes, or mobile homes is countable.
+    b. The equity value is determined by subtracting encumbrances (such as a mortgage) from
+       the fair market value of the property.
+When determining the household’s resource level, consider the resources of excluded
+household members. See also Treatment of Income, Resources, and Deductible Expenses of
+Excluded HH members and Treatment of Income, Resources, and Deductible Expenses of Non-
+Household Members.
+Exempt Resources
+Certain resources are not counted when determining eligibility for SNAP. For a list of these
+exclusions from resources, see SNAP Excluded Resources and Treatment of Vehicles.
+Verifying Resources
+Households must report all resources at the time of the interview and at each certification. The
+Eligibility Counselor will verify all resources and any equity value of all countable resources
+through documentary evidence or collateral contacts. Documentary evidence is the primary
+source of verification although collateral contacts (e.g., banks, car dealers, real estate firms, etc.)
+may also be used to verify any questionable resource.
+Staff may refer to Verifying Resources, Required Verifications, and FA Standards Desk Guide for
+assistance with determining and verifying resources.
+Jointly Owned Resources
+Resources owned jointly with other person(s) outside the household will be considered available
+in the entirety to that person and the household unless it can be demonstrated that the
+resources are inaccessible to the household.
+Date of Last Review: 11/30/2023                                                       Eﬀective Date: 03/01/2021
+Date of Next Review: 11/30/2026                                                                      RDA: SW22
+                                                                                                     Page 2 of 5
+Subject: SNAP Resources                                                                  Policy 24.12
+
+When the household can demonstrate that resources are not accessible in their entirety and
+only a portion of the resource, the value of that portion of the resource will be counted toward
+the resource eligibility level.
+See also Jointly Owned Resources
+Transfer of Resources
+At the time of application, households shall be asked to provide information regarding any
+resources which any member of the household (or ineligible aliens or disqualified person whose
+resources are considered available to the household) had transferred within the three (3) month
+period immediately preceding the date of application. Households that have transferred
+resources knowingly for the purpose of qualifying or attempting to qualify for SNAP benefits
+shall be disqualified from participation in the program for up to one (1) year from the date of the
+discovery of the transfer. This disqualification period shall be applied if the resources are
+transferred knowingly in the three (3) month period prior to application or after the household is
+determined eligible for benefits.
+Eligibility for SNAP will not be affected by transfers of resources which:
+1. Would not otherwise aﬀect eligibility (example: excluded personal property such as furniture,
+   or of money that when added to other non-exempt resources was less than the allowable
+   limits at the time of the transfer);
+2. are sold or traded at or near fair market value;
+3. are transferred between members of the same household; or
+4. are transferred for reasons other than qualifying or attempting to qualify for SNAP beneﬁts
+   (example: a parent placing funds in an inaccessible educational trust fund).
+Period of Disqualiﬁcation
+The length of the disqualification period is based on the amount by which the transferred
+resource, when added to other countable resources, exceeded resource limits.
+The following chart will be used to determine the period of disqualification:
+
+      Amount in Excess of the Resource Limit                 Period of the Disqualiﬁcation
+
+                          $0.00 to $249.99                               1 month
+
+                        $250.00 to $999.99                              3 months
+
+                      $1,000.00 to $2,999.99                            6 months
+
+                      $3,000.00 to $4,999.99                            9 months
+
+                          $5,000.00 and up                              12 months
+
+An example would be if a one-person household with $1250 in a bank transferred ownership of
+non-exempt land worth $1350 to a relative. The $1350 would be applied toward the resource
+Date of Last Review: 11/30/2023                                                     Eﬀective Date: 03/01/2021
+Date of Next Review: 11/30/2026                                                                    RDA: SW22
+                                                                                                   Page 3 of 5
+Subject: SNAP Resources                                                                                        Policy 24.12
+
+limit of $2250. All countable resources are $2600 ($1250 + $1350). Only $350 of that transfer
+would be considered toward the disqualification and the household would be disqualified for
+three (3) months based upon the chart above.
+Staff shall reference Disqualifying a Household from SNAP Due to Improper Resource Transfer
+for the procedures in the event a household knowingly transferred resources for the purpose of
+qualifying or attempting to qualify for SNAP benefits.
+Supporting Documents
+Verifying Resources
+Required Veriﬁcations
+FA Standards Desk Guide
+Actions on Cases Receiving Lump Sum Payments
+SNAP Excluded Resources
+Jointly Owned Resources
+Treatment of Vehicles
+Disqualifying a Household from SNAP Due to Improper Resource Transfer
+Treatment of Income, Resources, and Deductible Expenses of Excluded HH members
+Treatment of Income, Resources, and Deductible Expenses of Non-Household Members
+Deﬁnitions/Acronyms
+ Term                        Deﬁnition
+ Elderly                     A person sixty (60) years of age or older or is ﬁfty-nine (59) years old on the date of application
+                             and will be sixty (60) before the end of the month of application.
+
+ SNAP                        Supplemental Nutrition Assistance Program
+
+ TDHS                        Tennessee Department of Human Services
+
+Supersedes
+TDHS Policy 24.12 SNAP Resources Effective 09/23/2019, TDHS Policy 24.13 SNAP Treatment of Resources Effective
+07/01/2018
+
+Authority
+7 U.S.C.A. §2014 (g); 7 C.F.R. § 273.8 -10; 7 C.F.R. § 273.11; 7 C.F.R. § 272.17; Tenn. Code Ann. § 71-1-105, 71-5-304
+and 71-5-306
+
+Application
+All TDHS Employees and Contractors
+
+
+
+
+Date of Last Review: 11/30/2023                                                                           Eﬀective Date: 03/01/2021
+Date of Next Review: 11/30/2026                                                                                          RDA: SW22
+                                                                                                                         Page 4 of 5
+Subject: SNAP Resources                                                                                      Policy 24.12
+
+Revision History
+ Date                        Version               Location of Change              Description/Reason for Change
+                                                                                   Removed some content to procedure
+                                                                                   documents, and clariﬁed resource
+ 11/16/2020                  03/01/2021            Sections A and C
+                                                                                   eligibility standards, and
+                                                                                   exempt/countable resources
+                                                                                   Grammar, Revision of the section to refer
+                                                   Policy/Purpose Statements,
+ 09/17/2019                  09/23/2019                                            to external documents and updates to
+                                                   Section M, Section X
+                                                                                   reﬂect new amounts in item 8.b.
+                                                                                   New Policy – revised from previous policy
+ 06/16/2018                  07/16/2018            New Policy                      and procedures manual and various other
+                                                                                   documents.
+
+
+Approval History
+ Approved By                           Approver Title                 Approved Date               Eﬀective Date
+ Danielle Barnes                       Commissioner                   11/16/2020                  03/01/2021
+ Danielle Barnes                       Commissioner                   09/17/2019                  09/23/2019
+ Danielle Barnes                       Commissioner                   06/13/2018                  07/16/2018
+
+
+
+
+Current Approver
+
+
+
+
+Date of Last Review: 11/30/2023                                                                         Eﬀective Date: 03/01/2021
+Date of Next Review: 11/30/2026                                                                                        RDA: SW22
+                                                                                                                       Page 5 of 5
+
