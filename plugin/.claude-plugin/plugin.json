@@ -1,0 +1,21 @@
+{
+  "name": "tn-benefits",
+  "version": "0.1.0",
+  "description": "Screen a Tennessee household for SNAP, WIC and TennCare/CoverKids. Plain code applies the official 2026-27 limits; Claude asks the questions and explains the result, citing the source for every number.",
+  "author": {
+    "name": "Nathanael Johnson"
+  },
+  "homepage": "https://github.com/nathanaelhub/tn-benefits-screener",
+  "license": "MIT",
+  "mcpServers": {
+    "tn-benefits": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/nathanaelhub/tn-benefits-screener@v0.1.0",
+        "tn-screener",
+        "serve"
+      ]
+    }
+  }
+}

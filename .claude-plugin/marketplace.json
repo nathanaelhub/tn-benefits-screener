@@ -1,0 +1,16 @@
+{
+  "name": "tn-benefits",
+  "owner": {
+    "name": "Nathanael Johnson"
+  },
+  "metadata": {
+    "description": "A cited Tennessee benefits screener (SNAP, WIC, TennCare/CoverKids) for Claude"
+  },
+  "plugins": [
+    {
+      "name": "tn-benefits",
+      "source": "./plugin",
+      "description": "Screen a Tennessee household for SNAP, WIC and TennCare/CoverKids with official, cited limits"
+    }
+  ]
+}
