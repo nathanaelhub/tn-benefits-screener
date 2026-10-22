@@ -8,9 +8,16 @@
       "url": "https://onedhs.tn.gov/csp?id=start_snap_application",
       "phone": "866-311-4287",
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_tn_directory",
-                "quote": "Apply for Benefits [https://onedhs.tn.gov/csp?id=start_snap_application]"},
-               {"source": "fns_snap_tn_directory", "quote": "866-311-4287"}]
+      "cite": [
+        {
+          "source": "fns_snap_tn_directory",
+          "quote": "Apply for Benefits [https://onedhs.tn.gov/csp?id=start_snap_application]"
+        },
+        {
+          "source": "fns_snap_tn_directory",
+          "quote": "866-311-4287"
+        }
+      ]
     },
     {
       "id": "apply.tenncare",
@@ -19,8 +26,16 @@
       "url": "https://tenncareconnect.tn.gov/",
       "phone": "855-259-0701",
       "effective_from": "2026-01-15",
-      "cite": [{"source": "tenncare_apply", "quote": "TennCareConnect.TN.gov [https://tenncareconnect.tn.gov/]"},
-               {"source": "tenncare_erg", "quote": "Or call TennCare Connect at 855-259-0701."}]
+      "cite": [
+        {
+          "source": "tenncare_apply",
+          "quote": "TennCareConnect.TN.gov [https://tenncareconnect.tn.gov/]"
+        },
+        {
+          "source": "tenncare_erg",
+          "quote": "Or call TennCare Connect at 855-259-0701."
+        }
+      ]
     },
     {
       "id": "apply.wic",
@@ -29,7 +44,12 @@
       "url": "https://www.tn.gov/health/wic.html",
       "phone": "1-800-342-5942",
       "effective_from": "2026-07-01",
-      "cite": [{"source": "tn_wic", "quote": "1-800-DIAL-WIC (1-800-342-5942)"}]
+      "cite": [
+        {
+          "source": "tn_wic",
+          "quote": "1-800-DIAL-WIC (1-800-342-5942)"
+        }
+      ]
     },
     {
       "id": "apply.211",
@@ -37,7 +57,12 @@
       "kind": "contact",
       "phone": "211",
       "effective_from": "2026-06-25",
-      "cite": [{"source": "tjc_snap_guide", "quote": "Call 211 to be screened for eligibility."}]
+      "cite": [
+        {
+          "source": "tjc_snap_guide",
+          "quote": "Call 211 to be screened for eligibility."
+        }
+      ]
     }
   ]
 }

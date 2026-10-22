@@ -4,43 +4,100 @@
     {
       "id": "wic.income_limit",
       "title": "WIC monthly income limit (185% of poverty)",
-      "table": {"1": 2461, "2": 3337, "3": 4212, "4": 5088, "5": 5964, "6": 6839, "7": 7715, "8": 8591},
+      "table": {
+        "1": 2461,
+        "2": 3337,
+        "3": 4212,
+        "4": 5088,
+        "5": 5964,
+        "6": 6839,
+        "7": 7715,
+        "8": 8591
+      },
       "each_additional": 876,
-      "effective_from": "2026-07-01", "effective_to": "2027-06-30",
-      "cite": [{"source": "fns_wic_ieg", "quote": "48 Contiguous States, D.C., Guam and TerritoriesHousehold Size",
-                "rows": "{n} \\| (?:[\\d,]+ \\| ){6}{v} \\|",
-                "extra": "Add per family member \\| \\+5,680 \\| \\+474 \\| \\+237 \\| \\+219 \\| \\+110 \\| \\+10,508 \\| \\+876 \\|"}]
+      "effective_from": "2026-07-01",
+      "effective_to": "2027-06-30",
+      "cite": [
+        {
+          "source": "fns_wic_ieg",
+          "quote": "48 Contiguous States, D.C., Guam and TerritoriesHousehold Size",
+          "rows": "{n} \\| (?:[\\d,]+ \\| ){6}{v} \\|",
+          "extra": "Add per family member \\| \\+5,680 \\| \\+474 \\| \\+237 \\| \\+219 \\| \\+110 \\| \\+10,508 \\| \\+876 \\|"
+        }
+      ]
     },
     {
       "id": "wic.categories",
       "title": "Who WIC serves: pregnant women, women up to 6 months after pregnancy (up to a year if breastfeeding), infants, and children under 5",
       "effective_from": "2026-07-01",
-      "cite": [{"source": "ecfr_7_246_2", "quote": "Pregnant women means women determined to have one or more embryos or fetuses in utero."},
-               {"source": "ecfr_7_246_2", "quote": "Postpartum women means women up to six months after termination of pregnancy."},
-               {"source": "ecfr_7_246_2", "quote": "Breastfeeding women means women up to one year postpartum who are breastfeeding their infants."},
-               {"source": "ecfr_7_246_2", "quote": "Infants means persons under one year of age."},
-               {"source": "ecfr_7_246_2", "quote": "Children means persons who have had their first birthday but have not yet attained their fifth birthday."}]
+      "cite": [
+        {
+          "source": "ecfr_7_246_2",
+          "quote": "Pregnant women means women determined to have one or more embryos or fetuses in utero."
+        },
+        {
+          "source": "ecfr_7_246_2",
+          "quote": "Postpartum women means women up to six months after termination of pregnancy."
+        },
+        {
+          "source": "ecfr_7_246_2",
+          "quote": "Breastfeeding women means women up to one year postpartum who are breastfeeding their infants."
+        },
+        {
+          "source": "ecfr_7_246_2",
+          "quote": "Infants means persons under one year of age."
+        },
+        {
+          "source": "ecfr_7_246_2",
+          "quote": "Children means persons who have had their first birthday but have not yet attained their fifth birthday."
+        }
+      ]
     },
     {
       "id": "wic.adjunctive",
       "title": "People on SNAP, Families First (TANF) or TennCare (Medicaid) automatically meet the WIC income test",
       "effective_from": "2026-07-01",
-      "cite": [{"source": "ecfr_7_246_7",
-                "quote": "Certified as fully eligible to receive SNAP benefits under the Food and Nutrition Act of 2008, or certified as fully eligible, or presumptively eligible pending completion of the eligibility determination process, to receive Temporary Assistance for Needy Families (TANF)"}]
+      "cite": [
+        {
+          "source": "ecfr_7_246_7",
+          "quote": "Certified as fully eligible to receive SNAP benefits under the Food and Nutrition Act of 2008, or certified as fully eligible, or presumptively eligible pending completion of the eligibility determination process, to receive Temporary Assistance for Needy Families (TANF)"
+        }
+      ]
     },
     {
       "id": "wic.unborn",
       "title": "A pregnant woman's household can count the expected babies",
       "effective_from": "2026-07-01",
-      "cite": [{"source": "ecfr_7_246_7",
-                "quote": "if the guidelines would be met by increasing the number of individuals in her family by the number of embryos or fetuses in utero"}]
+      "cite": [
+        {
+          "source": "ecfr_7_246_7",
+          "quote": "if the guidelines would be met by increasing the number of individuals in her family by the number of embryos or fetuses in utero"
+        }
+      ]
     },
     {
       "id": "wic.nutrition_risk",
       "title": "WIC also requires a nutrition risk assessment at the clinic",
       "kind": "note",
       "effective_from": "2026-07-01",
-      "cite": [{"source": "ecfr_7_246_7", "quote": "Meet the nutritional risk criteria"}]
+      "cite": [
+        {
+          "source": "ecfr_7_246_7",
+          "quote": "Meet the nutritional risk criteria"
+        }
+      ]
+    },
+    {
+      "id": "wic.citizenship",
+      "title": "Only tribal WIC agencies may limit WIC to citizens, so immigration status doesn't affect WIC in Tennessee",
+      "kind": "note",
+      "effective_from": "2026-07-01",
+      "cite": [
+        {
+          "source": "ecfr_7_246_7",
+          "quote": "serving as a State agency, may limit WIC participation to United States citizens, nationals, and qualified aliens"
+        }
+      ]
     }
   ]
 }

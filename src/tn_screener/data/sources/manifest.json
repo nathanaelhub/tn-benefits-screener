@@ -1,4 +1,12 @@
 {
+  "ecfr_42_435_406": {
+    "title": "42 CFR 435.406 Medicaid citizenship and non-citizen eligibility",
+    "publisher": "Electronic Code of Federal Regulations",
+    "url": "https://www.ecfr.gov/current/title-42/section-435.406",
+    "official": true,
+    "retrieved": "2026-10-22",
+    "sha256": "a8c95d1fc420b19235ff40f55e55da686c30f0bb2d8e66f21d15315e398aa49a"
+  },
   "ecfr_42_435_603": {
     "title": "42 CFR 435.603 Medicaid MAGI-based income methodologies",
     "publisher": "Electronic Code of Federal Regulations",

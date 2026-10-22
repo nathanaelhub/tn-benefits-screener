@@ -184,6 +184,10 @@ class Screen:
                          "and depend on immigration status, so a caseworker needs to check this. Citizens in "
                          "the household (including U.S.-born children) can still get SNAP.")
             res.use("snap.noncitizens")
+        if any(p.us_citizen is None for p in h.members):
+            res.notes.append("SNAP is for U.S. citizens and some lawfully present non-citizens; the caseworker "
+                             "will ask about status. Citizens in the household can get SNAP either way.")
+            res.use("snap.noncitizens")
         if any(p.college_student and 18 <= p.age <= 49 for p in h.members):
             refer.append("A college student aged 18-49 is in the household. Students usually need an "
                          "exemption (such as working 20 hours a week or caring for a young child).")
@@ -398,14 +402,14 @@ class Screen:
                                   f"{money(limit)}, but within the 5% income disregard."}
             return None
 
-        if p.pregnant:
+        if p.pregnant and p.us_citizen is not False:
             r = test(250, "tenncare.pregnant", "TennCare", "Pregnant")
             if r:
                 return r
             return {"name": name, "status": "unlikely", "program": "TennCare",
                     "reason": f"Pregnant: income {money(gross)} is over the 250% limit of "
                               f"{money(self.fpl_limit(250, n))}."}
-        if p.age < 19:
+        if p.age < 19 and p.us_citizen is not False:
             if p.age < 1:
                 r = test(195, "tenncare.infant", "TennCare", "Child under 1")
             elif p.age < 6:
@@ -420,6 +424,13 @@ class Screen:
             return {"name": name, "status": "unlikely", "program": "CoverKids",
                     "reason": f"Child: income {money(gross)} is over CoverKids' 250% limit of "
                               f"{money(self.fpl_limit(250, n))}."}
+        if p.us_citizen is False:
+            res.use("tenncare.noncitizens")
+            extra = (" CoverKids also covers the unborn children of women who can't get TennCare, whatever "
+                     "the mother's status." if p.pregnant else "")
+            return {"name": name, "status": "refer", "program": "TennCare",
+                    "reason": "TennCare for non-citizens depends on immigration status; TennCare Connect or a "
+                              "caseworker can check." + extra}
         if p.age >= 65 or p.disabled or p.gets_ssi:
             res.use("tenncare.aged_blind_disabled")
             return {"name": name, "status": "refer", "program": "TennCare",
@@ -471,6 +482,9 @@ class Screen:
             return res
         res.use("wic.nutrition_risk")
         res.notes.append("WIC also does a short health and nutrition check at the clinic.")
+        if any(p.us_citizen is not True for p in h.members):
+            res.use("wic.citizenship")
+            res.notes.append("Immigration status doesn't affect WIC in Tennessee.")
         res.reasons.append(f"In WIC's groups: {who}.")
 
         adjunct = [p for p in ("snap", "tenncare") if p in h.receives]

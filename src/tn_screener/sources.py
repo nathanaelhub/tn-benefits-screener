@@ -108,6 +108,7 @@ SOURCES = [
     _ecfr("ecfr_7_273_10", 7, 273, "273.10", "SNAP determining household eligibility and benefit levels"),
     _ecfr("ecfr_7_246_2", 7, 246, "246.2", "WIC definitions"),
     _ecfr("ecfr_7_246_7", 7, 246, "246.7", "WIC certification of participants"),
+    _ecfr("ecfr_42_435_406", 42, 435, "435.406", "Medicaid citizenship and non-citizen eligibility"),
     _ecfr("ecfr_42_435_603", 42, 435, "435.603", "Medicaid MAGI-based income methodologies"),
     # Not official: the only places the reported 200% SNAP limit appears.
     Source("tjc_snap_guide", "SNAP Guide for Tennesseans (updated 06.25.2026)", "Tennessee Justice Center",

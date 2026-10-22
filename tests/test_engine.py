@@ -368,3 +368,22 @@ def test_every_rule_id_in_the_engine_exists():
     src = Path(engine.__file__).read_text()
     ids = set(re.findall(r'"((?:snap|wic|tenncare|apply)\.[a-z0-9_]+)"', src))
     assert ids and ids <= set(rules.load())
+
+
+def test_non_citizens_are_referred_for_tenncare_but_not_wic():
+    # A non-citizen mother of a U.S.-born 3-year-old at $1,500 for 2.
+    h = {"members": [{"age": 30, "us_citizen": False}, {"age": 3}], "income": [pay(1500)]}
+    t = tenncare(h)
+    assert [p["status"] for p in t["people"]] == ["refer", "likely"]
+    w = wic(h)
+    assert w["status"] == "likely" and "wic.citizenship" in w["rules"]
+
+
+def test_pregnant_non_citizen_hears_about_coverkids_for_the_baby():
+    t = tenncare({"members": [{"age": 25, "pregnant": True, "us_citizen": False}], "income": [pay(1500)]})
+    assert t["people"][0]["status"] == "refer" and "unborn children" in t["people"][0]["reason"]
+
+
+def test_undisclosed_citizenship_gets_a_note_not_a_referral():
+    s = snap({"members": [{"age": 30, "us_citizen": None}], "income": [pay(900)]})
+    assert s["status"] == "likely" and any("lawfully present" in n for n in s["notes"])

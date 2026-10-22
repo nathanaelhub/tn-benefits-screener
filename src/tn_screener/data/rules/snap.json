@@ -4,225 +4,442 @@
     {
       "id": "snap.gross_limit",
       "title": "Gross monthly income limit (130% of poverty)",
-      "table": {"1": 1729, "2": 2345, "3": 2960, "4": 3575, "5": 4191, "6": 4806, "7": 5421, "8": 6037},
+      "table": {
+        "1": 1729,
+        "2": 2345,
+        "3": 2960,
+        "4": 3575,
+        "5": 4191,
+        "6": 4806,
+        "7": 5421,
+        "8": 6037
+      },
       "each_additional": 616,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
-      "cite": [{"source": "fns_snap_standards_fy27",
-                "quote": "Table 2. Gross Monthly Income Limit (130% of Federal Poverty Level)",
-                "rows": "{n} \\| {v} \\|", "extra": "Each Additional Member \\| 616 \\|"}]
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 2. Gross Monthly Income Limit (130% of Federal Poverty Level)",
+          "rows": "{n} \\| {v} \\|",
+          "extra": "Each Additional Member \\| 616 \\|"
+        }
+      ]
     },
     {
       "id": "snap.gross_limit_200_reported",
       "title": "Reported Tennessee gross income limit of 200% of poverty (broad-based categorical eligibility), not confirmed by an official source",
       "status": "reported",
-      "table": {"1": 2660, "2": 3607, "3": 4554, "4": 5500, "5": 6447, "6": 7394, "7": 8340, "8": 9287},
+      "table": {
+        "1": 2660,
+        "2": 3607,
+        "3": 4554,
+        "4": 5500,
+        "5": 6447,
+        "6": 7394,
+        "7": 8340,
+        "8": 9287
+      },
       "each_additional": 947,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
       "note": "The dollar amounts are 200% of the 2026 poverty guidelines as printed in TennCare's chart. Each additional person adds 200% of $5,680 / 12.",
       "cite": [
-        {"source": "tenncare_erg", "quote": "This chart shows the family size with monthly income limits.",
-         "rows": "{n} \\| (?:[\\d,]+ \\| ){6}{v} \\|"},
-        {"source": "hoodline_bbce",
-         "quote": "the Tennessee Department of Human Services has adopted broad‑based categorical eligibility (BBCE). That move raises the SNAP gross‑income threshold from 130% to 200%"},
-        {"source": "tjc_snap_guide", "quote": "SNAP GUIDE FOR TENNESSEANS"}
+        {
+          "source": "tenncare_erg",
+          "quote": "This chart shows the family size with monthly income limits.",
+          "rows": "{n} \\| (?:[\\d,]+ \\| ){6}{v} \\|"
+        },
+        {
+          "source": "hoodline_bbce",
+          "quote": "the Tennessee Department of Human Services has adopted broad‑based categorical eligibility (BBCE). That move raises the SNAP gross‑income threshold from 130% to 200%"
+        },
+        {
+          "source": "tjc_snap_guide",
+          "quote": "SNAP GUIDE FOR TENNESSEANS"
+        }
       ],
       "contradicted_by": [
-        {"source": "fns_bbce_chart", "quote": "States (46) | TANF/MOE Program Description", "absent": "Tennessee"},
-        {"source": "tdhs_24_24",
-         "quote": "Households that consist entirely of either Supplemental Security Income (SSI) recipients"},
-        {"source": "tdhs_policy_index", "quote": "TDHS is currently reviewing and revising"}
+        {
+          "source": "fns_bbce_chart",
+          "quote": "States (46) | TANF/MOE Program Description",
+          "absent": "Tennessee"
+        },
+        {
+          "source": "tdhs_24_24",
+          "quote": "Households that consist entirely of either Supplemental Security Income (SSI) recipients"
+        },
+        {
+          "source": "tdhs_policy_index",
+          "quote": "TDHS is currently reviewing and revising"
+        }
       ]
     },
     {
       "id": "snap.net_limit",
       "title": "Net monthly income limit (100% of poverty)",
-      "table": {"1": 1330, "2": 1804, "3": 2277, "4": 2750, "5": 3224, "6": 3697, "7": 4170, "8": 4644},
+      "table": {
+        "1": 1330,
+        "2": 1804,
+        "3": 2277,
+        "4": 2750,
+        "5": 3224,
+        "6": 3697,
+        "7": 4170,
+        "8": 4644
+      },
       "each_additional": 474,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
-      "cite": [{"source": "fns_snap_standards_fy27",
-                "quote": "Table 1. Net Monthly Income Limit (100% of Federal Poverty Level)",
-                "rows": "{n} \\| {v} \\|", "extra": "Each Additional Member \\| 474 \\|"}]
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 1. Net Monthly Income Limit (100% of Federal Poverty Level)",
+          "rows": "{n} \\| {v} \\|",
+          "extra": "Each Additional Member \\| 474 \\|"
+        }
+      ]
     },
     {
       "id": "snap.max_allotment",
       "title": "Maximum monthly SNAP benefit",
-      "table": {"1": 306, "2": 562, "3": 808, "4": 1023, "5": 1217, "6": 1463, "7": 1616, "8": 1841},
+      "table": {
+        "1": 306,
+        "2": 562,
+        "3": 808,
+        "4": 1023,
+        "5": 1217,
+        "6": 1463,
+        "7": 1616,
+        "8": 1841
+      },
       "each_additional": 225,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
-      "cite": [{"source": "fns_snap_standards_fy27", "quote": "Table 1. Maximum Monthly Allotment",
-                "rows": "{n} \\| {v} \\|", "extra": "9-17 \\| 225 per additional person"}]
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 1. Maximum Monthly Allotment",
+          "rows": "{n} \\| {v} \\|",
+          "extra": "9-17 \\| 225 per additional person"
+        }
+      ]
     },
     {
       "id": "snap.min_allotment",
       "title": "Minimum monthly benefit for eligible 1- and 2-person households",
       "value": 25,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
-      "cite": [{"source": "fns_snap_standards_fy27", "quote": "Table 1. Minimum Monthly Allotment",
-                "extra": "1-2 \\| 25 \\|"},
-               {"source": "ecfr_7_273_10",
-                "quote": "all eligible one-person and two-person households shall receive minimum monthly allotments equal to the minimum benefit"}]
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 1. Minimum Monthly Allotment",
+          "extra": "1-2 \\| 25 \\|"
+        },
+        {
+          "source": "ecfr_7_273_10",
+          "quote": "all eligible one-person and two-person households shall receive minimum monthly allotments equal to the minimum benefit"
+        }
+      ]
     },
     {
       "id": "snap.standard_deduction",
       "title": "Standard deduction",
-      "table": {"1": 217, "2": 217, "3": 217, "4": 229, "5": 268, "6": 308},
+      "table": {
+        "1": 217,
+        "2": 217,
+        "3": 217,
+        "4": 229,
+        "5": 268,
+        "6": 308
+      },
       "each_additional": 0,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
       "note": "The table's last row is 6+ people.",
-      "cite": [{"source": "fns_snap_standards_fy27", "quote": "Table 2. Standard Deductions",
-                "rows": "{n}\\+? \\| {v} \\|"}]
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 2. Standard Deductions",
+          "rows": "{n}\\+? \\| {v} \\|"
+        }
+      ]
     },
     {
       "id": "snap.earned_income_deduction",
       "title": "20% of earned income is deducted",
       "value": 0.2,
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_eligibility", "quote": "A 20% deduction from earned income."}]
+      "cite": [
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "A 20% deduction from earned income."
+        }
+      ]
     },
     {
       "id": "snap.dependent_care_deduction",
       "title": "Dependent care costs needed for work, training or school are deducted",
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_eligibility",
-                "quote": "A dependent care deduction when needed for work, training, or education."}]
+      "cite": [
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "A dependent care deduction when needed for work, training, or education."
+        }
+      ]
     },
     {
       "id": "snap.child_support_deduction",
       "title": "Legally owed child support paid to someone outside the household is deducted",
       "effective_from": "2026-10-01",
-      "cite": [{"source": "tdhs_24_18", "quote": "Court ordered child support payments paid by a SNAP HH member"}]
+      "cite": [
+        {
+          "source": "tdhs_24_18",
+          "quote": "Court ordered child support payments paid by a SNAP HH member"
+        }
+      ]
     },
     {
       "id": "snap.medical_deduction",
       "title": "Medical costs over $35 a month for elderly or disabled members are deducted",
       "value": 35,
       "effective_from": "2026-10-01",
-      "cite": [{"source": "ecfr_7_273_9",
-                "quote": "That portion of medical expenses in excess of $35 per month, excluding special diets, incurred by any household member who is elderly or disabled"}]
+      "cite": [
+        {
+          "source": "ecfr_7_273_9",
+          "quote": "That portion of medical expenses in excess of $35 per month, excluding special diets, incurred by any household member who is elderly or disabled"
+        }
+      ]
     },
     {
       "id": "snap.excess_shelter",
       "title": "Shelter costs above half of income (after other deductions) are deducted",
       "value": 0.5,
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_eligibility",
-                "quote": "The excess shelter deduction is for shelter costs that are more than half of the household's income after other deductions."}]
+      "cite": [
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "The excess shelter deduction is for shelter costs that are more than half of the household's income after other deductions."
+        }
+      ]
     },
     {
       "id": "snap.shelter_cap",
       "title": "Cap on the excess shelter deduction (no cap if a member is elderly or disabled)",
       "value": 769,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
-      "cite": [{"source": "fns_snap_standards_fy27", "quote": "Table 3. Maximum Excess Shelter Deductions",
-                "extra": "Virgin Islands \\| 769 \\|"},
-               {"source": "fns_snap_eligibility",
-                "quote": "For a household with an elderly or disabled member, all shelter costs over half of the household's income may be deducted."}]
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 3. Maximum Excess Shelter Deductions",
+          "extra": "Virgin Islands \\| 769 \\|"
+        },
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "For a household with an elderly or disabled member, all shelter costs over half of the household's income may be deducted."
+        }
+      ]
     },
     {
       "id": "snap.homeless_shelter",
       "title": "Homeless shelter deduction",
       "value": 205.66,
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
-      "cite": [{"source": "fns_snap_standards_fy27", "quote": "Table 4. Homeless Shelter Deduction",
-                "extra": "Virgin Islands \\| 205.66 \\|"}]
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 4. Homeless Shelter Deduction",
+          "extra": "Virgin Islands \\| 205.66 \\|"
+        }
+      ]
     },
     {
       "id": "snap.sua_heating_cooling",
       "title": "Tennessee standard utility allowance for households that pay for heating or cooling",
-      "table": {"1": 451, "2": 466, "3": 485, "4": 503, "5": 519, "6": 536, "7": 551, "8": 568, "9": 587, "10": 602},
+      "table": {
+        "1": 451,
+        "2": 466,
+        "3": 485,
+        "4": 503,
+        "5": 519,
+        "6": 536,
+        "7": 551,
+        "8": 568,
+        "9": 587,
+        "10": 602
+      },
       "each_additional": 0,
-      "effective_from": "2025-10-01", "effective_to": "2026-09-30",
+      "effective_from": "2025-10-01",
+      "effective_to": "2026-09-30",
       "carry_forward": true,
       "note": "Only the FY 2026 table was published when these rules were written; FNS had not posted FY 2027 SUAs.",
-      "cite": [{"source": "fns_sua_table", "quote": "FY 2026 Standard Utility Allowances (SUA) by State"},
-               {"source": "fns_sua_table", "quote": "Tennessee - 1 members*",
-                "rows": "Tennessee - {n}(?: or more)? members\\* \\| {v} \\|"}]
+      "cite": [
+        {
+          "source": "fns_sua_table",
+          "quote": "FY 2026 Standard Utility Allowances (SUA) by State"
+        },
+        {
+          "source": "fns_sua_table",
+          "quote": "Tennessee - 1 members*",
+          "rows": "Tennessee - {n}(?: or more)? members\\* \\| {v} \\|"
+        }
+      ]
     },
     {
       "id": "snap.sua_basic",
       "title": "Tennessee basic utility allowance (pays utilities other than heating or cooling)",
       "value": 162,
-      "effective_from": "2025-10-01", "effective_to": "2026-09-30",
+      "effective_from": "2025-10-01",
+      "effective_to": "2026-09-30",
       "carry_forward": true,
-      "cite": [{"source": "fns_sua_table", "quote": "Basic/ Limited Utility Allowance (BUA/LUA)"},
-               {"source": "fns_sua_table", "quote": "Tennessee - 1 members* | 451 | 162 |"}]
+      "cite": [
+        {
+          "source": "fns_sua_table",
+          "quote": "Basic/ Limited Utility Allowance (BUA/LUA)"
+        },
+        {
+          "source": "fns_sua_table",
+          "quote": "Tennessee - 1 members* | 451 | 162 |"
+        }
+      ]
     },
     {
       "id": "snap.sua_phone",
       "title": "Tennessee telephone allowance (pays only for a phone)",
       "value": 36,
-      "effective_from": "2025-10-01", "effective_to": "2026-09-30",
+      "effective_from": "2025-10-01",
+      "effective_to": "2026-09-30",
       "carry_forward": true,
-      "cite": [{"source": "fns_sua_table", "quote": "Tennessee - 1 members* | 451 | 162 | 0 | 0 | 0 | 0 | 0 | 36 |"}]
+      "cite": [
+        {
+          "source": "fns_sua_table",
+          "quote": "Tennessee - 1 members* | 451 | 162 | 0 | 0 | 0 | 0 | 0 | 36 |"
+        }
+      ]
     },
     {
       "id": "snap.asset_limit",
       "title": "Countable resources limit (cash, bank accounts)",
-      "table": {"elderly_or_disabled": 4750, "other": 3000},
-      "effective_from": "2026-10-01", "effective_to": "2027-09-30",
-      "cite": [{"source": "fns_snap_standards_fy27", "quote": "Table 5. Maximum Asset Limits",
-                "extra": "All other households \\| 4,750 \\| 3,000 \\|"}]
+      "table": {
+        "elderly_or_disabled": 4750,
+        "other": 3000
+      },
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "cite": [
+        {
+          "source": "fns_snap_standards_fy27",
+          "quote": "Table 5. Maximum Asset Limits",
+          "extra": "All other households \\| 4,750 \\| 3,000 \\|"
+        }
+      ]
     },
     {
       "id": "snap.elderly_disabled_net_only",
       "title": "Households with a member 60 or older or disabled only need to meet the net income limit",
       "value": 60,
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_eligibility",
-                "quote": "A household with an elderly or disabled person only has to meet the net income limit"},
-               {"source": "fns_snap_eligibility", "quote": "is age 60 or older, or is disabled"}]
+      "cite": [
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "A household with an elderly or disabled person only has to meet the net income limit"
+        },
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "is age 60 or older, or is disabled"
+        }
+      ]
     },
     {
       "id": "snap.categorical",
       "title": "Households where everyone gets SSI or Families First are categorically eligible (no income or resource limits)",
       "effective_from": "2021-06-15",
-      "cite": [{"source": "tdhs_24_24",
-                "quote": "Categorically eligible households are exempt from the SNAP resource limit and net and gross income limits."}]
+      "cite": [
+        {
+          "source": "tdhs_24_24",
+          "quote": "Categorically eligible households are exempt from the SNAP resource limit and net and gross income limits."
+        }
+      ]
     },
     {
       "id": "snap.benefit_formula",
       "title": "Benefit = maximum benefit minus 30% of net income (30% rounded up to the next dollar)",
       "value": 0.3,
       "effective_from": "2026-10-01",
-      "cite": [{"source": "ecfr_7_273_10",
-                "quote": "reduced by 30 percent of the household's net monthly income"},
-               {"source": "ecfr_7_273_10",
-                "quote": "round the 30 percent of net income up to the nearest higher dollar"}]
+      "cite": [
+        {
+          "source": "ecfr_7_273_10",
+          "quote": "reduced by 30 percent of the household's net monthly income"
+        },
+        {
+          "source": "ecfr_7_273_10",
+          "quote": "round the 30 percent of net income up to the nearest higher dollar"
+        }
+      ]
     },
     {
       "id": "snap.income_conversion",
       "title": "Weekly pay is multiplied by 4.3 and every-two-weeks pay by 2.15 to get a monthly amount",
-      "table": {"weekly": 4.3, "biweekly": 2.15, "semimonthly": 2, "monthly": 1},
+      "table": {
+        "weekly": 4.3,
+        "biweekly": 2.15,
+        "semimonthly": 2,
+        "monthly": 1
+      },
       "effective_from": "2026-10-01",
-      "cite": [{"source": "ecfr_7_273_10",
-                "quote": "multiplying weekly amounts by 4.3 and biweekly amounts by 2.15"}]
+      "cite": [
+        {
+          "source": "ecfr_7_273_10",
+          "quote": "multiplying weekly amounts by 4.3 and biweekly amounts by 2.15"
+        }
+      ]
     },
     {
       "id": "snap.students",
       "title": "College students 18-49 enrolled at least half time usually need an exemption",
       "kind": "deferral",
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_eligibility",
-                "quote": "Generally, students ages 18 through 49 who are enrolled in college at least half time are not eligible for SNAP unless they meet certain specific exemptions."},
-               {"source": "tdhs_24_27", "quote": "Students in Higher Education"}]
+      "cite": [
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "Generally, students ages 18 through 49 who are enrolled in college at least half time are not eligible for SNAP unless they meet certain specific exemptions."
+        },
+        {
+          "source": "tdhs_24_27",
+          "quote": "Students in Higher Education"
+        }
+      ]
     },
     {
       "id": "snap.noncitizens",
       "title": "Non-citizen eligibility rules changed in 2025 and USDA is still updating its guidance",
       "kind": "deferral",
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_eligibility",
-                "quote": "The One Big Beautiful Bill Act of 2025 changes certain eligibility factors for SNAP. This includes changes to the SNAP work requirements and non-citizen eligibility."}]
+      "cite": [
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "The One Big Beautiful Bill Act of 2025 changes certain eligibility factors for SNAP. This includes changes to the SNAP work requirements and non-citizen eligibility."
+        }
+      ]
     },
     {
       "id": "snap.work_rules",
       "title": "Adults without dependents may be limited to 3 months of SNAP in 3 years unless they work or train 20 hours a week",
       "kind": "deferral",
       "effective_from": "2026-10-01",
-      "cite": [{"source": "fns_snap_eligibility",
-                "quote": "able bodied adults without dependents are required to work or participate in a work program for at least 20 hours per week in order to receive SNAP benefits for more than 3 months in a 36-month period."},
-               {"source": "fns_snap_eligibility",
-                "quote": "This includes changes to the SNAP work requirements and non-citizen eligibility."}]
+      "cite": [
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "able bodied adults without dependents are required to work or participate in a work program for at least 20 hours per week in order to receive SNAP benefits for more than 3 months in a 36-month period."
+        },
+        {
+          "source": "fns_snap_eligibility",
+          "quote": "This includes changes to the SNAP work requirements and non-citizen eligibility."
+        }
+      ]
     }
   ]
 }
