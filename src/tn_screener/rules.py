@@ -128,7 +128,7 @@ class RuleSet:
 
 
 def in_force(as_of: date | None = None) -> RuleSet:
-    return RuleSet(as_of or date.today(), load())
+    return RuleSet(as_of or date.today(), dict(load()))
 
 
 def _fmt(v: float) -> str:
