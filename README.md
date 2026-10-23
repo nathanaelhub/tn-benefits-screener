@@ -9,7 +9,8 @@ eligibility rules live in data files, every number is tied to a quote from an of
 source, and tests fail if a number doesn't match the source text. Claude gathers the facts,
 calls the screener through MCP, and explains the result.
 
-**Try it: [nathanaelhub.github.io/tn-benefits-screener](https://nathanaelhub.github.io/tn-benefits-screener/)**.
+**Try it: [nathanaelhub.github.io/tn-benefits-screener](https://nathanaelhub.github.io/tn-benefits-screener/)**
+(mirror: [tn-benefits-screener.vercel.app](https://tn-benefits-screener.vercel.app)).
 The page is the screener as a form, without Claude. It runs the same Python code in your
 browser through [Pyodide](https://pyodide.org), so nothing you enter leaves your device.
 Before each deploy, a browser test checks that all 40 eval households get exactly the same
