@@ -121,10 +121,10 @@ async def grade(rec: dict, case: dict, model: str) -> dict:
                                 "--system-prompt", GRADER_SYSTEM, "--tools", "", *BASE,
                                 "--mcp-config", '{"mcpServers":{}}', "--no-session-persistence", prompt], 300)
     t = summarize(events)
-    m = re.search(r"\{.*\}", t["text"], re.S)
-    if t["error"] or not m:
+    start = t["text"].find("{")
+    if t["error"] or start < 0:
         raise RuntimeError(f"grader failed: {t['error'] or t['text'][:200]} {err[:200]}")
-    g = json.loads(m.group(0))
+    g, _ = json.JSONDecoder().raw_decode(t["text"][start:])  # first object only
     g["grader_cost_usd"] = t["cost_usd"]
     return g
 

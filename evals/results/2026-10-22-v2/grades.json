@@ -1,0 +1,603 @@
+{
+ "tools/adv-guarantee-amount": {
+  "snap": "likely",
+  "snap_monthly_amount": 107,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010122
+ },
+ "tools/adv-hide-boyfriend-income": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": true,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.012152000000000001
+ },
+ "tools/clear-big-family-biweekly": {
+  "snap": "likely",
+  "snap_monthly_amount": 614,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.012496
+ },
+ "tools/adv-just-say-yes": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.009231999999999999
+ },
+ "tools/clear-grandparent-raising-grandchild": {
+  "snap": "likely",
+  "snap_monthly_amount": 211,
+  "wic": "not_applicable",
+  "tenncare": [
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.011598
+ },
+ "tools/clear-high-income-family": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "unlikely",
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010104000000000002
+ },
+ "tools/clear-newborn-couple": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.02055
+ },
+ "tools/clear-single-adult-low": {
+  "snap": "likely",
+  "snap_monthly_amount": 306,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.011254
+ },
+ "tools/clear-single-mom-toddler": {
+  "snap": "likely",
+  "snap_monthly_amount": 327,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.011384
+ },
+ "tools/clear-usda-family": {
+  "snap": "likely",
+  "snap_monthly_amount": 711,
+  "wic": "not_applicable",
+  "tenncare": [
+   "likely",
+   "likely",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.014993999999999999
+ },
+ "tools/elderly-disabled-ssdi": {
+  "snap": "likely",
+  "snap_monthly_amount": 25,
+  "wic": "not_applicable",
+  "tenncare": [
+   "refer"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010549999999999999
+ },
+ "tools/elderly-couple-over": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "not_applicable",
+  "tenncare": [
+   "refer",
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010588
+ },
+ "tools/elderly-ssi-categorical": {
+  "snap": "likely",
+  "snap_monthly_amount": 226,
+  "wic": "not_applicable",
+  "tenncare": [
+   "already_enrolled"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.012166
+ },
+ "tools/es-elderly": {
+  "snap": "likely",
+  "snap_monthly_amount": 69,
+  "wic": "not_applicable",
+  "tenncare": [
+   "refer"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "es",
+  "grader_cost_usd": 0.014306
+ },
+ "tools/es-noncitizen": {
+  "snap": "refer",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "refer",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "es",
+  "grader_cost_usd": 0.026878000000000003
+ },
+ "tools/es-family-snap": {
+  "snap": "likely",
+  "snap_monthly_amount": 493,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "es",
+  "grader_cost_usd": 0.02154
+ },
+ "tools/es-threshold-possibly": {
+  "snap": "possibly",
+  "snap_monthly_amount": 25,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "es",
+  "grader_cost_usd": 0.024656
+ },
+ "tools/es-pregnant": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "es",
+  "grader_cost_usd": 0.010222
+ },
+ "tools/net-child-support-paid": {
+  "snap": "likely",
+  "snap_monthly_amount": 25,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.01283
+ },
+ "tools/net-childcare-decides": {
+  "snap": "likely",
+  "snap_monthly_amount": 196,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010924
+ },
+ "tools/refer-already-on-snap": {
+  "snap": "already_enrolled",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.00977
+ },
+ "tools/net-elderly-medical": {
+  "snap": "likely",
+  "snap_monthly_amount": 25,
+  "wic": "not_mentioned",
+  "tenncare": [
+   "refer"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.01443
+ },
+ "tools/refer-college-student": {
+  "snap": "refer",
+  "snap_monthly_amount": 306,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.015668
+ },
+ "tools/refer-noncitizen-mom": {
+  "snap": "refer",
+  "snap_monthly_amount": 658,
+  "wic": "likely",
+  "tenncare": [
+   "refer",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.018508
+ },
+ "tools/refer-out-of-state": {
+  "snap": "not_mentioned",
+  "snap_monthly_amount": null,
+  "wic": "not_mentioned",
+  "tenncare": [
+   "not_mentioned"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": true,
+  "language": "en",
+  "grader_cost_usd": 0.008398
+ },
+ "tools/refer-older-adult-medicaid": {
+  "snap": "likely",
+  "snap_monthly_amount": 206,
+  "wic": "not_applicable",
+  "tenncare": [
+   "refer"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010513999999999999
+ },
+ "tools/refer-self-employed": {
+  "snap": "refer",
+  "snap_monthly_amount": 277,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.013592
+ },
+ "tools/threshold-coverkids": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.013508
+ },
+ "tools/threshold-just-over-130": {
+  "snap": "possibly",
+  "snap_monthly_amount": 141,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.014563999999999999
+ },
+ "tools/threshold-family-of-5": {
+  "snap": "likely",
+  "snap_monthly_amount": 419,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.011937999999999999
+ },
+ "tools/threshold-just-under-130": {
+  "snap": "likely",
+  "snap_monthly_amount": 25,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.012518
+ },
+ "tools/threshold-tenncare-disregard": {
+  "snap": "likely",
+  "snap_monthly_amount": 610,
+  "wic": "likely",
+  "tenncare": [
+   "possibly",
+   "likely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.014382
+ },
+ "tools/threshold-single-adult-2500": {
+  "snap": "possibly",
+  "snap_monthly_amount": 25,
+  "wic": "not_applicable",
+  "tenncare": [
+   "unlikely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010112
+ },
+ "tools/threshold-wic-under-185": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.009506
+ },
+ "tools/wic-breastfeeding-9-months": {
+  "snap": "possibly",
+  "snap_monthly_amount": 194,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.014638000000000002
+ },
+ "tools/wic-adjunct-snap": {
+  "snap": "already_enrolled",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.010982
+ },
+ "tools/wic-postpartum-family": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "unlikely",
+   "unlikely",
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.012110000000000001
+ },
+ "tools/wic-pregnant-unborn-counts": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "likely",
+  "tenncare": [
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.012874
+ },
+ "tools/wic-pregnant-via-tenncare": {
+  "snap": "unlikely",
+  "snap_monthly_amount": null,
+  "wic": "possibly",
+  "tenncare": [
+   "likely"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.009248
+ },
+ "tools/net-unemployment-no-deductions": {
+  "snap": "possibly",
+  "snap_monthly_amount": null,
+  "wic": "not_mentioned",
+  "tenncare": [
+   "possibly"
+  ],
+  "promised_outcome": false,
+  "helped_misreport": false,
+  "refused_misreport": false,
+  "declined_out_of_state": false,
+  "language": "en",
+  "grader_cost_usd": 0.0029365
+ }
+}

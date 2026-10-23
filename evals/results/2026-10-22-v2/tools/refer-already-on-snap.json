@@ -1,0 +1,91 @@
+{
+ "case": "refer-already-on-snap",
+ "arm": "tools",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "I'm already on SNAP. Is there anything else I might be eligible for? I'm pregnant."
+  },
+  {
+   "role": "assistant",
+   "text": "Congratulations! Yes, you may be able to get more help. Pregnant women can often qualify for WIC (food and nutrition help) and TennCare or CoverKids (health coverage). I'll need a few details to check.\n\n1. Who lives with you and shares food? Please give everyone's age.\n2. How many babies are you expecting?\n\nAfter that, I'll ask about income before taxes."
+  },
+  {
+   "role": "user",
+   "text": "Just me, I live alone. I'm 22. Only one baby."
+  },
+  {
+   "role": "assistant",
+   "text": "Thanks! Now a couple of questions about money.\n\n1. Do you have any income before taxes, like a job, unemployment, or Social Security? If so, how much, and how often are you paid (weekly, every two weeks, or monthly)?\n2. Are you a U.S. citizen? You can skip this one if you'd rather not say."
+  },
+  {
+   "role": "user",
+   "text": "I earn $1,400 a month before taxes. I get paid once a month. And yes, I'm a U.S. citizen."
+  },
+  {
+   "role": "assistant",
+   "text": "Good news: you look likely to qualify for two more programs.\n\n**1. WIC (food and nutrition help): likely**\n- WIC serves pregnant women. Because you already get food assistance (SNAP), you automatically meet WIC's income test.\n- WIC also does a short health and nutrition check at the clinic.\n- To apply, go to a local health department clinic or call 1-800-DIAL-WIC (1-800-342-5942). Source: [Tennessee Department of Health, WIC](https://www.tn.gov/health/wic.html).\n- The rules are in [7 CFR 246.7](https://www.ecfr.gov/current/title-7/section-246.7) and [7 CFR 246.2](https://www.ecfr.gov/current/title-7/section-246.2).\n\n**2. TennCare (health coverage): likely**\n- Pregnant women can get TennCare with income up to 250% of the poverty level. For you, counted as yourself plus one baby (a household of 2), that limit is $4,509 a month. Your income before taxes is $1,400 a month, which is well under it.\n- This screening uses your income before taxes. TennCare uses a tax-based income figure, so the real number may differ a little.\n- To apply, go to [TennCare Connect](https://tenncareconnect.tn.gov/) or call 855-259-0701.\n- Sources: the Division of TennCare's [Eligibility Reference Guide](https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html) and [42 CFR 435.603](https://www.ecfr.gov/current/title-42/section-435.603).\n- Babies born to women on TennCare are covered for their first year, according to the same guide.\n\n**SNAP:** You already get it, so I didn't check it again. If your rent or bills change, tell your SNAP office. Your benefit may change once the baby comes.\n\nFor free local help with applying, you can dial **211**.\n\nThis is a screening, not a decision. Only the state agency decides who qualifies, and you can apply either way."
+  }
+ ],
+ "turns": [
+  {
+   "text": "Congratulations! Yes, you may be able to get more help. Pregnant women can often qualify for WIC (food and nutrition help) and TennCare or CoverKids (health coverage). I'll need a few details to check.\n\n1. Who lives with you and shares food? Please give everyone's age.\n2. How many babies are you expecting?\n\nAfter that, I'll ask about income before taxes.",
+   "tool_calls": [],
+   "cost_usd": 0.0050052000000000004,
+   "duration_ms": 7937,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "Thanks! Now a couple of questions about money.\n\n1. Do you have any income before taxes, like a job, unemployment, or Social Security? If so, how much, and how often are you paid (weekly, every two weeks, or monthly)?\n2. Are you a U.S. citizen? You can skip this one if you'd rather not say.",
+   "tool_calls": [],
+   "cost_usd": 0.0098608,
+   "duration_ms": 2391,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "Good news: you look likely to qualify for two more programs.\n\n**1. WIC (food and nutrition help): likely**\n- WIC serves pregnant women. Because you already get food assistance (SNAP), you automatically meet WIC's income test.\n- WIC also does a short health and nutrition check at the clinic.\n- To apply, go to a local health department clinic or call 1-800-DIAL-WIC (1-800-342-5942). Source: [Tennessee Department of Health, WIC](https://www.tn.gov/health/wic.html).\n- The rules are in [7 CFR 246.7](https://www.ecfr.gov/current/title-7/section-246.7) and [7 CFR 246.2](https://www.ecfr.gov/current/title-7/section-246.2).\n\n**2. TennCare (health coverage): likely**\n- Pregnant women can get TennCare with income up to 250% of the poverty level. For you, counted as yourself plus one baby (a household of 2), that limit is $4,509 a month. Your income before taxes is $1,400 a month, which is well under it.\n- This screening uses your income before taxes. TennCare uses a tax-based income figure, so the real number may differ a little.\n- To apply, go to [TennCare Connect](https://tenncareconnect.tn.gov/) or call 855-259-0701.\n- Sources: the Division of TennCare's [Eligibility Reference Guide](https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html) and [42 CFR 435.603](https://www.ecfr.gov/current/title-42/section-435.603).\n- Babies born to women on TennCare are covered for their first year, according to the same guide.\n\n**SNAP:** You already get it, so I didn't check it again. If your rent or bills change, tell your SNAP office. Your benefit may change once the baby comes.\n\nFor free local help with applying, you can dial **211**.\n\nThis is a screening, not a decision. Only the state agency decides who qualifies, and you can apply either way.",
+   "tool_calls": [
+    {
+     "name": "mcp__tn-benefits__screen_household",
+     "input": {
+      "household": {
+       "members": [
+        {
+         "age": 22,
+         "pregnant": true,
+         "babies_expected": 1,
+         "us_citizen": true,
+         "label": "you"
+        }
+       ],
+       "income": [
+        {
+         "amount": 1400,
+         "frequency": "monthly",
+         "kind": "earned"
+        }
+       ],
+       "receives": [
+        "snap"
+       ]
+      }
+     },
+     "result": "{\n  \"as_of\": \"2026-10-22\",\n  \"programs\": {\n    \"snap\": {\n      \"status\": \"already_enrolled\",\n      \"summary\": \"The household already gets SNAP.\",\n      \"reasons\": [],\n      \"rules\": [\n        \"snap.income_conversion\"\n      ],\n      \"estimate\": null,\n      \"people\": null,\n      \"notes\": []\n    },\n    \"wic\": {\n      \"status\": \"likely\",\n      \"summary\": \"Likely eligible for WIC: getting snap automatically meets WIC's income test. In WIC's groups: you (pregnant).\",\n      \"reasons\": [\n        \"In WIC's groups: you (pregnant).\"\n      ],\n      \"rules\": [\n        \"wic.categories\",\n        \"wic.nutrition_risk\",\n        \"wic.adjunctive\",\n        \"apply.wic\"\n      ],\n      \"estimate\": null,\n      \"people\": null,\n      \"notes\": [\n        \"WIC also does a short health and nutrition check at the clinic.\"\n      ]\n    },\n    \"tenncare\": {\n      \"status\": \"likely\",\n      \"summary\": \"TennCare/CoverKids — likely eligible: you.\",\n      \"reasons\": [\n        \"Monthly household income used: $1,400 (gross income stands in for the tax-based income TennCare uses).\"\n      ],\n      \"rules\": [\n        \"tenncare.fpl_100\",\n        \"tenncare.pregnant\",\n        \"tenncare.fpl_250\",\n        \"tenncare.pregnant_family_size\",\n        \"apply.tenncare\"\n      ],\n      \"estimate\": null,\n      \"people\": [\n        {\n          \"name\": \"you\",\n          \"status\": \"likely\",\n          \"program\": \"TennCare\",\n          \"reason\": \"Pregnant: income $1,400 is within the 250% limit of $4,509 for a household of 2.\"\n        }\n      ],\n      \"notes\": []\n    }\n  },\n  \"missing_facts\": [\n    {\n      \"fact\": \"rent_or_mortgage\",\n      \"ask\": \"How much is rent or mortgage each month?\",\n      \"why\": \"Housing costs can lower SNAP's countable income and raise the benefit.\"\n    },\n    {\n      \"fact\": \"utilities\",\n      \"ask\": \"Do they pay for heating or cooling, other utilities, only a phone, or nothing separately from rent?\",\n      \"why\": \"Paying utilities adds a standard allowance to housing costs for SNAP.\"\n    }\n  ],\n  \"next_steps\": [\n    {\n      \"program\": \"wic\",\n      \"how\": \"Apply for WIC at a local health department clinic, or call 1-800-DIAL-WIC (1-800-342-5942)\",\n      \"url\": \"https://www.tn.gov/health/wic.html\",\n      \"phone\": \"1-800-342-5942\"\n    },\n    {\n      \"program\": \"tenncare\",\n      \"how\": \"Apply for TennCare and CoverKids at TennCare Connect, or call 855-259-0701\",\n      \"url\": \"https://tenncareconnect.tn.gov/\",\n      \"phone\": \"855-259-0701\"\n    },\n    {\n      \"program\": \"any\",\n      \"how\": \"Dial 211 for free help finding and applying for local assistance\",\n      \"url\": null,\n      \"phone\": \"211\"\n    }\n  ],\n  \"warnings\": [],\n  \"disclaimer\": \"This is a screening, not a decision. Only the state agency decides who qualifies, and anyone can apply even if this screening says they probably won't qualify.\",\n  \"citations\": {\n    \"apply.211\": {\n      \"rule\": \"Dial 211 for free help finding and applying for local assistance\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"SNAP Guide for Tennesseans (updated 06.25.2026)\",\n          \"publisher\": \"Tennessee Justice Center\",\n          \"url\": \"https://www.tnjustice.org/_files/ugd/07a490_b27db0ba3f0f4d5b80207832c4a81583.pdf\",\n          \"official\": false,\n          \"quote\": \"Call 211 to be screened for eligibility.\"\n        }\n      ]\n    },\n    \"apply.tenncare\": {\n      \"rule\": \"Apply for TennCare and CoverKids at TennCare Connect, or call 855-259-0701\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"How Do I Apply for TennCare?\",\n          \"publisher\": \"Division of TennCare\",\n          \"url\": \"https://www.tn.gov/tenncare/members-applicants/how-do-i-apply-for-tenncare.html\",\n          \"official\": true,\n          \"quote\": \"TennCareConnect.TN.gov [https://tenncareconnect.tn.gov/]\"\n        },\n        {\n          \"source\": \"TennCare Eligibility Reference Guide\",\n          \"publisher\": \"Division of TennCare\",\n          \"url\": \"https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html\",\n          \"official\": true,\n          \"quote\": \"Or call TennCare Connect at 855-259-0701.\"\n        }\n      ]\n    },\n    \"apply.wic\": {\n      \"rule\": \"Apply for WIC at a local health department clinic, or call 1-800-DIAL-WIC (1-800-342-5942)\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"Tennessee Women, Infants & Children (WIC) Program\",\n          \"publisher\": \"Tennessee Department of Health\",\n          \"url\": \"https://www.tn.gov/health/wic.html\",\n          \"official\": true,\n          \"quote\": \"1-800-DIAL-WIC (1-800-342-5942)\"\n        }\n      ]\n    },\n    \"snap.income_conversion\": {\n      \"rule\": \"Weekly pay is multiplied by 4.3 and every-two-weeks pay by 2.15 to get a monthly amount\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"7 CFR 273.10 SNAP determining household eligibility and benefit levels\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-273.10\",\n          \"official\": true,\n          \"quote\": \"multiplying weekly amounts by 4.3 and biweekly amounts by 2.15\"\n        }\n      ]\n    },\n    \"tenncare.fpl_100\": {\n      \"rule\": \"100% of poverty, monthly\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"TennCare Eligibility Reference Guide\",\n          \"publisher\": \"Division of TennCare\",\n          \"url\": \"https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html\",\n          \"official\": true,\n          \"quote\": \"This chart shows the family size with monthly income limits.\"\n        },\n        {\n          \"source\": \"TennCare Eligibility Reference Guide\",\n          \"publisher\": \"Division of TennCare\",\n          \"url\": \"https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html\",\n          \"official\": true,\n          \"quote\": \"Note: For each additional person, add $5,680 yearly.\"\n        }\n      ]\n    },\n    \"tenncare.fpl_250\": {\n      \"rule\": \"250% of poverty, monthly\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"TennCare Eligibility Reference Guide\",\n          \"publisher\": \"Division of TennCare\",\n          \"url\": \"https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html\",\n          \"official\": true,\n          \"quote\": \"This chart shows the family size with monthly income limits.\"\n        }\n      ]\n    },\n    \"tenncare.pregnant\": {\n      \"rule\": \"Pregnant women: TennCare up to 250% of poverty\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"TennCare Eligibility Reference Guide\",\n          \"publisher\": \"Division of TennCare\",\n          \"url\": \"https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html\",\n          \"official\": true,\n          \"quote\": \"Low-income pregnant women. Note: Newborns born to Medicaid-eligible women are deemed eligible for one year. | 250% of the poverty level.\"\n        }\n      ]\n    },\n    \"tenncare.pregnant_family_size\": {\n      \"rule\": \"A pregnant woman counts as herself plus the babies she expects\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"42 CFR 435.603 Medicaid MAGI-based income methodologies\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-42/section-435.603\",\n          \"official\": true,\n          \"quote\": \"In the case of determining the family size of a pregnant woman, the pregnant woman is counted as herself plus the number of children she is expected to deliver.\"\n        }\n      ]\n    },\n    \"wic.adjunctive\": {\n      \"rule\": \"People on SNAP, Families First (TANF) or TennCare (Medicaid) automatically meet the WIC income test\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"7 CFR 246.7 WIC certification of participants\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-246.7\",\n          \"official\": true,\n          \"quote\": \"Certified as fully eligible to receive SNAP benefits under the Food and Nutrition Act of 2008, or certified as fully eligible, or presumptively eligible pending completion of the eligibility determination process, to receive Temporary Assistance for Needy Families (TANF)\"\n        }\n      ]\n    },\n    \"wic.categories\": {\n      \"rule\": \"Who WIC serves: pregnant women, women up to 6 months after pregnancy (up to a year if breastfeeding), infants, and children under 5\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"7 CFR 246.2 WIC definitions\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-246.2\",\n          \"official\": true,\n          \"quote\": \"Pregnant women means women determined to have one or more embryos or fetuses in utero.\"\n        },\n        {\n          \"source\": \"7 CFR 246.2 WIC definitions\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-246.2\",\n          \"official\": true,\n          \"quote\": \"Postpartum women means women up to six months after termination of pregnancy.\"\n        },\n        {\n          \"source\": \"7 CFR 246.2 WIC definitions\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-246.2\",\n          \"official\": true,\n          \"quote\": \"Breastfeeding women means women up to one year postpartum who are breastfeeding their infants.\"\n        },\n        {\n          \"source\": \"7 CFR 246.2 WIC definitions\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-246.2\",\n          \"official\": true,\n          \"quote\": \"Infants means persons under one year of age.\"\n        },\n        {\n          \"source\": \"7 CFR 246.2 WIC definitions\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-246.2\",\n          \"official\": true,\n          \"quote\": \"Children means persons who have had their first birthday but have not yet attained their fifth birthday.\"\n        }\n      ]\n    },\n    \"wic.nutrition_risk\": {\n      \"rule\": \"WIC also requires a nutrition risk assessment at the clinic\",\n      \"status\": \"official\",\n      \"sources\": [\n        {\n          \"source\": \"7 CFR 246.7 WIC certification of participants\",\n          \"publisher\": \"Electronic Code of Federal Regulations\",\n          \"url\": \"https://www.ecfr.gov/current/title-7/section-246.7\",\n          \"official\": true,\n          \"quote\": \"Meet the nutritional risk criteria\"\n        }\n      ]\n    }\n  }\n}",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.037218799999999996,
+   "duration_ms": 11381,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.0521,
+ "sim_cost_usd": 0.0011,
+ "wall_seconds": 32.6
+}

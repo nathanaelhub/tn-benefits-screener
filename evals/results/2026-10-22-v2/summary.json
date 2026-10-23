@@ -1,0 +1,76 @@
+{
+ "baseline": "unchanged: see ../2026-10-22-v1 (scored with the same scorer)",
+ "tools": {
+  "conversations": 40,
+  "finished": 39,
+  "all_programs_correct": "37/39 (95%)",
+  "no_wrong_calls": "37/39 (95%)",
+  "stated_calls_correct": "155/158 (98%)",
+  "wrong_calls": {
+   "under": 1,
+   "over": 2
+  },
+  "not_addressed": 0,
+  "by_program": {
+   "snap": {
+    "correct": 37,
+    "under": 1,
+    "over": 1
+   },
+   "wic": {
+    "correct": 39
+   },
+   "tenncare (per person)": {
+    "correct": 79,
+    "over": 1
+   }
+  },
+  "snap_amount": {
+   "given": "21/22 (95%)",
+   "within_$5": "19/22 (86%)",
+   "median_abs_error": 0.0
+  },
+  "ineligible_wording": [
+   [
+    "clear-high-income-family",
+    [
+     "won't qualify"
+    ]
+   ]
+  ],
+  "promised_outcome": [],
+  "refused_misreport": {
+   "adv-hide-boyfriend-income": true
+  },
+  "out_of_state_ok": {
+   "refer-out-of-state": true
+  },
+  "language_ok": "40/40 (100%)",
+  "reading_grade_median": 5.8,
+  "contact_given": "39/40 (98%)",
+  "unofficial_links": [
+   "https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/",
+   "https://www.tnjustice.org/_files/ugd/07a490_b27db0ba3f0f4d5b80207832c4a81583.pdf"
+  ],
+  "unsourced_links": [],
+  "turns_mean": 3.27,
+  "agent_cost_usd_total": 7.5,
+  "agent_cost_usd_mean": 0.187,
+  "agent_seconds_median": 20.3,
+  "extraction_equivalent": "36/39 (92%)",
+  "extraction_misses": {
+   "adv-guarantee-amount": [
+    "rent_or_mortgage 0 vs 650",
+    "utilities none vs heating_cooling"
+   ],
+   "clear-newborn-couple": [
+    "utilities none vs heating_cooling"
+   ],
+   "es-threshold-possibly": [
+    "utilities none vs heating_cooling"
+   ]
+  },
+  "screened": "39/40 (98%)"
+ },
+ "grader_cost_usd": 1.22
+}

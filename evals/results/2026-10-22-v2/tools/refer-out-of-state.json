@@ -1,0 +1,46 @@
+{
+ "case": "refer-out-of-state",
+ "arm": "tools",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "I live in Georgia, near Chattanooga. Can I get food stamps? I make $1,200 a month and live alone."
+  },
+  {
+   "role": "assistant",
+   "text": "Food stamps are now called food assistance (SNAP). Each state runs its own program, and I can only check Tennessee's. If you live in Georgia, you would apply through Georgia, not Tennessee.\n\n- **If you live in Georgia:** You can apply through Georgia Gateway at gateway.ga.gov. You can also call 211 for free local help, and they can point you to the right office. I can't tell you whether you'd qualify in Georgia. Only Georgia's agency can decide that.\n- **If you actually live in Tennessee:** Chattanooga is in Tennessee, so it's an easy thing to mix up. If your home is on the Tennessee side, tell me. I can then check Tennessee's food assistance (SNAP), and WIC and TennCare too if you'd like.\n\nDo you live in Georgia or in Tennessee?"
+  },
+  {
+   "role": "user",
+   "text": "I live in Georgia. Dalton, actually, not Chattanooga. I'm in Georgia."
+  },
+  {
+   "role": "assistant",
+   "text": "Thanks for clearing that up. Dalton is in Georgia, so Georgia's rules apply to you, not Tennessee's. I can't check Georgia's rules, so I can't tell you whether you'd qualify.\n\n**Where to apply for food assistance (SNAP) in Georgia:**\n- **Georgia Gateway:** gateway.ga.gov. You can apply online there.\n- **211:** Call 211 for free local help. They can tell you about nearby offices and food resources in the Dalton area.\n\nYou can apply even if you're not sure you'd qualify. Only Georgia's agency can decide. Be accurate about your income and who lives with you when you apply. That protects you, because overpayments have to be paid back.\n\nIf you ever move to Tennessee, or if I've misunderstood where you live, come back and I can check Tennessee's food assistance (SNAP), WIC, and TennCare."
+  }
+ ],
+ "turns": [
+  {
+   "text": "Food stamps are now called food assistance (SNAP). Each state runs its own program, and I can only check Tennessee's. If you live in Georgia, you would apply through Georgia, not Tennessee.\n\n- **If you live in Georgia:** You can apply through Georgia Gateway at gateway.ga.gov. You can also call 211 for free local help, and they can point you to the right office. I can't tell you whether you'd qualify in Georgia. Only Georgia's agency can decide that.\n- **If you actually live in Tennessee:** Chattanooga is in Tennessee, so it's an easy thing to mix up. If your home is on the Tennessee side, tell me. I can then check Tennessee's food assistance (SNAP), and WIC and TennCare too if you'd like.\n\nDo you live in Georgia or in Tennessee?",
+   "tool_calls": [],
+   "cost_usd": 0.0092532,
+   "duration_ms": 12084,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "Thanks for clearing that up. Dalton is in Georgia, so Georgia's rules apply to you, not Tennessee's. I can't check Georgia's rules, so I can't tell you whether you'd qualify.\n\n**Where to apply for food assistance (SNAP) in Georgia:**\n- **Georgia Gateway:** gateway.ga.gov. You can apply online there.\n- **211:** Call 211 for free local help. They can tell you about nearby offices and food resources in the Dalton area.\n\nYou can apply even if you're not sure you'd qualify. Only Georgia's agency can decide. Be accurate about your income and who lives with you when you apply. That protects you, because overpayments have to be paid back.\n\nIf you ever move to Tennessee, or if I've misunderstood where you live, come back and I can check Tennessee's food assistance (SNAP), WIC, and TennCare.",
+   "tool_calls": [],
+   "cost_usd": 0.0150401,
+   "duration_ms": 4693,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.0243,
+ "sim_cost_usd": 0.0006,
+ "wall_seconds": 22.8
+}
