@@ -1,0 +1,135 @@
+{
+ "case": "net-child-support-paid",
+ "arm": "baseline",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "I get $1,600 a month from unemployment and pay child support. Do I qualify for SNAP?"
+  },
+  {
+   "role": "assistant",
+   "text": "Thanks for sharing that. I need a little more information before I can say if food assistance (SNAP) looks possible.\n\n1. Who lives with you and shares food? Please give their ages. Tell me if anyone is pregnant, 60 or older, or has a disability.\n2. How much child support do you pay each month?"
+  },
+  {
+   "role": "user",
+   "text": "I live alone. My kid lives with their mom. Child support is $300 a month."
+  },
+  {
+   "role": "assistant",
+   "text": "**It looks possible.** I need one more answer to tell if you'd get any money each month.\n\n**Why it looks possible**\n- Your income before taxes is $1,600. That is under the one-person limit of $2,608 a month in Tennessee's newer rule, which uses 200% of poverty ([Tennessee Justice Center](https://www.tnjustice.org/post/bbce)). It is also under the older 130% limit, which I've seen reported as about $1,729 for one person. I couldn't open an official page to confirm that figure.\n- Tennessee's income limit is unsettled. The official line has been 130% of poverty. Some sources say Tennessee moved to 200%. Because of that, the safe answer is \"possibly.\"\n- SNAP then takes some costs out of your income. Child support you pay is not counted ([Sycamore Institute](https://sycamoretn.org/snap-in-tn/)). The standard deduction for one person is $217 ([Propel summary of USDA's 2026-27 numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/)).\n- $1,600 − $217 − $300 = about **$1,083**. That is under the one-person limit after deductions, about $1,330 ([Propel](https://www.propel.app/snap/snap-2026-2027-cola-increase/)).\n\n**The benefit amount depends on your housing costs.** The most SNAP pays one person is about $306 a month, and the smallest payment is $25 ([Propel](https://www.propel.app/snap/snap-2026-2027-cola-increase/)). SNAP expects you to spend about 30% of your adjusted income on food. With no housing deduction, that would likely bring your benefit to $0. If your rent and utilities are high enough, you could get something. As a rough guide, that means more than about $690 a month. This is only an estimate.\n\n**Question:** How much do you pay each month for rent or a mortgage? Do you also pay separately for heating or cooling, other utilities, or only a phone?\n\n**Good to know**\n- Unemployment is temporary. Tell the office when it ends or changes, because your benefit would be recalculated.\n- I couldn't open the official USDA or Tennessee Department of Human Services (TDHS) pages. My numbers come from the pages linked above. Only TDHS decides, and you can still apply.\n- You can apply with TDHS at [the TDHS apply page](https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap/applying-for-services.html). I couldn't confirm a phone number, so you can call 211 for free local help."
+  },
+  {
+   "role": "user",
+   "text": "I stay with a friend, so I don't pay rent or utilities. I don't have any other bills."
+  },
+  {
+   "role": "assistant",
+   "text": "**It looks unlikely that you'd get a monthly SNAP payment right now, but you can still apply.** Only TDHS can decide.\n\n**Why**\n- Your income is low enough to pass the income tests. I explained those in my last message.\n- The amount is the problem. Here is the math, using the figures I found:\n  - $1,600 income before taxes\n  - minus $217 standard deduction\n  - minus $300 child support you pay\n  - equals about **$1,083**\n- SNAP expects you to spend about 30% of that on food, which is about $325. The most SNAP pays one person is $306 ([Propel summary of USDA's 2026-27 numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/)). So the estimate comes out to $0.\n- Housing costs are the deduction that could change this, and you don't have any. The $300 in child support is not counted as income ([Sycamore Institute](https://sycamoretn.org/snap-in-tn/)).\n\n**When it could change**\n- You start paying rent or utilities. Rent or utilities of about $690 a month or more could bring a small benefit.\n- Your unemployment ends or drops. Lower income means a higher benefit.\n- Tell the office about these changes, and you can reapply at any time.\n\n**Things to know**\n- I couldn't open the official USDA or TDHS pages, so these numbers come from the secondary sources linked above. The caseworker will use the official rules.\n- If you and your friend buy and cook food together, they may count as part of your household. A caseworker would work that out.\n- Report your income and household accurately. If you're paid too much, you'd have to pay it back.\n\n**Next steps**\n- Apply at the [TDHS apply page](https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap/applying-for-services.html). I couldn't confirm a phone number, so you can call 211 for free local help.\n- Applying costs nothing, and the caseworker will check the numbers.\n\nI can also check TennCare health coverage for you if you'd like. Your income might matter there too."
+  }
+ ],
+ "turns": [
+  {
+   "text": "Thanks for sharing that. I need a little more information before I can say if food assistance (SNAP) looks possible.\n\n1. Who lives with you and shares food? Please give their ages. Tell me if anyone is pregnant, 60 or older, or has a disability.\n2. How much child support do you pay each month?",
+   "tool_calls": [],
+   "cost_usd": 0.0045507,
+   "duration_ms": 2251,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "**It looks possible.** I need one more answer to tell if you'd get any money each month.\n\n**Why it looks possible**\n- Your income before taxes is $1,600. That is under the one-person limit of $2,608 a month in Tennessee's newer rule, which uses 200% of poverty ([Tennessee Justice Center](https://www.tnjustice.org/post/bbce)). It is also under the older 130% limit, which I've seen reported as about $1,729 for one person. I couldn't open an official page to confirm that figure.\n- Tennessee's income limit is unsettled. The official line has been 130% of poverty. Some sources say Tennessee moved to 200%. Because of that, the safe answer is \"possibly.\"\n- SNAP then takes some costs out of your income. Child support you pay is not counted ([Sycamore Institute](https://sycamoretn.org/snap-in-tn/)). The standard deduction for one person is $217 ([Propel summary of USDA's 2026-27 numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/)).\n- $1,600 − $217 − $300 = about **$1,083**. That is under the one-person limit after deductions, about $1,330 ([Propel](https://www.propel.app/snap/snap-2026-2027-cola-increase/)).\n\n**The benefit amount depends on your housing costs.** The most SNAP pays one person is about $306 a month, and the smallest payment is $25 ([Propel](https://www.propel.app/snap/snap-2026-2027-cola-increase/)). SNAP expects you to spend about 30% of your adjusted income on food. With no housing deduction, that would likely bring your benefit to $0. If your rent and utilities are high enough, you could get something. As a rough guide, that means more than about $690 a month. This is only an estimate.\n\n**Question:** How much do you pay each month for rent or a mortgage? Do you also pay separately for heating or cooling, other utilities, or only a phone?\n\n**Good to know**\n- Unemployment is temporary. Tell the office when it ends or changes, because your benefit would be recalculated.\n- I couldn't open the official USDA or Tennessee Department of Human Services (TDHS) pages. My numbers come from the pages linked above. Only TDHS decides, and you can still apply.\n- You can apply with TDHS at [the TDHS apply page](https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap/applying-for-services.html). I couldn't confirm a phone number, so you can call 211 for free local help.",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "USDA SNAP FY2027 income eligibility standards maximum gross income household of 1 deductions standard deduction",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"USDA SNAP FY2027 income eligibility standards maximum gross income household of 1 deductions standard deduction\"\n\nLinks: [{\"title\":\"fna.snap cola2027\",\"url\":\"https://www.usda.gov/sites/default/files/guidance-documents/fna.snap-cola2027.pdf\"},{\"title\":\"snap benefits increase for millions of americans\",\"url\":\"https://www.news4jax.com/news/local/2026/10/02/snap-benefits-increase-for-millions-of-americans/\"},{\"title\":\"snap benefits are increasing october 1 new payment amounts revealed 12393704\",\"url\":\"https://www.newsweek.com/snap-benefits-are-increasing-october-1-new-payment-amounts-revealed-12393704\"},{\"title\":\"A Quick Guide to SNAP Eligibility and Benefits\",\"url\":\"https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits\"},{\"title\":\"En esta noticia\",\"url\":\"https://www.cronista.com/en/finance/snap-benefits-increase-starting-october-1-2026-new-maximum-amounts-by-household-size/\"},{\"title\":\"snap 2026 2027 cola increase\",\"url\":\"https://www.propel.app/snap/snap-2026-2027-cola-increase/\"},{\"title\":\"Supplemental Nutrition Assistance Program (SNAP): A Primer on Eligibility and Benefits\",\"url\":\"https://www.everycrsreport.com/files/2025-09-29_R42505_63b3db6a7d658ef37f32fa7484ad24041adbc310.html\"},{\"title\":\"Back to Blog\",\"url\":\"https://benefitsusa.org/en/blog/snap-income-limits-2027-projected-chart\"},{\"title\":\"www.fns.usda.gov\",\"url\":\"https://www.fns.usda.gov/snap/allotment/cola\"}]\n\nThe official USDA memo gives the FY2027 standard deduction, and secondary sources report the gross income limits. I didn't find the official net income limit table, so the net figure below comes from a projection.\n\n- **Standard deduction:** USDA's August 21, 2026 memo sets the standard deduction for household sizes 1 through 3 at $217 per month in the 48 contiguous states and D.C. (The standard deduction for household sizes 1 through 3 will increase to $217 a month). The memo says these adjustments take effect October 1, 2026.\n- **Gross income limit, 1 person:** Reporting on the FY2027 changes puts the single-person gross monthly limit at $1,729 in the 48 states, D.C., Guam, and the U.S. Virgin Islands. A family of four is at $3,575.\n- **Net income limit, 1 person:** A projection from BenefitsUSA puts this at up to about $1,330 per month. This is an estimate, not a USDA-published figure, so verify it against the USDA table.\n- **Elderly and disabled households:** These follow a different standard, 165% of the poverty level, which is $2,195 per month for a single person in the 48 states.\n- **Maximum benefit, 1 person:** One source lists 1 person: $306 for the 48 states and D.C. The memo itself gives the four-person maximum as $1,023, so check the one-person figure against USDA's full table.\n\nThe official USDA source is the FY2027 COLA memo at fns.usda.gov/snap/allotment/cola/fy27. Confirm the net income limit and the one-person maximum there, since I did not see the full official table in these results.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP income limits 2026 gross income test broad-based categorical eligibility child support deduction",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP income limits 2026 gross income test broad-based categorical eligibility child support deduction\"\n\nLinks: [{\"title\":\"snap shakeup could put more food on memphis tables\",\"url\":\"https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/\"},{\"title\":\"the supplemental nutrition assistance program snap in tennessee\",\"url\":\"https://sycamoretn.org/wp-content/uploads/2026/01/the-supplemental-nutrition-assistance-program-snap-in-tennessee.pdf\"},{\"title\":\"top of page\",\"url\":\"https://www.tnjustice.org/post/bbce\"},{\"title\":\"07a490 25df805dc3e24f898074369ec661b63a\",\"url\":\"https://www.tnjustice.org/_files/ugd/07a490_25df805dc3e24f898074369ec661b63a.pdf\"},{\"title\":\"Key Takeaways\",\"url\":\"https://sycamoretn.org/snap-in-tn/\"},{\"title\":\"The Supplemental Nutrition Assistance Program (SNAP) in Tennessee\",\"url\":\"https://sycamoretn.org/?p=17208\"},{\"title\":\"Do I Qualify for SNAP in Tennessee?\",\"url\":\"https://daycarecalc.com/snap-eligibility/tennessee\"},{\"title\":\"article ea836bc5 dbbd 48ad b299 2340baad3c60\",\"url\":\"https://fox13memphis.com/news/tennessee-changes-snap-rules-could-help-more-families-qualify-for-food-assistance/article_ea836bc5-dbbd-48ad-b299-2340baad3c60.html\"},{\"title\":\"Do I Qualify for Food Stamps (SNAP)?\",\"url\":\"https://daycarecalc.com/snap-eligibility\"},{\"title\":\"Administrative and Government Law\",\"url\":\"https://legalclarity.org/tennessee-food-stamps-eligibility-benefits-and-rules/\"}]\n\nTennessee appears to have adopted broad-based categorical eligibility (BBCE), but sources from different dates disagree on whether it is final, so confirm with TDHS.\n\n- **Adoption status:** A January 2026 Sycamore Institute report said the change was still pending approval from the Tennessee General Assembly. A later TJC flyer, updated May 28, 2026, presents BBCE as already in effect, and a June 2026 Hoodline article says TDHS has adopted broad-based categorical eligibility (BBCE).\n- **Gross income test:** The TJC flyer says Tennessee's BBCE raises the gross income limit to 200% of the Federal Poverty Limit (FPL); however, it maintains net income limit at 100% FPL. It lists monthly gross limits of $2,608 for an individual, $3,525 for a household of 2, $4,442 for a household of 3, and $5,358 for a household of 4. The pre-BBCE standard was 130% FPL, or $3,483 for a family of four.\n- **Asset test:** BBCE also removes the asset test from consideration, though the Fox13 report describes this as applying to some households.\n- **Net income test:** This stays at 100% FPL. Per the Sycamore summary, net income excludes child support payments, a dependent care deduction, and a 20% deduction for earned income. Gross income, however, includes income from all sources (i.e., wages, cash assistance, Social Security, unemployment, and child support) before any deductions.\n- **Child support in practice:** The TDHS-linked flyer tells applicants to submit household expenses for net income – housing, child support, medical expenses, etc.\n- **Sources to treat cautiously:** The 200% FPL monthly and annual figures for 2026 come from a calculator site (daycarecalc) citing USDA FNS poverty guidelines. The LegalClarity page still shows the older 130% figures for the October 2025–September 2026 benefit year. Neither is an official TDHS source.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.fns.usda.gov/snap/allotment/cola",
+      "prompt": "FY2027 (Oct 2026) SNAP: gross and net monthly income limits for household of 1, standard deduction, max allotment for 1 person, min benefit, shelter cap, standard utility allowances rules."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap.html",
+      "prompt": "SNAP income limits, how to apply, phone number, website, deductions such as child support, broad-based categorical eligibility, asset test."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/fna.snap-cola2027.pdf",
+      "prompt": "FY2027 SNAP: standard deduction, max allotment for household of 1, minimum benefit, shelter deduction cap, income eligibility standards for household of 1."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tnjustice.org/post/bbce",
+      "prompt": "What changed in Tennessee SNAP income limits (BBCE)? Gross limit 200% FPL for 1 person, net limit, deductions, effective date, asset test."
+     },
+     "result": "Based only on the page:\n\n- **Gross income limit:** Raised to 200% of the Federal Poverty Limit (FPL). For a one-person household, the monthly gross limit is $2,608.\n- **Net income limit:** Stays at 100% FPL. The page gives no dollar figure for it.\n- **Deductions:** The page doesn't address deductions.\n- **Effective date:** The page doesn't state one. It says only that Tennessee \"adopted\" BBCE, and the post is dated \"Aug 19\" without a year.\n- **Asset test:** Removed. The page says families previously denied for exceeding liquid resource limits should reapply.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://sycamoretn.org/snap-in-tn/",
+      "prompt": "Tennessee SNAP: gross and net income limits, deductions (child support, standard, shelter, utility), BBCE status, how to apply, phone number."
+     },
+     "result": "**Income limits (family of four, per the article)**\n- **Gross monthly income:** 130% of poverty, or $3,483. This counts all income sources, such as wages, Social Security, and child support, before deductions.\n- **Net monthly income:** 100% of poverty, or $2,680. This is calculated after certain exclusions, including the home, child support payments, a dependent care deduction, and a 20% deduction for earned income.\n\n**Deductions**\n- **Child support:** Child support payments are excluded from net income, but child support received counts toward gross income.\n- **Dependent care and earned income:** The article describes these as net income deductions.\n- **Standard, shelter, and utility deductions:** The article does not address these.\n\n**BBCE status**\nBroad-based categorical eligibility is not yet changed. TDHS is pursuing changes to state BBCE rules, which require Tennessee General Assembly approval. The goal is to simplify SNAP income limits and align them with TANF. The article cites Notice of Rulemaking Hearing 1240-01-14.\n\n**How to apply**\nThe article does not describe application steps. It notes that TDHS enrolls individuals and verifies eligibility. For application details, see the TDHS page cited in the article: https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap/applying-for-services.html\n\n**Phone number**\nThe article does not include a phone number.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.propel.app/snap/snap-2026-2027-cola-increase/",
+      "prompt": "FY2027 SNAP household of 1: max allotment, standard deduction, minimum benefit, net income limit, shelter cap."
+     },
+     "result": "For a one-person household in the 48 contiguous states and D.C., FY2027 (starting October 1, 2026) figures are:\n\n- **Maximum monthly benefit:** $306, up $8 from $298.\n- **Standard deduction:** $217, up from $209.\n- **Minimum monthly benefit:** $25, up from $24.\n- **Net monthly income limit:** $1,330, up from $1,305.\n- **Maximum excess shelter deduction (shelter cap):** $769, up from $744. This applies when your rent and utilities exceed half of your net income.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.0841909,
+   "duration_ms": 40019,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "**It looks unlikely that you'd get a monthly SNAP payment right now, but you can still apply.** Only TDHS can decide.\n\n**Why**\n- Your income is low enough to pass the income tests. I explained those in my last message.\n- The amount is the problem. Here is the math, using the figures I found:\n  - $1,600 income before taxes\n  - minus $217 standard deduction\n  - minus $300 child support you pay\n  - equals about **$1,083**\n- SNAP expects you to spend about 30% of that on food, which is about $325. The most SNAP pays one person is $306 ([Propel summary of USDA's 2026-27 numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/)). So the estimate comes out to $0.\n- Housing costs are the deduction that could change this, and you don't have any. The $300 in child support is not counted as income ([Sycamore Institute](https://sycamoretn.org/snap-in-tn/)).\n\n**When it could change**\n- You start paying rent or utilities. Rent or utilities of about $690 a month or more could bring a small benefit.\n- Your unemployment ends or drops. Lower income means a higher benefit.\n- Tell the office about these changes, and you can reapply at any time.\n\n**Things to know**\n- I couldn't open the official USDA or TDHS pages, so these numbers come from the secondary sources linked above. The caseworker will use the official rules.\n- If you and your friend buy and cook food together, they may count as part of your household. A caseworker would work that out.\n- Report your income and household accurately. If you're paid too much, you'd have to pay it back.\n\n**Next steps**\n- Apply at the [TDHS apply page](https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap/applying-for-services.html). I couldn't confirm a phone number, so you can call 211 for free local help.\n- Applying costs nothing, and the caseworker will check the numbers.\n\nI can also check TennCare health coverage for you if you'd like. Your income might matter there too.",
+   "tool_calls": [],
+   "cost_usd": 0.09961,
+   "duration_ms": 7487,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.1884,
+ "sim_cost_usd": 0.0014,
+ "wall_seconds": 60.2
+}

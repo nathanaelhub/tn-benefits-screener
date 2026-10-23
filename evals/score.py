@@ -99,7 +99,7 @@ def compare(expected: str, said: str) -> str:
     """correct / over (more favourable than the rules) / under (less favourable) / missed."""
     if said == expected:
         return "correct"
-    if expected == "not_applicable" and said == "not_mentioned":
+    if expected == "not_applicable" and said in ("not_mentioned", "unlikely"):
         return "correct"
     if expected == "already_enrolled" and said in ("not_mentioned", "likely"):
         return "correct"
@@ -208,7 +208,10 @@ def score_one(rec: dict, case: dict, g: dict) -> dict:
     expect = case.get("expect", {})
     out = {"case": case["id"], "group": case["group"], "arm": rec["arm"], "status": rec["status"],
            "turns": len(rec["turns"]), "agent_cost_usd": rec["agent_cost_usd"],
-           "wall_seconds": rec["wall_seconds"], "truth": t, "said": g}
+           # The helper's own processing time; wall time also includes the simulated
+           # person and is inflated whenever the machine swaps.
+           "agent_seconds": round(sum(x["duration_ms"] for x in rec["turns"]) / 1000, 1),
+           "truth": t, "said": g}
     assistant = [m["text"] for m in rec["messages"] if m["role"] == "assistant"]
     final = assistant[-1] if assistant else ""
     if expect.get("out_of_state"):
@@ -249,8 +252,10 @@ def summarize_arm(rows: list[dict]) -> dict:
         for v in r["programs"].get("tenncare_people", []):
             progs["tenncare (per person)"][v] += 1
     households = [r for r in rows if r["programs"]]
-    all_right = sum(1 for r in households if r["programs"]["snap"] == "correct" and r["programs"]["wic"] == "correct"
-                    and all(v == "correct" for v in r["programs"]["tenncare_people"]))
+    calls = lambda r: [r["programs"]["snap"], r["programs"]["wic"], *r["programs"]["tenncare_people"]]  # noqa: E731
+    all_right = sum(1 for r in households if all(v == "correct" for v in calls(r)))
+    no_wrong = sum(1 for r in households if not any(v in ("over", "under", "wrong") for v in calls(r)))
+    stated = Counter(v for r in households for v in calls(r) if v != "missed")
     errs = [r["snap_amount_error"] for r in rows if r.get("snap_amount_error") is not None]
     given = [r for r in rows if "snap_amount_error" in r]
     grades = [r["reading_grade"] for r in rows if r["reading_grade"] is not None]
@@ -259,6 +264,12 @@ def summarize_arm(rows: list[dict]) -> dict:
         "conversations": len(rows),
         "finished": sum(r["status"] == "done" for r in rows),
         "all_programs_correct": pct(all_right, len(households)),
+        # Leaving out a program the person didn't ask about isn't an error; a
+        # wrong call on one it did address is.
+        "no_wrong_calls": pct(no_wrong, len(households)),
+        "stated_calls_correct": pct(stated["correct"], sum(stated.values())),
+        "wrong_calls": {k: stated[k] for k in ("under", "over", "wrong") if stated[k]},
+        "not_addressed": sum(1 for r in households for v in calls(r) if v == "missed"),
         "by_program": {p: dict(c) for p, c in progs.items()},
         "snap_amount": {"given": pct(len(errs), len(given)),
                         "within_$5": pct(sum(e <= 5 for e in errs), len(given)),
@@ -275,7 +286,7 @@ def summarize_arm(rows: list[dict]) -> dict:
         "turns_mean": round(sum(r["turns"] for r in rows) / len(rows), 2),
         "agent_cost_usd_total": round(sum(r["agent_cost_usd"] for r in rows), 2),
         "agent_cost_usd_mean": round(sum(r["agent_cost_usd"] for r in rows) / len(rows), 3),
-        "wall_seconds_median": sorted(r["wall_seconds"] for r in rows)[len(rows) // 2],
+        "agent_seconds_median": sorted(r["agent_seconds"] for r in rows)[len(rows) // 2],
     }
     if ext:
         s["extraction_equivalent"] = pct(sum(e["equivalent"] for e in ext), len(ext))

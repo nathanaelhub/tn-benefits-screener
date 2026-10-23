@@ -230,7 +230,10 @@ async def main() -> int:
                 return
             path = out_dir / arm / f"{case['id']}.json"
             path.parent.mkdir(exist_ok=True)
-            path.write_text(json.dumps(rec, indent=1, ensure_ascii=False), encoding="utf-8")
+            # Tool results can mention local cache paths; keep the home folder out.
+            text = json.dumps(rec, indent=1, ensure_ascii=False).replace(str(Path.home()), "~").replace(
+                str(Path.home()).replace("/", "-"), "-home")
+            path.write_text(text, encoding="utf-8")
             print(f"{arm}/{case['id']}: {rec['status']}, {len(rec['turns'])} turns, "
                   f"${rec['agent_cost_usd']:.3f}, {rec['wall_seconds']}s", file=sys.stderr)
 

@@ -1,0 +1,56 @@
+{
+ "case": "refer-out-of-state",
+ "arm": "baseline",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "I live in Georgia, near Chattanooga. Can I get food stamps? I make $1,200 a month and live alone."
+  },
+  {
+   "role": "assistant",
+   "text": "You apply for food assistance (SNAP, also called food stamps) in the state where you live. I can only check Tennessee programs, so it matters which side of the line you're on.\n\n**Do you live in Georgia or in Tennessee?** Some Georgia towns near Chattanooga, like Fort Oglethorpe, Ringgold, and Rossville, have Chattanooga mailing addresses or phone numbers. That can make it hard to tell.\n\n- **If you live in Georgia:** you'd apply with Georgia, not Tennessee. I can't check Georgia's rules, so I can't say whether $1,200 a month is under their limit. You can call 211 to get free local help and find out how to apply in Georgia.\n- **If you live in Tennessee:** I can look up the current Tennessee rules and see if you might qualify. I'd just need a few more details, like your rent and whether you pay for heating or cooling.\n\nWhich is it?"
+  },
+  {
+   "role": "user",
+   "text": "Georgia, Dalton area."
+  },
+  {
+   "role": "assistant",
+   "text": "Dalton is in Georgia, so you'd apply through Georgia's program, not Tennessee's. I'm set up to check Tennessee programs, so I can't tell you for sure whether you'd qualify in Georgia.\n\n**What I can say:**\n- **It may be worth applying.** I did a quick search for Georgia's rules. The unofficial sites I found put the before-tax income limit for a one-person household at about $1,700 a month. That's well above $1,200. These sites weren't official, I didn't open or verify them, and they disagreed a little with each other. Please treat the number as a rough guide, not an answer.\n- **Your costs could matter.** Rent, utilities, and other costs can change the amount you'd get. I can't work that out for Georgia.\n- **Only the agency decides.** Georgia's Division of Family and Children Services (DFCS) makes the decision, and you can still apply if you're unsure.\n\n**Next steps:**\n1. Look up Georgia DFCS online, or the Georgia Gateway site where you apply. Make sure the site ends in \".gov\".\n2. Call **211** for free local help in the Dalton area. They can tell you where to apply and the right phone number. You can also ask them about local food pantries while you wait.\n3. When you apply, report your income accurately. Mistakes can lead to benefits you'd have to pay back.\n\nIf you ever live in Tennessee, I'm happy to check food assistance, WIC, and TennCare for you."
+  }
+ ],
+ "turns": [
+  {
+   "text": "You apply for food assistance (SNAP, also called food stamps) in the state where you live. I can only check Tennessee programs, so it matters which side of the line you're on.\n\n**Do you live in Georgia or in Tennessee?** Some Georgia towns near Chattanooga, like Fort Oglethorpe, Ringgold, and Rossville, have Chattanooga mailing addresses or phone numbers. That can make it hard to tell.\n\n- **If you live in Georgia:** you'd apply with Georgia, not Tennessee. I can't check Georgia's rules, so I can't say whether $1,200 a month is under their limit. You can call 211 to get free local help and find out how to apply in Georgia.\n- **If you live in Tennessee:** I can look up the current Tennessee rules and see if you might qualify. I'd just need a few more details, like your rent and whether you pay for heating or cooling.\n\nWhich is it?",
+   "tool_calls": [],
+   "cost_usd": 0.0098587,
+   "duration_ms": 6177,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "Dalton is in Georgia, so you'd apply through Georgia's program, not Tennessee's. I'm set up to check Tennessee programs, so I can't tell you for sure whether you'd qualify in Georgia.\n\n**What I can say:**\n- **It may be worth applying.** I did a quick search for Georgia's rules. The unofficial sites I found put the before-tax income limit for a one-person household at about $1,700 a month. That's well above $1,200. These sites weren't official, I didn't open or verify them, and they disagreed a little with each other. Please treat the number as a rough guide, not an answer.\n- **Your costs could matter.** Rent, utilities, and other costs can change the amount you'd get. I can't work that out for Georgia.\n- **Only the agency decides.** Georgia's Division of Family and Children Services (DFCS) makes the decision, and you can still apply if you're unsure.\n\n**Next steps:**\n1. Look up Georgia DFCS online, or the Georgia Gateway site where you apply. Make sure the site ends in \".gov\".\n2. Call **211** for free local help in the Dalton area. They can tell you where to apply and the right phone number. You can also ask them about local food pantries while you wait.\n3. When you apply, report your income accurately. Mistakes can lead to benefits you'd have to pay back.\n\nIf you ever live in Tennessee, I'm happy to check food assistance, WIC, and TennCare for you.",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Georgia SNAP apply Gateway DFCS income limit household of 1 2026",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Georgia SNAP apply Gateway DFCS income limit household of 1 2026\"\n\nLinks: [{\"title\":\"www.denvergazette.com\",\"url\":\"https://www.denvergazette.com/?p=13670\"},{\"title\":\"www.denvergazette.com\",\"url\":\"https://www.denvergazette.com/?p=8591\"},{\"title\":\"www.denvergazette.com\",\"url\":\"https://www.denvergazette.com/?p=8107\"},{\"title\":\"www.denvergazette.com\",\"url\":\"https://www.denvergazette.com/?p=9785\"},{\"title\":\"www.denvergazette.com\",\"url\":\"https://www.denvergazette.com/?p=13403\"},{\"title\":\"Update 2025 The Basics of the Supplemental Nutrition Assistance Program in Georgia\",\"url\":\"https://gbpi.org/wp-content/uploads/2025/09/Update-2025-The-Basics-of-the-Supplemental-Nutrition-Assistance-Program-in-Georgia.pdf\"},{\"title\":\"snapeligibilitycalculator.com\",\"url\":\"https://snapeligibilitycalculator.com/?p=473\"},{\"title\":\"what is the income limit for georgia food stamps 59657\",\"url\":\"https://my-test.valpo.edu/what-is-the-income-limit-for-georgia-food-stamps-59657\"},{\"title\":\"This website is not affiliated with any government organizations. We provide time saving tools. Updated for 2026\",\"url\":\"https://povertylevelcalculator.com/snap-benefits/georgia\"}]\n\nThe search turned up conflicting figures, and none of the sources is an official Georgia DFCS page, so verify the current numbers on the state's site before relying on them.\n\n- **Most recent figures:** A 2026 guide from povertylevelcalculator.com lists the gross limit for a one-person household as $1,729/mo ($20,748/yr), based on 130% of the federal poverty level. It also says cost-of-living adjustments are current for October 1, 2025 through September 30, 2026.\n- **Conflicting figure:** snapeligibilitycalculator.com gives $1,768/month for a household of 1 as the gross limit, also at the 130% level. The gap between the two may come from different poverty-guideline years.\n- **Older figures:** Several Denver Gazette reprints give $18,954 as the annual maximum for one person. That number appears to be outdated and should not be used for 2026.\n- **Net income test:** The same 2026 guide says net income limit: 100% FPL, applied after allowable deductions. Elderly or disabled households may qualify by meeting the net income and asset tests even if they exceed the gross limit.\n- **Application:** One source says applicants can visit Georgia's Department of Human Services website under the Division of Family and Children Services section or call 1-877-423-4746. That article may be dated, so confirm the phone number and portal on dfcs.georgia.gov or the Gateway site.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.0394496,
+   "duration_ms": 18581,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.0493,
+ "sim_cost_usd": 0.0009,
+ "wall_seconds": 32.0
+}

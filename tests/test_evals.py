@@ -20,7 +20,8 @@ CASES = json.loads((EVALS / "cases.json").read_text(encoding="utf-8"))
 @pytest.mark.parametrize("expected, said, verdict", [
     ("likely", "likely", "correct"), ("possibly", "likely", "over"), ("likely", "unlikely", "under"),
     ("refer", "likely", "over"), ("not_applicable", "not_mentioned", "correct"),
-    ("likely", "not_mentioned", "missed"), ("already_enrolled", "not_mentioned", "correct")])
+    ("likely", "not_mentioned", "missed"), ("already_enrolled", "not_mentioned", "correct"),
+    ("not_applicable", "unlikely", "correct")])
 def test_compare(expected, said, verdict):
     assert score.compare(expected, said) == verdict
 

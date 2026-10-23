@@ -1,0 +1,92 @@
+{
+ "case": "refer-college-student",
+ "arm": "baseline",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "I'm a full-time college student at MTSU and broke. Can I get food stamps?"
+  },
+  {
+   "role": "assistant",
+   "text": "Maybe. College students have extra rules for food assistance (SNAP, once called food stamps), but many can still get it.\n\n**What I found**\n- Tennessee's rules say a student enrolled at least half time must meet one extra condition. Examples are working about 20 hours a week (80 hours a month), being in a work-study program, or caring for a young child. This is from search summaries of the state's student policy, Tennessee DHS Policy 24.27. I couldn't open the official pages myself, so please treat it as a first look. Other exemptions may apply, such as getting a disability benefit or being a single parent of a child under 12.\n- If you live on campus and a meal plan covers more than half your meals, you generally can't get SNAP.\n- A student who meets one of these conditions still has to meet the regular income limits.\n\nI'm not going to say whether you might qualify yet. I need a few details, and I'll then check the current income limits.\n\n1. Do you have a job or a work-study award? If you have a job, about how many hours a week do you work?\n2. Do you live on campus with a meal plan, and do you have any kids?\n\nOnce I know that, I'll ask a few quick questions about your household, income, and rent.\n\n**Sources** (search results only, not pages I could open)\n- [Tennessee DHS Policy 24.27, SNAP Students in Higher Education](https://TN.gov/content/dam/tn/human-services/documents/Policy%2024.27%20SNAP%20Students%20in%20Higher%20Educ.pdf)\n- [Mass Legal Services: SNAP rules for college students](https://www.masslegalservices.org/food4students)\n\nOnly the Tennessee Department of Human Services (DHS) decides who gets SNAP. You can still apply even if it looks unlikely. For free local help, call 211."
+  },
+  {
+   "role": "user",
+   "text": "yeah I have a job, about 10 hours a week. no work-study. I live in an apartment off campus, not in the dorms, and I don't have a meal plan. no kids."
+  },
+  {
+   "role": "assistant",
+   "text": "Thanks. With about 10 hours a week and no work-study, SNAP looks **unlikely** for now. The usual work condition for half-time or full-time students is about 20 hours a week (80 hours a month). You can still apply, and only Tennessee DHS decides.\n\nA few other things can also count as a student exemption. Do any of these fit you?\n- You have a disability, or you get disability benefits (like SSI).\n- You get Families First (TANF) cash help.\n- You're in a job-training program run through the state.\n- You're under 18, or 50 or older.\n\nAlso, is there any chance of picking up more hours? Averaging 80 hours a month (about 18.5 a week) would meet the work condition. Your hours might also vary week to week, so tell me if they do.\n\nIf none of these fit, I can still help with other options. For example, some students may qualify for TennCare (health coverage) or find campus food pantries. If you want, I can look up MTSU's pantry and what else is available.\n\nSource: [Tennessee DHS Policy 24.27, SNAP Students in Higher Education](https://TN.gov/content/dam/tn/human-services/documents/Policy%2024.27%20SNAP%20Students%20in%20Higher%20Educ.pdf). I only saw this through search results because the file wouldn't open for me. For free local help, call 211."
+  }
+ ],
+ "turns": [
+  {
+   "text": "Maybe. College students have extra rules for food assistance (SNAP, once called food stamps), but many can still get it.\n\n**What I found**\n- Tennessee's rules say a student enrolled at least half time must meet one extra condition. Examples are working about 20 hours a week (80 hours a month), being in a work-study program, or caring for a young child. This is from search summaries of the state's student policy, Tennessee DHS Policy 24.27. I couldn't open the official pages myself, so please treat it as a first look. Other exemptions may apply, such as getting a disability benefit or being a single parent of a child under 12.\n- If you live on campus and a meal plan covers more than half your meals, you generally can't get SNAP.\n- A student who meets one of these conditions still has to meet the regular income limits.\n\nI'm not going to say whether you might qualify yet. I need a few details, and I'll then check the current income limits.\n\n1. Do you have a job or a work-study award? If you have a job, about how many hours a week do you work?\n2. Do you live on campus with a meal plan, and do you have any kids?\n\nOnce I know that, I'll ask a few quick questions about your household, income, and rent.\n\n**Sources** (search results only, not pages I could open)\n- [Tennessee DHS Policy 24.27, SNAP Students in Higher Education](https://TN.gov/content/dam/tn/human-services/documents/Policy%2024.27%20SNAP%20Students%20in%20Higher%20Educ.pdf)\n- [Mass Legal Services: SNAP rules for college students](https://www.masslegalservices.org/food4students)\n\nOnly the Tennessee Department of Human Services (DHS) decides who gets SNAP. You can still apply even if it looks unlikely. For free local help, call 211.",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "SNAP college student eligibility rules half time exemptions work study 20 hours USDA",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"SNAP college student eligibility rules half time exemptions work study 20 hours USDA\"\n\nLinks: [{\"title\":\"Brochure SNAP FA 11.2024 Web 1\",\"url\":\"https://niagara.edu/wp-content/uploads/2024/12/Brochure_SNAP_FA_11.2024_Web-1.pdf\"},{\"title\":\"Contact Us\",\"url\":\"https://www.american.edu/student-affairs/the-market/snap.cfm\"},{\"title\":\"SNAP Eligibility Rules/Rights for College Students\",\"url\":\"https://www.masslegalservices.org/food4students\"},{\"title\":\"SNAP for College Students in CO: Eligibility, Benefits & How to Apply\",\"url\":\"https://communityfoodshare.org/?p=25500\"},{\"title\":\"SNAP for College Students\",\"url\":\"https://ldh.la.gov/page/snap-for-college-students\"},{\"title\":\"SNAP Eligibility Rules/Rights for College Students\",\"url\":\"https://www.masslegalservices.org/node/25573\"},{\"title\":\"SNAP Community College FAQs 10 2018\",\"url\":\"https://www.racc.edu/sites/default/files/Records-FA/SNAP-Community-College-FAQs-10-2018.pdf\"},{\"title\":\"SNAP for College Students An Overview\",\"url\":\"https://www.clasp.org/sites/default/files/publications/2017/10/SNAP for College Students-An Overview.pdf\"},{\"title\":\"SNAP Eligibility Rules/Rights for College Students\",\"url\":\"https://www.masslegalservices.org/content/snap-eligibility-rulesrights-college-students\"},{\"title\":\"www.sfa.ufl.edu\",\"url\":\"https://www.sfa.ufl.edu/?p=2493\"}]\n\nSearch results describe the core rules, but none of them is the USDA's own page, so treat these as secondary summaries and check the USDA guidance directly.\n\n- **Half-time threshold:** Enrollment below half-time generally avoids the student rules. Students enrolled less than half-time need only meet the standard SNAP income and eligibility rules, with no special student criteria. Half-time is set by each school. The institution of higher education determines what counts as half-time enrollment.\n\n- **Work-hours exemption:** Students at half-time or more typically need one exemption. Working 20 hours is the main one. Some states average hours over a month rather than applying a weekly test. Many states have received a waiver allowing them to average hours of employment over month. Louisiana's version uses an average of 20 hours per week or 80 hours per month.\n\n- **Work-study exemption:** Participation in a federal or state work-study program qualifies. Massachusetts goes further and counts students who were awarded work study and have not refused a work study job. Other states may apply it differently, so check your state's rules.\n\n- **Other exemptions:** The list also includes caring for a child under 6, caring for a child aged 6 to 11 when no child care is available, certain single parents, disability, on-the-job training, TANF, and being under 18 or 50 or older. Students who meet an exemption must also meet all other SNAP eligibility requirements.\n\n- **Meal plans:** If you live on campus and your meal plan covers more than half of your meals, you are generally not eligible for SNAP.\n\n- **Exempt from the student rules does not mean exempt from everything:** The standard income limits and general SNAP requirements still apply. Some sources say the ABAWD 3-month time limit and work rules do not apply to students who qualify as an eligible student.\n\nRules vary by state, and the sources above include state-specific pages (Massachusetts, Louisiana, Colorado, Pennsylvania). The USDA's \"SNAP Benefits for Students\" page is the authoritative federal reference, but it did not appear in these results.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP college students eligibility Department of Human Services",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP college students eligibility Department of Human Services\"\n\nLinks: [{\"title\":\"07a490 c1817357d7dc41c991abc48224d4e704\",\"url\":\"https://www.tnjustice.org/_files/ugd/07a490_c1817357d7dc41c991abc48224d4e704.pdf\"},{\"title\":\"Navigating Food Stamps in Tennessee: A Comprehensive Guide to SNAP Benefits\",\"url\":\"https://001.arktimes.com/?p=20789\"},{\"title\":\"tn.gov\",\"url\":\"https://TN.gov/content/dam/tn/human-services/documents/Policy%2024.27%20SNAP%20Students%20in%20Higher%20Educ.pdf\"},{\"title\":\"Snap Flyer%202021\",\"url\":\"https://www.southwest.tn.edu/coronavirus-1/docs/Snap_Flyer%202021.pdf\"},{\"title\":\"www.tn.gov\",\"url\":\"https://www.tn.gov/content/dam/tn/thec/learn-about/taskforces/food_insecurity/DHS%20student%20eligibility.pdf\"},{\"title\":\"icoastalnet.com\",\"url\":\"https://monitor1.icoastalnet.com/?p=31609\"},{\"title\":\"Navigating the Tennessee Food Stamp Program: A Comprehensive Guide to SNAP Benefits\",\"url\":\"https://2fwww.arktimes.com/?p=31609\"},{\"title\":\"food stamp qualifications in tennessee\",\"url\":\"https://muralmap.aws-dev.swarthmore.edu/food-stamp-qualifications-in-tennessee\"},{\"title\":\"Tennessee SNAP Benefits for College Students College SNAP Project\",\"url\":\"https://dspace.hcmus.edu.vn/granddaughters/tennessee-snap-portal.html\"}]\n\nThe search turned up the state's official college-student guidance, plus several secondary sites of mixed quality.\n\n**Official sources:**\n- The Tennessee DHS policy 24.27 (effective May 2019) governs SNAP for students in higher education. It says a student who meets none of the student eligibility criteria is ineligible. A student who does not meet any of the student eligibility criteria is ineligible to participate in SNAP.\n- A TN.gov student eligibility guide lists the qualifying conditions as yes/no questions. These include being enrolled at least half-time while working a set number of hours, participating in work-study, or caring for a young child. It also notes that students who live in dorms and receive more than half their meals from a meal plan are not eligible for SNAP benefits. Qualifying students are subject to the regular income and asset limits for SNAP eligibility.\n- A TN.gov college guide lists qualifying categories including work-study, working 80 hours per month, caring for a child under 6, a single parent enrolled full-time with a child under 12, and receiving TANF or Social Security benefits.\n\n**Secondary sources:**\n- Several general guides say college students face stricter rules and generally must be enrolled at least half-time unless they meet an exemption. These are not official and some are thin, so they should be checked against DHS.\n- A 2021 college flyer describes a temporary federal expansion tied to the 2020–2021 academic year and EFC of 0. That expansion was temporary, so it likely no longer applies.\n\n**Applying:** Applications can be submitted online through the state's DHS portal or in person at a local DHS county office.\n\nThe official policy and TN.gov guides are the most reliable for current rules, and the income limits should be confirmed on the DHS website, since they change.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/content/dam/tn/thec/learn-about/taskforces/food_insecurity/DHS%20student%20eligibility.pdf",
+      "prompt": "List the student exemptions for SNAP in Tennessee and any other conditions (meal plan, income, etc.)."
+     },
+     "result": "The server returned HTTP 404 Not Found.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://TN.gov/content/dam/tn/human-services/documents/Policy%2024.27%20SNAP%20Students%20in%20Higher%20Educ.pdf",
+      "prompt": "List the student exemptions for SNAP eligibility in Tennessee (work hours, work study, child care, etc.) and other conditions."
+     },
+     "result": "The content you pasted doesn't include any readable text about SNAP or Tennessee. It's compressed, binary PDF data (streams like `FlateDecode` and font objects) and is cut off partway through, so I can't identify any student exemptions or eligibility conditions in it.\n\nTo get an answer from the document, you could:\n- Paste the readable text from the relevant pages, such as the SNAP policy or student eligibility section.\n- Extract the text from the PDF with a tool like `pdftotext` or by copying it from a PDF viewer, then paste that.\n- Share the specific page or URL, if you can access it through a browser or tool that can read it.\n\nOnce I have the actual text, I'll list the exemptions and conditions it describes.\n\n[Binary content (application/pdf, 265.9KB) also saved to ~/.claude/projects/-Users-user-opt-program-portfolio-projects-tn-benefits-screener/23b0f378-334d-4dac-b9b9-001f44e7ae55/tool-results/webfetch-1792713512849-7fy2e1.pdf]",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.fns.usda.gov/snap/students",
+      "prompt": "What are the SNAP student eligibility rules and exemptions for students enrolled half time or more?"
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.06682070000000001,
+   "duration_ms": 28065,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "Thanks. With about 10 hours a week and no work-study, SNAP looks **unlikely** for now. The usual work condition for half-time or full-time students is about 20 hours a week (80 hours a month). You can still apply, and only Tennessee DHS decides.\n\nA few other things can also count as a student exemption. Do any of these fit you?\n- You have a disability, or you get disability benefits (like SSI).\n- You get Families First (TANF) cash help.\n- You're in a job-training program run through the state.\n- You're under 18, or 50 or older.\n\nAlso, is there any chance of picking up more hours? Averaging 80 hours a month (about 18.5 a week) would meet the work condition. Your hours might also vary week to week, so tell me if they do.\n\nIf none of these fit, I can still help with other options. For example, some students may qualify for TennCare (health coverage) or find campus food pantries. If you want, I can look up MTSU's pantry and what else is available.\n\nSource: [Tennessee DHS Policy 24.27, SNAP Students in Higher Education](https://TN.gov/content/dam/tn/human-services/documents/Policy%2024.27%20SNAP%20Students%20in%20Higher%20Educ.pdf). I only saw this through search results because the file wouldn't open for me. For free local help, call 211.",
+   "tool_calls": [],
+   "cost_usd": 0.07709670000000002,
+   "duration_ms": 6535,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.1439,
+ "sim_cost_usd": 0.0009,
+ "wall_seconds": 41.9
+}

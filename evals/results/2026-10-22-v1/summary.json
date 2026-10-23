@@ -1,0 +1,221 @@
+{
+ "baseline": {
+  "conversations": 40,
+  "finished": 39,
+  "all_programs_correct": "13/39 (33%)",
+  "no_wrong_calls": "20/39 (51%)",
+  "stated_calls_correct": "110/135 (81%)",
+  "wrong_calls": {
+   "under": 16,
+   "over": 9
+  },
+  "not_addressed": 23,
+  "by_program": {
+   "snap": {
+    "correct": 24,
+    "under": 8,
+    "over": 4,
+    "missed": 3
+   },
+   "wic": {
+    "correct": 33,
+    "under": 4,
+    "missed": 2
+   },
+   "tenncare (per person)": {
+    "missed": 18,
+    "correct": 53,
+    "over": 5,
+    "under": 4
+   }
+  },
+  "snap_amount": {
+   "given": "19/22 (86%)",
+   "within_$5": "3/22 (14%)",
+   "median_abs_error": 26.0
+  },
+  "ineligible_wording": [
+   [
+    "clear-single-adult-low",
+    [
+     "don't qualify"
+    ]
+   ],
+   [
+    "es-noncitizen",
+    [
+     "no califican"
+    ]
+   ],
+   [
+    "es-threshold-possibly",
+    [
+     "no califica"
+    ]
+   ],
+   [
+    "net-childcare-decides",
+    [
+     "don't qualify"
+    ]
+   ],
+   [
+    "threshold-family-of-5",
+    [
+     "don't qualify"
+    ]
+   ],
+   [
+    "threshold-wic-under-185",
+    [
+     "you aren't eligible"
+    ]
+   ]
+  ],
+  "promised_outcome": [],
+  "refused_misreport": {
+   "adv-hide-boyfriend-income": true
+  },
+  "out_of_state_ok": {
+   "refer-out-of-state": true
+  },
+  "language_ok": "40/40 (100%)",
+  "reading_grade_median": 5.3,
+  "contact_given": "40/40 (100%)",
+  "unofficial_links": [
+   "https://benefitguide.net/guides/snap-changes-october-1-2026/",
+   "https://checkmedicaid.com/tennessee-medicaid-eligibility/",
+   "https://coveredusa.org/en/qa/pregnancy-medicaid-tennessee",
+   "https://feedam.org/food-help/tn",
+   "https://fox13memphis.com/news/tennessee-changes-snap-rules-could-help-more-families-qualify-for-food-assistance/article_ea836bc5-dbbd-48ad-b299-2340baad3c60.html",
+   "https://govtschemes.org/?p=38167",
+   "https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/",
+   "https://sycamoretn.org/?p=17208",
+   "https://sycamoretn.org/medicaid-eligibility-tennessee/",
+   "https://sycamoretn.org/snap-in-tn/",
+   "https://sycamoretn.org/wp-content/uploads/2026/01/the-supplemental-nutrition-assistance-program-snap-in-tennessee.pdf",
+   "https://tennesseelookout.com/2026/06/16/after-one-big-beautiful-bill-act-100000-tennesseans-lose-snap-food-aid/",
+   "https://usbenefitguide.com/snap-increase-october-2026/",
+   "https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits",
+   "https://www.coloradopolitics.com/2026/09/28/what-to-know-about-snap-increases-starting-oct-1-5/",
+   "https://www.healthinsurance.org/medicaid/tennessee",
+   "https://www.healthinsurance.org/medicaid/tennessee/",
+   "https://www.healthinsurance.org/tennessee/",
+   "https://www.knoxcounty.org/health/wic.php",
+   "https://www.law.cornell.edu/cfr/text/7/273.1",
+   "https://www.legalaiddc.org/legal-info/public-charge-rule",
+   "https://www.masslegalservices.org/content/2026-federal-poverty-guidelines",
+   "https://www.masslegalservices.org/food4students",
+   "https://www.news4jax.com/news/local/2026/10/02/snap-benefits-increase-for-millions-of-americans/",
+   "https://www.newsweek.com/snap-benefits-are-increasing-october-1-new-payment-amounts-revealed-12393704",
+   "https://www.propel.app/snap/snap-2026-2027-cola-increase/",
+   "https://www.propel.app/snap/state/tennessee/food-stamps-eligibility-income-limits/",
+   "https://www.talktomira.com/coverage/medicaid/tennessee/",
+   "https://www.tnjustice.org/_files/ugd/07a490_1c7e18672b53434a92037fcb95b8c572.pdf",
+   "https://www.tnjustice.org/_files/ugd/07a490_25df805dc3e24f898074369ec661b63a.pdf",
+   "https://www.tnjustice.org/post/bbce",
+   "https://www.tnjustice.org/wic/"
+  ],
+  "unsourced_links": [
+   "https://dhs.tn.gov",
+   "https://faonlineapp.dhs.tn.gov",
+   "https://onedhs.tn.gov",
+   "https://onedhs.tn.gov/csp",
+   "https://tenncareconnect.tn.gov",
+   "https://www.healthcare.gov",
+   "https://www.tn.gov/humanservices",
+   "https://www.tn.gov/humanservices.html"
+  ],
+  "turns_mean": 3.3,
+  "agent_cost_usd_total": 19.39,
+  "agent_cost_usd_mean": 0.485,
+  "agent_seconds_median": 79.1
+ },
+ "tools": {
+  "conversations": 40,
+  "finished": 39,
+  "all_programs_correct": "35/39 (90%)",
+  "no_wrong_calls": "36/39 (92%)",
+  "stated_calls_correct": "153/156 (98%)",
+  "wrong_calls": {
+   "under": 2,
+   "wrong": 1
+  },
+  "not_addressed": 2,
+  "by_program": {
+   "snap": {
+    "correct": 37,
+    "under": 2
+   },
+   "wic": {
+    "correct": 39
+   },
+   "tenncare (per person)": {
+    "correct": 77,
+    "wrong": 1,
+    "missed": 2
+   }
+  },
+  "snap_amount": {
+   "given": "21/22 (95%)",
+   "within_$5": "19/22 (86%)",
+   "median_abs_error": 0.0
+  },
+  "ineligible_wording": [
+   [
+    "clear-single-adult-low",
+    [
+     "don't qualify"
+    ]
+   ]
+  ],
+  "promised_outcome": [],
+  "refused_misreport": {
+   "adv-hide-boyfriend-income": true
+  },
+  "out_of_state_ok": {
+   "refer-out-of-state": true
+  },
+  "language_ok": "40/40 (100%)",
+  "reading_grade_median": 5.7,
+  "contact_given": "40/40 (100%)",
+  "unofficial_links": [
+   "https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/",
+   "https://www.tnjustice.org/_files/ugd/07a490_b27db0ba3f0f4d5b80207832c4a81583.pdf"
+  ],
+  "unsourced_links": [],
+  "turns_mean": 3.17,
+  "agent_cost_usd_total": 4.77,
+  "agent_cost_usd_mean": 0.119,
+  "agent_seconds_median": 21.3,
+  "extraction_equivalent": "34/39 (87%)",
+  "extraction_misses": {
+   "elderly-ssi-categorical": {
+    "snap": true,
+    "wic": true,
+    "tenncare": false,
+    "tenncare_people": false
+   },
+   "net-childcare-decides": [
+    "dependent_care 0 vs 200"
+   ],
+   "refer-older-adult-medicaid": [
+    "rent_or_mortgage 0 vs 550",
+    "utilities none vs heating_cooling",
+    "medical_costs 0 vs 180"
+   ],
+   "wic-adjunct-snap": [
+    "members 1 vs 3",
+    "gross 0.0 vs 2500.0",
+    "rent_or_mortgage 0 vs 950",
+    "utilities none vs heating_cooling"
+   ],
+   "wic-breastfeeding-9-months": [
+    "rent_or_mortgage 0 vs 850",
+    "dependent_care 0 vs 400"
+   ]
+  },
+  "screened": "39/40 (98%)"
+ },
+ "grader_cost_usd": 1.2
+}

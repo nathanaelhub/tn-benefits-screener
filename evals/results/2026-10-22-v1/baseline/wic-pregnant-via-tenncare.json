@@ -1,0 +1,138 @@
+{
+ "case": "wic-pregnant-via-tenncare",
+ "arm": "baseline",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "Pregnant, single, making about $4,000 a month. Do I make too much for WIC and TennCare?"
+  },
+  {
+   "role": "assistant",
+   "text": "Quick update: I checked the official TennCare and WIC pages. You're likely under the limit for TennCare. WIC looks unlikely at $4,000, but I couldn't confirm that number from an official table.\n\n**TennCare (health coverage while pregnant): likely**\n- The income limit for pregnant women is 250% of the poverty level. For a household of 2 (you and your baby), that's **$4,509 a month** before taxes. For a household of 3, it's $5,692.\n- Your $4,000 a month is under the household-of-2 limit. There's no limit on savings for this group.\n- Source: [TennCare Eligibility Reference Guide](https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html). The page doesn't give an effective date, so the dollar amounts could change.\n\n**WIC (food help for pregnant women and babies): unlikely, but you can still apply**\n- WIC's limit is 185% of the poverty level, according to [Nashville's WIC page](https://www.nashville.gov/departments/health/wic/enrolling-wic). That page doesn't list dollar amounts.\n- I couldn't open Tennessee's 2026–27 WIC table or the USDA table. A search summary of the state table showed $2,461 a month for 1 person and $5,088 for 4. Estimating from those, the limit for 2 people is **about $3,300 a month**. That's my own estimate, not an official figure.\n- By that estimate, $4,000 is over the limit. It would only fit if your household counts as 3 or more, for example if you're expecting twins.\n- Some WIC programs treat people who have TennCare as income-eligible. I couldn't confirm that on an official page, so ask the WIC clinic.\n- WIC looks at your income over the 30 days before your appointment. You'll need proof of pregnancy, such as a provider letter or ultrasound.\n\n**Next steps**\n- **TennCare:** apply at [tennessee.gov/tenncare](https://www.tn.gov/tenncare) or call 855-259-0701. I didn't open a page for that number, so please check it.\n- **WIC:** call your county health department or the WIC clinic. In Nashville, the number is 615-340-5616.\n- **211** can connect you with free local help.\n\nOnly the agencies can decide whether you qualify, and I can't promise an outcome. Please report your income accurately on any application.\n\n**Two questions that would help:**\n1. Is the $4,000 before taxes, and is it your only income?\n2. Are you expecting one baby or more?"
+  },
+  {
+   "role": "user",
+   "text": "$4k before taxes, and yeah that's my only income. Just one baby."
+  },
+  {
+   "role": "assistant",
+   "text": "**Short answer: you probably don't make too much for TennCare, but $4,000 a month looks over the limit for WIC.**\n\n**TennCare: likely**\n- You and your baby count as a household of 2. The limit is **$4,509 a month** before taxes, and you're at $4,000.\n- There's no savings limit for pregnant women.\n- Source: [TennCare Eligibility Reference Guide](https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html). The page doesn't give an effective date, so the amount could change.\n\n**WIC: unlikely, but you can still apply**\n- The federal WIC limit for a household of 2 is **$40,034 a year, about $3,336 a month**, starting July 1, 2026. Your income is about $48,000 a year.\n- That's a federal figure, and states can't set a limit above it. I found it on South Dakota's page, not Tennessee's, because I couldn't open Tennessee's table. Tennessee says it uses the same 185% rule, per [Nashville's WIC page](https://www.nashville.gov/departments/health/wic/enrolling-wic).\n- Source: [South Dakota Department of Health notice of the 2026–27 limits](https://doh.sd.gov/press-releases/wic-program-announces-new-income-guidelines-starting-july-1-2026/).\n- Some WIC programs treat people on TennCare as income-eligible without a separate income check. I couldn't confirm that on an official page. Once your TennCare is approved, ask the WIC clinic, since it could change the answer.\n\n**Next steps**\n1. **Apply for TennCare** at [tennessee.gov/tenncare](https://www.tn.gov/tenncare). Have your pay stubs ready.\n2. **Call WIC** at your county health department. In Nashville, the number is 615-340-5616. Ask whether having TennCare counts for WIC. You'll need proof of pregnancy.\n3. **Call 211** for free local help, such as food pantries and pregnancy support.\n\nI haven't checked food assistance (SNAP). It could be worth a look if you'd like. Only the agencies can decide whether you qualify, and I can't promise an outcome. Report your income accurately on every application."
+  }
+ ],
+ "turns": [
+  {
+   "text": "Quick update: I checked the official TennCare and WIC pages. You're likely under the limit for TennCare. WIC looks unlikely at $4,000, but I couldn't confirm that number from an official table.\n\n**TennCare (health coverage while pregnant): likely**\n- The income limit for pregnant women is 250% of the poverty level. For a household of 2 (you and your baby), that's **$4,509 a month** before taxes. For a household of 3, it's $5,692.\n- Your $4,000 a month is under the household-of-2 limit. There's no limit on savings for this group.\n- Source: [TennCare Eligibility Reference Guide](https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html). The page doesn't give an effective date, so the dollar amounts could change.\n\n**WIC (food help for pregnant women and babies): unlikely, but you can still apply**\n- WIC's limit is 185% of the poverty level, according to [Nashville's WIC page](https://www.nashville.gov/departments/health/wic/enrolling-wic). That page doesn't list dollar amounts.\n- I couldn't open Tennessee's 2026–27 WIC table or the USDA table. A search summary of the state table showed $2,461 a month for 1 person and $5,088 for 4. Estimating from those, the limit for 2 people is **about $3,300 a month**. That's my own estimate, not an official figure.\n- By that estimate, $4,000 is over the limit. It would only fit if your household counts as 3 or more, for example if you're expecting twins.\n- Some WIC programs treat people who have TennCare as income-eligible. I couldn't confirm that on an official page, so ask the WIC clinic.\n- WIC looks at your income over the 30 days before your appointment. You'll need proof of pregnancy, such as a provider letter or ultrasound.\n\n**Next steps**\n- **TennCare:** apply at [tennessee.gov/tenncare](https://www.tn.gov/tenncare) or call 855-259-0701. I didn't open a page for that number, so please check it.\n- **WIC:** call your county health department or the WIC clinic. In Nashville, the number is 615-340-5616.\n- **211** can connect you with free local help.\n\nOnly the agencies can decide whether you qualify, and I can't promise an outcome. Please report your income accurately on any application.\n\n**Two questions that would help:**\n1. Is the $4,000 before taxes, and is it your only income?\n2. Are you expecting one baby or more?",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee WIC income eligibility guidelines 2026-2027",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee WIC income eligibility guidelines 2026-2027\"\n\nLinks: [{\"title\":\"Tennessee Women, Infants & Children (WIC) Program\",\"url\":\"https://www.tn.gov/content/tn/health/wic.html\"},{\"title\":\"Administrative and Government Law\",\"url\":\"https://legalclarity.org/tennessee-wic-eligibility-requirements-and-income-limits/\"},{\"title\":\"Income Guidelines\",\"url\":\"https://www.tn.gov/health/health-program-areas/fhw/wic/income-guidelines.html\"},{\"title\":\"tennessee wic application 2026\",\"url\":\"https://benefitsusa.org/en/blog/tennessee-wic-application-2026\"},{\"title\":\"SNAP Eligibility Calculator — Header Navigation\",\"url\":\"https://snapeligibilitycalculator.com/?p=1577\"},{\"title\":\"wic ieg2026 2027\",\"url\":\"https://www.usda.gov/sites/default/files/guidance-documents/wic-ieg2026-2027.pdf\"},{\"title\":\"public-inspection.federalregister.gov\",\"url\":\"https://public-inspection.federalregister.gov/2026-08323.pdf\"},{\"title\":\"enrolling wic\",\"url\":\"https://www.nashville.gov/departments/health/wic/enrolling-wic\"},{\"title\":\"Eligibility Guidelines One Pager FY26 27\",\"url\":\"https://content.govdelivery.com/attachments/MTDPHHS/2026/06/19/file_attachments/3689606/Eligibility Guidelines One-Pager FY26-27.pdf\"}]\n\nTennessee's WIC income limits for July 1, 2026 through June 30, 2027 are set at 185% of the federal poverty guidelines, and the state's published table gives the figures.\n\n- **Effective dates and table:** The Tennessee Department of Health's WIC page provides the WIC Income Eligibility Guidelines for July 1, 2026, through June 30, 2027. Its figures include a standard deduction, and hardship deductions are not allowed on top of them. Monthly limits are $2,461 for a household of one and $5,088 for a household of four. The annual limit is $29,526 for one person and $61,050 for four.\n- **Federal basis:** The USDA notice says the guidelines are effective July 1, 2026, and the income limit is 185 percent of the Federal poverty guidelines, as adjusted.\n- **Larger households:** A Montana agency one-pager lists an additional amount of +$10,508 per year for each member beyond eight. The Tennessee table runs to 11 people, reaching $134,606 per year, so the state table is the better reference for Tennessee.\n- **Other sources:** A third-party site says that if you already receive TennCare, SNAP, or TANF, you skip the income check entirely. I did not confirm that on an official Tennessee page, so verify it with the state before relying on it.\n- **How to apply:** One guide says you apply by calling your county health department or the statewide WIC hotline at 1-800-DIAL-WIC. That is a secondary source, so confirm the number with the state.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "TennCare pregnant women income limit percent federal poverty level 2026 household size unborn child",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"TennCare pregnant women income limit percent federal poverty level 2026 household size unborn child\"\n\nLinks: [{\"title\":\"Medicaid in Tennessee: who qualifies and income limits for 2026\",\"url\":\"https://www.talktomira.com/coverage/medicaid/tennessee/\"},{\"title\":\"Eligibility Reference Guide\",\"url\":\"https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html\"},{\"title\":\"www.healthinsurance.org\",\"url\":\"https://www.healthinsurance.org/?p=985026\"},{\"title\":\"www.tn.gov\",\"url\":\"https://www.TN.gov/content/dam/tn/tenncare/documents2/PregnantWomenComprehensiveNotice.pdf\"},{\"title\":\"Last Updated: January, 2026\",\"url\":\"https://checkmedicaid.com/tennessee-medicaid-income-limits/\"},{\"title\":\"pregnancy medicaid tennessee\",\"url\":\"https://coveredusa.org/en/qa/pregnancy-medicaid-tennessee\"},{\"title\":\"This website is not affiliated with any government organizations. We provide time saving tools. Updated for 2026\",\"url\":\"https://povertylevelcalculator.com/medicaid/medicaid-eligibility-guides-by-state/tennessee-medicaid-eligibility-guide\"},{\"title\":\"This website is not affiliated with any government organizations. We provide time saving tools. Updated for 2026\",\"url\":\"https://povertylevelcalculator.com/medicaid/medicaid-eligibility-guides-by-state/tennessee-medicaid-tenncare-eligibility-guide\"},{\"title\":\"pregnant medicaid tennessee\",\"url\":\"https://coveredusa.org/en/event/pregnant-medicaid-tennessee\"}]\n\nThe sources agree that TennCare covers pregnant women up to 250% of the federal poverty level (FPL), but they differ on whether that figure already includes the 5% income disregard, and on which 2026 dollar amounts apply.\n\n- **Official state notice:** A 2023 TennCare notice says the pregnancy threshold rose from 195% to 250% FPL effective January 1, 2024. Enrolled pregnant women keep coverage through pregnancy and for 12 months after it ends.\n- **2026 limits:** One guide puts the 2026 cap at $54,100 per year for a pregnant woman counted as a household of 2, $68,300 for a household of 3, or $82,500 for a household of 4. Another, checked against state sources on October 13, 2026, lists a household of 2 at $4,599/mo, which it labels as 255% of the poverty line.\n- **Disregard:** The same guide explains that limits include the 5% income disregard, so they run 5 points above the percentages Tennessee prints on its own chart. The 250% figure is therefore the state's printed percentage, and the higher dollar amounts reflect the disregard.\n- **Unborn child:** Sources agree the unborn baby counts toward household size. One says a pregnant woman is counted as a household of at least two (herself and the unborn baby).\n- **Dollar-figure caveat:** One site says income limits use 2025 poverty guidelines and will increase in Spring 2026. I could not confirm that the $54,100 figure reflects the newest HHS guidelines, so check the TennCare income chart before relying on any dollar amount.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/health/health-program-areas/fhw/wic/income-guidelines.html",
+      "prompt": "Give the WIC income limits table (monthly, annual) for household sizes 1-4, effective dates, and any note on how pregnant women count (unborn babies) and adjunctive eligibility."
+     },
+     "result": "The server returned HTTP 404 Not Found.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html",
+      "prompt": "Give the income limit for pregnant women (percent FPL and dollar amounts monthly/annual by household size, especially size 2 and 3), effective date, and how unborn children count."
+     },
+     "result": "**Pregnant women (Pregnant category):** Income limit is **250% of the federal poverty level**, with no resource limit.\n\n- **Household size 2:** $4,509 per month ($54,100 per year)\n- **Household size 3:** $5,692 per month ($68,300 per year)\n\n**Effective date:** The page doesn't state an effective date.\n\n**Unborn children:** The CoverKids category covers unborn children of women who don't qualify under another TennCare category. The income limit is at or below 250% of the poverty level, with no resource limit. Separately, newborns born to Medicaid-eligible women are deemed eligible for one year.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/content/tn/health/wic.html",
+      "prompt": "Find the WIC income eligibility guidelines table (July 2026-June 2027), monthly limits for household size 2 and 3, how pregnant women are counted, and the application phone number/website."
+     },
+     "result": "socket hang up",
+     "is_error": true
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/wic-ieg2026-2027.pdf",
+      "prompt": "Give the 185% income limits (annual, monthly) for household sizes 1 to 4 for the 48 contiguous states, and effective date."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://public-inspection.federalregister.gov/2026-08323.pdf",
+      "prompt": "Give the WIC 185% income limits (annual, monthly) for household sizes 1 to 4 for the 48 contiguous states, and effective date."
+     },
+     "result": "I can't find the WIC 185% income limits or their effective date in the content you provided. The text is raw PDF data: compressed streams, embedded font files, and encoded binary. It's also truncated before the end, so any tables or dates that might be present aren't visible.\n\nIf you paste the readable text of the relevant pages, or the table itself, I can extract the annual and monthly limits for household sizes 1 to 4 and the effective date.\n\n[Binary content (application/pdf, 285KB) also saved to ~/.claude/projects/-Users-user-opt-program-portfolio-projects-tn-benefits-screener/4b27944f-4b52-440c-aabb-2b5a54f24151/tool-results/webfetch-1792713268028-an7m8j.pdf]",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.nashville.gov/departments/health/wic/enrolling-wic",
+      "prompt": "Give the WIC income limits by household size (monthly), how pregnant women are counted, and phone/website to apply."
+     },
+     "result": "**Income limits:** The page doesn't list monthly amounts by household size. It says household income must be \"at or below 185% of the Federal Poverty Level.\" For exact figures, use the USDA WIC Pre-Screening Tool at fna.usda.gov/wic/eligibility-tool or call a WIC clinic.\n\n**Pregnant women:** The page doesn't describe a rule for counting an unborn child or pregnant woman toward household size. It lists pregnant women as a qualifying category and says WIC reviews gross income from the 30 days before the certification appointment. Income from people who live together and share household expenses counts, including a spouse or partner's income. You'll need proof of pregnancy, such as a provider letter, medical record, or ultrasound.\n\n**How to apply:**\n- **Phone:** 615-340-5616 (Lentz Public Health Center, Monday–Friday, 8:00 a.m.–4:30 p.m.)\n- **Website:** Nashville.gov's WIC enrollment page, where you can fill out the WIC Interest Form. The WIC team will then contact you to schedule a certification appointment.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.08906589999999999,
+   "duration_ms": 47036,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "**Short answer: you probably don't make too much for TennCare, but $4,000 a month looks over the limit for WIC.**\n\n**TennCare: likely**\n- You and your baby count as a household of 2. The limit is **$4,509 a month** before taxes, and you're at $4,000.\n- There's no savings limit for pregnant women.\n- Source: [TennCare Eligibility Reference Guide](https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html). The page doesn't give an effective date, so the amount could change.\n\n**WIC: unlikely, but you can still apply**\n- The federal WIC limit for a household of 2 is **$40,034 a year, about $3,336 a month**, starting July 1, 2026. Your income is about $48,000 a year.\n- That's a federal figure, and states can't set a limit above it. I found it on South Dakota's page, not Tennessee's, because I couldn't open Tennessee's table. Tennessee says it uses the same 185% rule, per [Nashville's WIC page](https://www.nashville.gov/departments/health/wic/enrolling-wic).\n- Source: [South Dakota Department of Health notice of the 2026–27 limits](https://doh.sd.gov/press-releases/wic-program-announces-new-income-guidelines-starting-july-1-2026/).\n- Some WIC programs treat people on TennCare as income-eligible without a separate income check. I couldn't confirm that on an official page. Once your TennCare is approved, ask the WIC clinic, since it could change the answer.\n\n**Next steps**\n1. **Apply for TennCare** at [tennessee.gov/tenncare](https://www.tn.gov/tenncare). Have your pay stubs ready.\n2. **Call WIC** at your county health department. In Nashville, the number is 615-340-5616. Ask whether having TennCare counts for WIC. You'll need proof of pregnancy.\n3. **Call 211** for free local help, such as food pantries and pregnancy support.\n\nI haven't checked food assistance (SNAP). It could be worth a look if you'd like. Only the agencies can decide whether you qualify, and I can't promise an outcome. Report your income accurately on every application.",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "WIC income eligibility guidelines July 1 2026 household size 2 monthly 185% $",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"WIC income eligibility guidelines July 1 2026 household size 2 monthly 185% $\"\n\nLinks: [{\"title\":\"public-inspection.federalregister.gov\",\"url\":\"https://public-inspection.federalregister.gov/2026-08323.pdf\"},{\"title\":\"fr 042926\",\"url\":\"https://fns-prod.azureedge.us/wic/fr-042926\"},{\"title\":\"fr 042926\",\"url\":\"https://www.fna.usda.gov/wic/fr-042926\"},{\"title\":\"dhhr.wv.gov\",\"url\":\"https://dhhr.wv.gov/WIC/apply/Documents/2.06%20Income%20Eligibility%20Requirements%20Attachment%20%23%201%20Income%20Guidelines%20%20%281%29.pdf\"},{\"title\":\"WIC Income Guielines 2026 2027Announcement 002\",\"url\":\"https://eiph.id.gov/wp-content/uploads/2026/06/WIC-Income-Guielines-2026-2027Announcement-002.pdf\"},{\"title\":\"swdh.id.gov\",\"url\":\"https://swdh.id.gov/wic/eligibility/\"},{\"title\":\"WIC Program Announces New Income Guidelines Starting July 1, 2026\",\"url\":\"https://doh.sd.gov/press-releases/wic-program-announces-new-income-guidelines-starting-july-1-2026/\"},{\"title\":\"www.ruralhealthinfo.org\",\"url\":\"https://www.ruralhealthinfo.org/news/38487\"},{\"title\":\"swdh.id.gov\",\"url\":\"https://swdh.id.gov/?p=1056\"},{\"title\":\"wic ieg2026 2027\",\"url\":\"https://www.usda.gov/sites/default/files/guidance-documents/wic-ieg2026-2027.pdf\"}]\n\nThe 2026–2027 WIC income limits took effect July 1, 2026, and for a household of two the 185% monthly figure is about $3,337 gross, or $40,034 a year.\n\n- **Effective dates:** USDA's notice says the guidelines are effective July 1, 2026 and apply through June 30, 2027.\n- **Two-person annual limit:** South Dakota's health department lists $40,034 at 185% of the poverty level for a family of two.\n- **Two-person monthly limit:** West Virginia's state table, which is effective for the same period, shows a monthly gross of $3,337 for household size 2. The USDA excerpt I found only includes the one-person monthly figure, so I couldn't confirm the two-person monthly amount from the federal table. Dividing $40,034 by 12 gives about $3,336, so the $3,337 figure is likely a rounding difference.\n- **Federal basis:** The 185% limit comes from the reduced-price school meal standard, and the income limit for reduced-price school meals is 185 percent of the federal poverty guidelines, as adjusted.\n\nSome states may set lower limits, but they cannot go above the 185% federal ceiling.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://doh.sd.gov/press-releases/wic-program-announces-new-income-guidelines-starting-july-1-2026/",
+      "prompt": "What is the 185% annual income limit for a household of 2 and 3, and effective date?"
+     },
+     "result": "For a household of **2**, the 185% of Federal Poverty Level limit is **$40,034**. For a household of **3**, it is **$50,542**. Both amounts take effect on **July 1, 2026**.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.1284794,
+   "duration_ms": 24656,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.2175,
+ "sim_cost_usd": 0.0011,
+ "wall_seconds": 81.4
+}

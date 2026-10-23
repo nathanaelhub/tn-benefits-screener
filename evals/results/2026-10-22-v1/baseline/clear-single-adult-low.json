@@ -1,0 +1,213 @@
+{
+ "case": "clear-single-adult-low",
+ "arm": "baseline",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "I'm 41, live alone, and just got my hours cut. Is there any help for groceries or health insurance?"
+  },
+  {
+   "role": "assistant",
+   "text": "I'm sorry about your hours being cut. Yes, there may be help. In Tennessee, food assistance (SNAP) and TennCare (health insurance) are two programs to check. I can look at both for you.\n\nI have two questions to start:\n\n1. About how much do you earn **before taxes** now, and how often are you paid (weekly, every two weeks, or monthly)?\n2. Do you have any other income, like unemployment, Social Security, or child support?\n\nNext I'll ask about rent and utilities. I'll also ask if you have a disability, since that can change the rules."
+  },
+  {
+   "role": "user",
+   "text": "Around $260 a week before taxes, paid weekly. No other income right now."
+  },
+  {
+   "role": "assistant",
+   "text": "Here's where things stand. I'm still missing a few facts to finish.\n\n**Food assistance (SNAP):** It could be possible for you. Your pay is about $1,127 a month before taxes ($260 × 52 weeks ÷ 12). Reported Tennessee limits for one person are higher than that. But I couldn't open the official USDA or Tennessee Department of Human Services (TDHS) pages. They blocked my access. So I can't confirm the limits or give you a dollar estimate yet. You can apply regardless. Only the agency decides.\n\nOne rule to know: adults 18 to 64 with no disability and no young children at home usually have to work, volunteer, or train about 20 hours a week to keep SNAP past 3 months. Your job may already meet that. A caseworker can confirm.\n\n**Health insurance (TennCare):** This is harder. Tennessee did not expand Medicaid. According to [The Sycamore Institute](https://sycamoretn.org/medicaid-eligibility-tennessee/), very few adults 19 to 64 without children or a disability can get TennCare. So it looks unlikely for you, but you can still apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). It could change if you have a disability, are pregnant, or are a former foster youth under 26. If TennCare doesn't fit, you may be able to get lower-cost plans on the ACA Marketplace (healthcare.gov). I didn't check those rules.\n\nTo finish the food assistance check, I need two things:\n\n1. How much is your **rent or mortgage** each month? Do you pay for **heating or cooling** separately, or other utilities, or only a phone?\n2. Do you have a **disability**, or do you have children who live with you part of the time?\n\nFor free local help, you can call **211**.\n\nSources: [The Sycamore Institute – TennCare eligibility](https://sycamoretn.org/medicaid-eligibility-tennessee/). The SNAP limits and work-rule details come from search summaries, not official pages I could open."
+  },
+  {
+   "role": "user",
+   "text": "Rent is $650 a month. My electric bill covers heating and AC, and I don't pay for gas or water. Just my phone, no other bills. No disability, and no kids. I live alone."
+  },
+  {
+   "role": "assistant",
+   "text": "**Food assistance (SNAP) looks likely for you.** My rough estimate is about **$280 to $300 a month**. Treat that as an estimate only. Only the Tennessee Department of Human Services (TDHS) can decide, and you can apply.\n\n**How I got there (monthly):**\n- Your income before taxes is about $1,127 ($260 × 52 ÷ 12).\n- SNAP takes off 20% of work pay, a standard deduction of $217, and a share of your housing and utility costs. Your rent is $650. You also pay an electric bill that covers heating and cooling, which SNAP counts with a set utility allowance.\n- That leaves almost no countable income, so you'd get close to the one-person maximum of $306.\n- The utility allowance is the shaky part. I couldn't confirm Tennessee's current amount. With a lower allowance, the estimate could drop to about $190.\n\n**Why income looks fine:**\n- Tennessee's official limit is 130% of poverty for gross income, and 100% for net income. These are from [The Sycamore Institute's SNAP page](https://sycamoretn.org/snap-in-tn/). Your income looks well under both.\n- Some reports say Tennessee moved to a 200% limit in June 2026, and others say it hasn't. That is unsettled. It doesn't change things for you, since you look under the lower limit.\n- The 2027 amounts ($306 maximum, $217 deduction, $769 housing cap) come from search summaries. USDA's page wouldn't open for me.\n\n**Things to know:**\n- **Work rule:** You're 41 with no kids, so you'd likely need to work or train about 80 hours a month to keep SNAP beyond 3 months ([Sycamore](https://sycamoretn.org/snap-in-tn/)). Since your hours were cut, tell the caseworker exactly how many hours you work now.\n- **Savings:** The usual limit is $3,000 in savings, not counting your home ([Sycamore](https://sycamoretn.org/snap-in-tn/)). That limit may not apply if the 200% rule is in place. About how much do you have in savings? You can skip this if you'd rather not say.\n\n**Health insurance (TennCare):** This still looks **unlikely**. Tennessee didn't expand Medicaid, so most healthy adults without kids don't qualify ([Sycamore](https://sycamoretn.org/medicaid-eligibility-tennessee/)). You can still apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). Also check lower-cost plans at healthcare.gov. A job-hours cut can open a special enrollment window, and you may get help paying the premium.\n\n**Next steps:**\n- Apply for SNAP through TDHS at [tn.gov/humanservices](https://www.tn.gov/humanservices). I couldn't open that page, so I can't confirm its details.\n- Call **211** for free help applying and for the current program phone numbers.\n- Report your income, rent, and utilities accurately. Mistakes can lead to overpayments you'd have to pay back."
+  },
+  {
+   "role": "user",
+   "text": "About $150 in savings."
+  },
+  {
+   "role": "assistant",
+   "text": "Thanks. $150 in savings is well under the usual $3,000 limit ([The Sycamore Institute](https://sycamoretn.org/snap-in-tn/)), so savings shouldn't get in your way. It doesn't change my estimate of about **$280 to $300 a month**. That's still only an estimate, and only TDHS decides.\n\n**What to do now:**\n1. **Apply for food assistance (SNAP)** at [tn.gov/humanservices](https://www.tn.gov/humanservices). If you'd rather not apply online, call **211**. They can give you the local office and the current phone number.\n2. **Gather proof of your income and costs.** Bring recent pay stubs that show your cut hours, your lease or a rent receipt, and an electric bill.\n3. **Tell them how many hours you work now.** This matters for the work rule.\n4. **Apply for TennCare** at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). It looks unlikely for you, but applying is free. Also look at lower-cost plans at healthcare.gov.\n\nIf you apply for SNAP and it's approved, the benefit can be counted from your application date. So it's better to apply soon than to wait.\n\nDo you want help with anything else, like food pantries or help with your electric bill? 211 can point you to both."
+  },
+  {
+   "role": "user",
+   "text": "yeah food pantries would help, I'll call 211 about that. electric bill's ok for now, I'll ask them if it gets worse. thanks"
+  },
+  {
+   "role": "assistant",
+   "text": "You're welcome. Calling 211 is a good plan. They can point you to food pantries near you, and they can help with the electric bill later if you need it.\n\nHere's a quick recap:\n- **SNAP:** It looks likely, at roughly $280 to $300 a month. That's an estimate, and only TDHS decides. Apply soon at [tn.gov/humanservices](https://www.tn.gov/humanservices).\n- **TennCare:** It looks unlikely, but you can still apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). Also check healthcare.gov for lower-cost plans.\n- **Pantries and other help:** Call **211**.\n\nGood luck, and come back anytime if your situation changes."
+  }
+ ],
+ "turns": [
+  {
+   "text": "I'm sorry about your hours being cut. Yes, there may be help. In Tennessee, food assistance (SNAP) and TennCare (health insurance) are two programs to check. I can look at both for you.\n\nI have two questions to start:\n\n1. About how much do you earn **before taxes** now, and how often are you paid (weekly, every two weeks, or monthly)?\n2. Do you have any other income, like unemployment, Social Security, or child support?\n\nNext I'll ask about rent and utilities. I'll also ask if you have a disability, since that can change the rules.",
+   "tool_calls": [],
+   "cost_usd": 0.0035941000000000002,
+   "duration_ms": 3378,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "Here's where things stand. I'm still missing a few facts to finish.\n\n**Food assistance (SNAP):** It could be possible for you. Your pay is about $1,127 a month before taxes ($260 × 52 weeks ÷ 12). Reported Tennessee limits for one person are higher than that. But I couldn't open the official USDA or Tennessee Department of Human Services (TDHS) pages. They blocked my access. So I can't confirm the limits or give you a dollar estimate yet. You can apply regardless. Only the agency decides.\n\nOne rule to know: adults 18 to 64 with no disability and no young children at home usually have to work, volunteer, or train about 20 hours a week to keep SNAP past 3 months. Your job may already meet that. A caseworker can confirm.\n\n**Health insurance (TennCare):** This is harder. Tennessee did not expand Medicaid. According to [The Sycamore Institute](https://sycamoretn.org/medicaid-eligibility-tennessee/), very few adults 19 to 64 without children or a disability can get TennCare. So it looks unlikely for you, but you can still apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). It could change if you have a disability, are pregnant, or are a former foster youth under 26. If TennCare doesn't fit, you may be able to get lower-cost plans on the ACA Marketplace (healthcare.gov). I didn't check those rules.\n\nTo finish the food assistance check, I need two things:\n\n1. How much is your **rent or mortgage** each month? Do you pay for **heating or cooling** separately, or other utilities, or only a phone?\n2. Do you have a **disability**, or do you have children who live with you part of the time?\n\nFor free local help, you can call **211**.\n\nSources: [The Sycamore Institute – TennCare eligibility](https://sycamoretn.org/medicaid-eligibility-tennessee/). The SNAP limits and work-rule details come from search summaries, not official pages I could open.",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP income limits fiscal year 2027 gross net income standard deduction shelter utility allowance",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP income limits fiscal year 2027 gross net income standard deduction shelter utility allowance\"\n\nLinks: [{\"title\":\"2026.05.27%20TISA%20Review%20Committee Sycamore%20Institute\",\"url\":\"https://www.tn.gov/content/dam/tn/stateboardofeducation/documents/tisa-review-committee/may-27-2026-meeting/presentations/2026.05.27%20TISA%20Review%20Committee_Sycamore%20Institute.pdf\"},{\"title\":\"Tn Food Stamp Income Limit\",\"url\":\"https://congresoextension.utn.edu.ar/tn-food-stamp-income-limit\"},{\"title\":\"the supplemental nutrition assistance program snap in tennessee\",\"url\":\"https://sycamoretn.org/wp-content/uploads/2026/01/the-supplemental-nutrition-assistance-program-snap-in-tennessee.pdf\"},{\"title\":\"Administrative and Government Law\",\"url\":\"https://legalclarity.org/tennessee-food-stamps-eligibility-benefits-and-rules/\"},{\"title\":\"food stamps eligibility income limits\",\"url\":\"https://www.propel.app/snap/state/tennessee/food-stamps-eligibility-income-limits/\"},{\"title\":\"food stamps eligibility income limits\",\"url\":\"https://www.propel.app/state/tennessee/food-stamps-eligibility-income-limits/\"},{\"title\":\"snap shakeup could put more food on memphis tables\",\"url\":\"https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/\"},{\"title\":\"State of Tennessee Food Stamp Calculator\",\"url\":\"https://cvs.pantherdb.org/?p=1236422\"},{\"title\":\"Navigating Food Stamps in Tennessee: A Comprehensive Guide to SNAP Benefits\",\"url\":\"https://001.arktimes.com/?p=20789\"}]\n\nI found no official FY2027 Tennessee SNAP figures. The results show FY2026 numbers, plus a reported change to broad-based categorical eligibility that could alter the gross income test.\n\n**Current (FY2026) limits:** Tennessee's most recent published figures, valid through September 2026, put the gross monthly income cap at $1,696 for 1 person, $2,280 for 2 people, and $3,483 for 4 people, with each additional person adding roughly $602. One source lists a slightly different 2-person figure, $2,292/month, so the two should be checked against the official table. The net income test is set at 100 percent of the Federal Poverty Level.\n\n**Possible change:** A June 2026 report says the Tennessee Department of Human Services has adopted broad‑based categorical eligibility (BBCE), raising the SNAP gross‑income threshold from 130% to 200% of total household gross monthly income and removing asset limits for some households. An earlier January 2026 Sycamore Institute paper described this as still pending approval from the Tennessee General Assembly, so the status needs confirmation from TDHS.\n\n**Federal context:** The federal One Big Beautiful Bill Act increases required state share of administrative costs from 50% to 75% in FFY 2027, and it requires updates to the Thrifty Food Plan to be cost-neutral.\n\n**Not found:** I did not find FY2027 standard deduction, shelter cost, or utility allowance amounts for Tennessee. Those typically come from the USDA FNS FY2027 income eligibility standards and Tennessee DHS policy, which would be the next places to check.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "TennCare eligibility adults 19-64 without children Medicaid Tennessee not expanded who can apply",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"TennCare eligibility adults 19-64 without children Medicaid Tennessee not expanded who can apply\"\n\nLinks: [{\"title\":\"Medicaid in Tennessee: who qualifies and income limits for 2026\",\"url\":\"https://www.talktomira.com/coverage/medicaid/tennessee/\"},{\"title\":\"Woman kicked off TennCare shortly after cancer diagnosis\",\"url\":\"https://www.wsmv.com/2024/06/12/woman-kicked-off-tenncare-shortly-after-cancer-diagnosis\"},{\"title\":\"medicaid eligibility\",\"url\":\"https://www.blackhealth.org/tools/medicaid-eligibility/?state=TN\"},{\"title\":\"Medicaid eligibility in Tennessee — income limits for 2025\",\"url\":\"https://www.blackhealth.org/medicaid/tennessee/eligibility/\"},{\"title\":\"medicaid eligibility tennessee\",\"url\":\"https://sycamoretn.org/medicaid-eligibility-tennessee/\"},{\"title\":\"sycamoretn.org\",\"url\":\"https://sycamoretn.org/?p=3113\"},{\"title\":\"Bidencare? Tennessee's poorest adults could (finally) get health insurance\",\"url\":\"https://news.yahoo.com/bidencare-tennessees-poorest-adults-could-000250982.html\"},{\"title\":\"49686 tennessee governor proposes changes for tenncare\",\"url\":\"https://www.clinician.com/articles/49686-tennessee-governor-proposes-changes-for-tenncare\"},{\"title\":\"This website is not affiliated with any government organizations. We provide time saving tools. Updated for 2026\",\"url\":\"https://povertylevelcalculator.com/medicaid/medicaid-eligibility-guides-by-state/tennessee-medicaid-eligibility-guide\"},{\"title\":\"This website is not affiliated with any government organizations. We provide time saving tools. Updated for 2026\",\"url\":\"https://povertylevelcalculator.com/medicaid/medicaid-eligibility-guides-by-state/tennessee-medicaid-tenncare-eligibility-guide\"}]\n\nShort answer: under current rules, most non-disabled adults aged 19–64 without dependent children cannot get TennCare at any income.\n\n- **Who is excluded:** Tennessee has not expanded Medicaid, and one source says adults without dependent children can't qualify unless they are pregnant, 65 or older, blind, disabled, or a former foster youth under 26 (Adults without dependent children can't qualify unless they are pregnant, 65 or older, blind, disabled, or a former foster youth under 26.).\n- **Who can qualify:** Eligible groups include parents and caretaker relatives of children under 18, pregnant women, children, people 65 or older or disabled, and former foster youth under 26 (see index 1-7 through 1-10 and 1-11 above). A separate general requirement is US citizenship or eligible immigration status, plus a Social Security number (You must live in Tennessee, be a U.S. citizen or have an eligible immigration status, and give a Social Security number.).\n- **Applying:** There's no open enrollment period for Medicaid.\n- **Coverage gap:** A KFF expert describes the result as no coverage for adults without dependent children, which she calls a coverage gap. Childless adults in this gap are generally left to look at ACA Marketplace options (Non-disabled adults without dependent children are generally not eligible for Medicaid regardless of income. See the ACA Marketplace coverage section below if you fall into this coverage gap.). I did not check Marketplace subsidy rules in this search.\n\n**Caveats:** The sources disagree on the income figures. One lists parent limits at 105% of the poverty line for 2026 (Parents and caretaker relatives of children under 18 with income up to 105% of the poverty line ($2,391 a month for a family of three).), while a 2025 source lists 95%, and another guide shows 100%. Check the current income chart on the TennCare site before relying on any number. The 2026 summary also says it was checked against Division of TennCare sources on October 13, 2026.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP ABAWD work requirements 2026 able-bodied adults without dependents age limit",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP ABAWD work requirements 2026 able-bodied adults without dependents age limit\"\n\nLinks: [{\"title\":\"the supplemental nutrition assistance program snap in tennessee\",\"url\":\"https://sycamoretn.org/wp-content/uploads/2026/01/the-supplemental-nutrition-assistance-program-snap-in-tennessee.pdf\"},{\"title\":\"New rules: Tennessee updates SNAP work requirements for able-bodied adults\",\"url\":\"https://wcyb.com/news/local/new-rules-tennessee-updates-snap-work-requirements-for-able-bodied-adults-unemployment-government-assistance-supplemental-nutrition-assistance-program-able-bodied-adults-without-dependents-food\"},{\"title\":\"New Federal Law Updates SNAP Work Requirements for Able-Bodied Adults Without Dependents (ABAWDs) in Tennessee\",\"url\":\"https://www.tn.gov/humanservices/news/2025/9/22/new-federal-law-updates-snap-work-requirements-for-able-bodied-adults-without-dependents--abawds--in-tennessee-.html\"},{\"title\":\"New Federal Law Updates SNAP Work Requirements for Able-Bodied Adults Without Dependents (ABAWDs) in Tennessee\",\"url\":\"https://www.tn.gov/humanservices/news/2025/9/22/new-federal-law-updates-snap-work-requirements-for-able-bodied-adults-without-dependents--abawds--in-tennessee-\"},{\"title\":\"New rules: Tennessee updates SNAP work requirements for able-bodied adults\",\"url\":\"https://fox17.com/news/local/new-rules-tennessee-updates-snap-work-requirements-for-able-bodied-adults-unemployment-government-assistance-supplemental-nutrition-assistance-program-able-bodied-adults-without-dependents-food\"},{\"title\":\"51 60d5ef00 4517 40b0 80e3 0d0109d47b84\",\"url\":\"https://wbir.com/article/money/new-snap-work-requirements-could-impact-people-in-seven-tennessee-counties/51-60d5ef00-4517-40b0-80e3-0d0109d47b84\"},{\"title\":\"Are You a SNAP Participant?\",\"url\":\"https://www.tn.gov/humanservices.html.\"},{\"title\":\"This website is not affiliated with any government organizations. We provide time saving tools. Updated for 2026\",\"url\":\"https://povertylevelcalculator.com/snap-benefits/tennessee-snap-ebt-food-stamps-eligibility\"},{\"title\":\"Deadline set for Tennesseans to meet new work requirements to be eligible for SNAP\",\"url\":\"https://www.wvlt.tv/2025/10/06/deadline-set-tennesseans-meet-new-work-requirements-be-eligible-snap\"}]\n\nTennessee applies the federal ABAWD rules to adults aged 18 to under 65 who have no disability and don't live with a child under 14. The state's Department of Human Services announced these changes in September 2025 after the federal HR 1 law passed. ABAWD customers may only receive SNAP benefits for three months in a three-year period unless they work, volunteer, or participate in a job training program at least 20 hours a week (80 hours a month).\n\nExemptions include people under the age of 18, those 65 years of age or older, and pregnant women, among others. A January 2026 Sycamore Institute report says the federal One Big Beautiful Bill (OBBB) Act changed SNAP work requirements and state-federal cost-sharing requirements.\n\nSources also differ on scope. One local report says the state has granted Able-Bodied Adults Without Dependents (ABAWD) waivers in only seven counties that are heavily impacted by poverty and unemployment. I did not find a 2026 state notice confirming any changes to the age limit, so check the TDHS site for current details.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.fns.usda.gov/snap/allotment/COLA",
+      "prompt": "FY2027 (Oct 2026) SNAP income eligibility standards for 48 states: gross 130% and net 100% for household of 1, standard deduction, max shelter cap, max allotment for 1 person."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap.html",
+      "prompt": "SNAP income limits, how to apply, phone number, categorical eligibility 130% or 200%, work requirements."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/tenncare/members-applicants/eligibility.html",
+      "prompt": "Who is eligible for TennCare; are adults without children eligible; how to apply; phone numbers."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/humanservices/news/2025/9/22/new-federal-law-updates-snap-work-requirements-for-able-bodied-adults-without-dependents--abawds--in-tennessee-.html",
+      "prompt": "Who is subject to work requirements (ages, dependents), hours required, exemptions, waivers."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://sycamoretn.org/wp-content/uploads/2026/01/the-supplemental-nutrition-assistance-program-snap-in-tennessee.pdf",
+      "prompt": "Tennessee SNAP gross income limit, categorical eligibility 130% vs 200%, net income, standard deduction, earned income deduction, max benefit for 1 person, utility allowances."
+     },
+     "result": "The pasted content isn't readable. It's a raw PDF file: compressed binary streams (`FlateDecode`) with no extractable text, and it's also truncated. I can't find anything in it about Tennessee SNAP gross income limits, categorical eligibility, net income, deductions, or utility allowances, so I can't answer from it.\n\nTo get an answer based on a source, you could:\n\n- **Paste the extracted text** of the document, or the relevant sections.\n- **Share a text-based version** of the document, such as an HTML page or a text export.\n- **Check the official sources directly:** Tennessee's Department of Human Services SNAP pages and the USDA Food and Nutrition Service SNAP eligibility guidance, which cover the topics you listed.\n\nOnce I have readable text, I can summarize the figures and rules it contains, with a short note on any gaps.\n\n[Binary content (application/pdf, 597.5KB) also saved to ~/.claude/projects/-Users-user-opt-program-portfolio-projects-tn-benefits-screener/d6e971cf-19c2-4d73-98b9-abc1b1175dbd/tool-results/webfetch-1792712401414-ny29g6.pdf]",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://sycamoretn.org/medicaid-eligibility-tennessee/",
+      "prompt": "Who is eligible for TennCare, especially adults 19-64 with no children and no disability; income limits."
+     },
+     "result": "Based on the article, **most adults ages 19–64 with no children and no disability are not eligible for TennCare.** The article says Tennessee has not expanded Medicaid under the ACA, so \"very few non-disabled, childless adults are eligible.\"\n\nThe article doesn't give an income limit for this group. Its 138% of the federal poverty level figure describes the ACA expansion standard that Tennessee did not adopt. The category-specific income chart is an image that isn't included in the text.\n\nOne narrow exception applies to any adult woman under 65 who is uninsured, has household income below 250% of the federal poverty level, and had breast or cervical cancer detected through the Tennessee Breast and Cervical Cancer Screening Program.\n\nFor the exact income limits and current rules, check the TennCare Eligibility Reference Guide or visit tenncareconnect.tn.gov to apply. The Sycamore Institute does not process applications.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.10255340000000002,
+   "duration_ms": 30229,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "**Food assistance (SNAP) looks likely for you.** My rough estimate is about **$280 to $300 a month**. Treat that as an estimate only. Only the Tennessee Department of Human Services (TDHS) can decide, and you can apply.\n\n**How I got there (monthly):**\n- Your income before taxes is about $1,127 ($260 × 52 ÷ 12).\n- SNAP takes off 20% of work pay, a standard deduction of $217, and a share of your housing and utility costs. Your rent is $650. You also pay an electric bill that covers heating and cooling, which SNAP counts with a set utility allowance.\n- That leaves almost no countable income, so you'd get close to the one-person maximum of $306.\n- The utility allowance is the shaky part. I couldn't confirm Tennessee's current amount. With a lower allowance, the estimate could drop to about $190.\n\n**Why income looks fine:**\n- Tennessee's official limit is 130% of poverty for gross income, and 100% for net income. These are from [The Sycamore Institute's SNAP page](https://sycamoretn.org/snap-in-tn/). Your income looks well under both.\n- Some reports say Tennessee moved to a 200% limit in June 2026, and others say it hasn't. That is unsettled. It doesn't change things for you, since you look under the lower limit.\n- The 2027 amounts ($306 maximum, $217 deduction, $769 housing cap) come from search summaries. USDA's page wouldn't open for me.\n\n**Things to know:**\n- **Work rule:** You're 41 with no kids, so you'd likely need to work or train about 80 hours a month to keep SNAP beyond 3 months ([Sycamore](https://sycamoretn.org/snap-in-tn/)). Since your hours were cut, tell the caseworker exactly how many hours you work now.\n- **Savings:** The usual limit is $3,000 in savings, not counting your home ([Sycamore](https://sycamoretn.org/snap-in-tn/)). That limit may not apply if the 200% rule is in place. About how much do you have in savings? You can skip this if you'd rather not say.\n\n**Health insurance (TennCare):** This still looks **unlikely**. Tennessee didn't expand Medicaid, so most healthy adults without kids don't qualify ([Sycamore](https://sycamoretn.org/medicaid-eligibility-tennessee/)). You can still apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). Also check lower-cost plans at healthcare.gov. A job-hours cut can open a special enrollment window, and you may get help paying the premium.\n\n**Next steps:**\n- Apply for SNAP through TDHS at [tn.gov/humanservices](https://www.tn.gov/humanservices). I couldn't open that page, so I can't confirm its details.\n- Call **211** for free help applying and for the current program phone numbers.\n- Report your income, rent, and utilities accurately. Mistakes can lead to overpayments you'd have to pay back.",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "SNAP FY 2027 cost-of-living adjustments maximum allotment standard deduction excess shelter cap 48 states October 1 2026",
+      "mode": "extended"
+     },
+     "result": "Web search results for query: \"SNAP FY 2027 cost-of-living adjustments maximum allotment standard deduction excess shelter cap 48 states October 1 2026\"\n\nLinks: [{\"title\":\"SNAP Cost-of-Living Adjustment (COLA) Information\",\"url\":\"https://www.fna.usda.gov/snap/allotment/cola\"},{\"title\":\"SNAP COLA Memo\",\"url\":\"https://health.alaska.gov/media/apzdxrwr/snap-fy-2027-cola-memo.pdf\"},{\"title\":\"Electronic benefit transfer\",\"url\":\"https://en.wikipedia.org/wiki/Electronic_benefit_transfer\"},{\"title\":\"A Quick Guide to SNAP Eligibility and Benefits\",\"url\":\"https://www.cbpp.org/research/food-assistance/a-quick-guide-to-snap-eligibility-and-benefits\"},{\"title\":\"SNAP Benefits Are Increasing October 1—New Payment Amounts Revealed - Newsweek\",\"url\":\"https://www.newsweek.com/snap-benefits-are-increasing-october-1-new-payment-amounts-revealed-12393704\"},{\"title\":\"Food Stamp (SNAP) Changes Oct. 1, 2026: New FY 2027 Amounts\",\"url\":\"https://benefitguide.net/guides/snap-changes-october-1-2026/\"},{\"title\":\"SNAP Benefit Calculator 2026: How Much Food Stamps Will I ...\",\"url\":\"https://grantshubusa.com/blog/how-much-snap-will-i-get\"},{\"title\":\"New SNAP Deduction Amounts for 2027 (Oct 1 Update)\",\"url\":\"https://snapbenefitscalculator.com/blog/snap-deduction-amounts\"},{\"title\":\"SNAP Income Limits 2026-27: Federal Caps + Deductions\",\"url\":\"https://grantshubusa.com/blog/snap-income-limits\"},{\"title\":\"SNAP COLA FY 2027: New Food Stamp Amounts Starting Oct. 1\",\"url\":\"https://snapbenefitcalculator.com/snap-cola-fy-2027/\"}]\n\nSearch results are consistent that the FY 2027 SNAP adjustments take effect October 1, 2026, and cover the 48 states and D.C.\n\n- **Official timing and source:** USDA published the FY 2027 adjustments on August 21, 2026, and the figures apply through September 30, 2027. USDA released the FY 2027 SNAP cost-of-living adjustments on August 21, 2026.\n- **Maximum allotments (48 states and D.C.):** The one-person maximum rises to $306, the four-person maximum to $1,023, and the eight-person maximum to $1,841. Each additional person (9–17) adds $225, and 18 or more people is $3,887.\n- **Standard deduction:** It is $217 for households of one to three, $229 for four, $268 for five, and $308 for six or more. The standard deduction varies by household size, and fiscal year 2027 values are $217 for one to three members and $229, $268, and $308 for four, five, and six or more members.\n- **Excess shelter cap:** It rises to $769, up from $744 in FY 2026. The homeless shelter deduction rises to $205.66. Maximum excess shelter deduction was $744 in FY 2026 and is $769 in FY 2027.\n- **Asset limits:** The limit for households with someone 60 or older or disabled rises to $4,750. The $3,000 limit for other households is unchanged. The asset limit for households stays at $3,000 for the 48 States and D.C., Alaska, Guam, Hawaii, and the U.S. Virgin Islands, while households with an elderly or disabled member increase to $4,750.\n- **Territories:** Hawaii is the exception, with maximums going down. Maximum allotments rose in the 48 contiguous states, D.C., Alaska, Guam, and the U.S. Virgin Islands, while Hawaii's maximum allotments went down.\n\nCaveat: several results are secondary blogs or sites, including a Wikipedia-style page whose figures look unreliable, so the USDA Food and Nutrition Service FY 2027 COLA memo should be treated as the authoritative check.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP standard utility allowance 2026 2027 TDHS broad-based categorical eligibility 200% status",
+      "mode": "extended"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP standard utility allowance 2026 2027 TDHS broad-based categorical eligibility 200% status\"\n\nLinks: [{\"title\":\"The Supplemental Nutrition Assistance Program (SNAP) in Tennessee - The Sycamore Institute\",\"url\":\"https://sycamoretn.org/snap-in-tn/\"},{\"title\":\"Tennessee Changes SNAP Eligibility Rules, Expanding Access for Some Working Families - Lewis County Herald\",\"url\":\"https://www.lewisherald.com/story/2026/06/11/health/tennessee-changes-snap-eligibility-rules-expanding-access-for-some-working-families/12375.html\"},{\"title\":\"Tennessee Food Stamp Calculator 2026\",\"url\":\"https://foodstampeligibilitycalculator.com/tennessee\"},{\"title\":\"Tennessee SNAP Income Limits (2026): Who Qualifies?\",\"url\":\"https://snapeligibilitycalculator.com/snap-income-limits/tennessee/\"},{\"title\":\"Tennessee SNAP Benefits Calculator (2025–2026)\",\"url\":\"https://snapbenefitcalculator.com/tennessee-snap-calculator/\"},{\"title\":\"Tennessee SNAP Income Limits 2026: Eligibility, Benefits, and How to Apply\",\"url\":\"https://benefitsusa.org/en/blog/tennessee-snap-income-limits-2026\"},{\"title\":\"Tennessee SNAP Eligibility: Income Limits, Benefits & How to Apply\",\"url\":\"https://snapeligibilitycalculator.com/snap-benefits-by-state/tennessee/\"},{\"title\":\"SNAP Eligibility Calculator\",\"url\":\"https://snapeligibilitycalculator.com/tennessee/\"},{\"title\":\"TN SNAP Eligibility 2026–2027: Income Limits & Rules\",\"url\":\"https://snapbenefitcalculator.com/tennessee-snap-eligibility/\"}]\n\nThe search turned up conflicting reports on Tennessee's BBCE status, so I'd treat the picture as unsettled and verify with TDHS before relying on it.\n\n**Most recent news:** A June 2026 Lewis County Herald article reports that Tennessee Department of Human Services has implemented the policy change, which is meant to streamline applications and remove asset limits for some households.\n\n**Conflicting sources on BBCE and the 200% gross income test:**\n- The Sycamore Institute says that, pending approval from the Tennessee General Assembly, TDHS is in the process of changing state-level BBCE rules. It still lists the 130% gross limit as current.\n- A BenefitsUSA guide says Tennessee participates in Broad-Based Categorical Eligibility (BBCE), which raises the gross income test to 200% of the federal poverty level, and that asset limits are waived for most households.\n- Two other calculator sites say Tennessee has not adopted Broad-Based Categorical Eligibility (BBCE), so the 130% standard applies.\n\nThese are commercial calculator and blog sites, so they carry less weight than official sources. The June 2026 news report is the most recent item, and it supports implementation.\n\n**Standard utility allowance:** I found no official FY2026 or FY2027 SUA figure. One calculator site gives around $358/month in 2026, which is unverified. The 2026–2027 federal SUA values would need to be checked against USDA FNS tables and TDHS guidance.\n\n**Families First:** Some sources say Families First recipients are categorically eligible for SNAP, which is a separate pathway from BBCE.\n\n**Recommended verification:** Check TDHS's official SNAP policy manual and announcements for the BBCE status, and check the USDA FNS state SUA table for the 2026–2027 utility allowance figure.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.fna.usda.gov/snap/allotment/cola",
+      "prompt": "FY2027 SNAP: max allotment for household of 1, standard deduction for 1-3 persons, excess shelter cap, and any income eligibility standards."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://sycamoretn.org/snap-in-tn/",
+      "prompt": "Tennessee SNAP gross income limit (130% vs 200%), net income limit, standard utility allowance amount, earned income deduction 20%, work requirements, asset limit."
+     },
+     "result": "**Tennessee SNAP Eligibility Limits and Rules**\n\n- **Gross income limit:** Monthly gross income cannot exceed 130% of the poverty level, or $3,483 for a family of four. The article does not mention a 200% limit.\n- **Net income limit:** Monthly net income cannot exceed 100% of the poverty level, or $2,680 for a family of four.\n- **Earned income deduction:** A 20% deduction applies to earned income when calculating net income.\n- **Standard utility allowance:** The article does not give this amount.\n- **Asset limit:** Most households are limited to $3,000 in countable assets. Households with a person who has a disability or is age 60 or older are limited to $4,500. The home and retirement plans are excluded.\n- **Work requirements:** There are two:\n  - **General work requirement:** Able-bodied adults ages 16 to 59 must register for work or join an employment or training program. They cannot quit a job without another lined up, cut hours without reasonable cause, or refuse suitable job offers.\n  - **ABAWD work requirement:** Able-bodied adults ages 18 to 64 without a dependent under 14 must work or report at least 80 hours per month to receive more than three months of benefits in a three-year period. Before the federal OBBB Act, this applied to ages 18 to 54 without a dependent under 18. The Act also removed exemptions for veterans, people experiencing homelessness, and people ages 24 and older who aged out of foster care.\n\nThe article also notes that TDHS is pursuing state rule changes, pending legislative approval, that would align SNAP income limits with TANF.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.17684299999999997,
+   "duration_ms": 33057,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "Thanks. $150 in savings is well under the usual $3,000 limit ([The Sycamore Institute](https://sycamoretn.org/snap-in-tn/)), so savings shouldn't get in your way. It doesn't change my estimate of about **$280 to $300 a month**. That's still only an estimate, and only TDHS decides.\n\n**What to do now:**\n1. **Apply for food assistance (SNAP)** at [tn.gov/humanservices](https://www.tn.gov/humanservices). If you'd rather not apply online, call **211**. They can give you the local office and the current phone number.\n2. **Gather proof of your income and costs.** Bring recent pay stubs that show your cut hours, your lease or a rent receipt, and an electric bill.\n3. **Tell them how many hours you work now.** This matters for the work rule.\n4. **Apply for TennCare** at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). It looks unlikely for you, but applying is free. Also look at lower-cost plans at healthcare.gov.\n\nIf you apply for SNAP and it's approved, the benefit can be counted from your application date. So it's better to apply soon than to wait.\n\nDo you want help with anything else, like food pantries or help with your electric bill? 211 can point you to both.",
+   "tool_calls": [],
+   "cost_usd": 0.18999659999999996,
+   "duration_ms": 4136,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "You're welcome. Calling 211 is a good plan. They can point you to food pantries near you, and they can help with the electric bill later if you need it.\n\nHere's a quick recap:\n- **SNAP:** It looks likely, at roughly $280 to $300 a month. That's an estimate, and only TDHS decides. Apply soon at [tn.gov/humanservices](https://www.tn.gov/humanservices).\n- **TennCare:** It looks unlikely, but you can still apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov). Also check healthcare.gov for lower-cost plans.\n- **Pantries and other help:** Call **211**.\n\nGood luck, and come back anytime if your situation changes.",
+   "tool_calls": [],
+   "cost_usd": 0.19614909999999997,
+   "duration_ms": 2491,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.6691,
+ "sim_cost_usd": 0.0032,
+ "wall_seconds": 105.0
+}

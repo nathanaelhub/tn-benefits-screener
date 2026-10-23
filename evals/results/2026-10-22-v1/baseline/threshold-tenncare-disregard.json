@@ -1,0 +1,67 @@
+{
+ "case": "threshold-tenncare-disregard",
+ "arm": "baseline",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "Can I get TennCare? I'm a dad with two kids and I lost my work insurance."
+  },
+  {
+   "role": "assistant",
+   "text": "Yes, you might. I need two things from you to narrow it down.\n\n1. **How old are your kids?**\n2. **About how much does your household make each month before taxes, and how often are you paid?** Include any other income, like unemployment or child support you get.\n\n**What I found so far**\n\nFor a household of three (you and two kids), TennCare's chart lists these monthly income limits, based on income before taxes:\n- **Your kids, TennCare:** The limit is $4,440 a month for a baby under 1. It is $3,233 for ages 1–5 and $3,028 for ages 6–18.\n- **Your kids, CoverKids:** If your income is over those amounts, your kids may still get CoverKids. Its limit is $5,692 a month for a household of three.\n- **You, as a parent:** The limit is $2,277 a month. Adults without kids at home usually can't get TennCare. But you have kids, so you might be able to.\n\nThe TennCare pages don't show a date. One outside website says the parent limit is a bit higher this year (about $2,391 for three people). I couldn't confirm that on an official page, so please treat the numbers as close, not exact.\n\nOnce I know your kids' ages and your income, I can tell you whether it looks *likely*, *possibly*, or *unlikely* for you and for each child.\n\n**Good to know now**\n- Even if your income looks too high, you can still apply. Only the state decides.\n- You can apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov) or by calling 855-259-0701.\n- For free local help, call 211.\n\nSources:\n- [TennCare Eligibility Reference Guide](https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html)\n- [CoverKids income guidelines](https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html)\n- [Medicaid in Tennessee: who qualifies and income limits for 2026 (outside site)](https://www.talktomira.com/coverage/medicaid/tennessee/)"
+  }
+ ],
+ "turns": [
+  {
+   "text": "Yes, you might. I need two things from you to narrow it down.\n\n1. **How old are your kids?**\n2. **About how much does your household make each month before taxes, and how often are you paid?** Include any other income, like unemployment or child support you get.\n\n**What I found so far**\n\nFor a household of three (you and two kids), TennCare's chart lists these monthly income limits, based on income before taxes:\n- **Your kids, TennCare:** The limit is $4,440 a month for a baby under 1. It is $3,233 for ages 1–5 and $3,028 for ages 6–18.\n- **Your kids, CoverKids:** If your income is over those amounts, your kids may still get CoverKids. Its limit is $5,692 a month for a household of three.\n- **You, as a parent:** The limit is $2,277 a month. Adults without kids at home usually can't get TennCare. But you have kids, so you might be able to.\n\nThe TennCare pages don't show a date. One outside website says the parent limit is a bit higher this year (about $2,391 for three people). I couldn't confirm that on an official page, so please treat the numbers as close, not exact.\n\nOnce I know your kids' ages and your income, I can tell you whether it looks *likely*, *possibly*, or *unlikely* for you and for each child.\n\n**Good to know now**\n- Even if your income looks too high, you can still apply. Only the state decides.\n- You can apply at [tenncareconnect.tn.gov](https://tenncareconnect.tn.gov) or by calling 855-259-0701.\n- For free local help, call 211.\n\nSources:\n- [TennCare Eligibility Reference Guide](https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html)\n- [CoverKids income guidelines](https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html)\n- [Medicaid in Tennessee: who qualifies and income limits for 2026 (outside site)](https://www.talktomira.com/coverage/medicaid/tennessee/)",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "TennCare eligibility income limits parents caretaker relatives children 2026",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"TennCare eligibility income limits parents caretaker relatives children 2026\"\n\nLinks: [{\"title\":\"Medicaid in Tennessee: who qualifies and income limits for 2026\",\"url\":\"https://www.talktomira.com/coverage/medicaid/tennessee/\"},{\"title\":\"Eligibility Reference Guide\",\"url\":\"https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html\"},{\"title\":\"Eligibility Reference Guide\",\"url\":\"https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html\"},{\"title\":\"tn.gov\",\"url\":\"https://tn.gov/tenncare/members-applicants/eligibility/categories.html\"},{\"title\":\"Eligibility and enrollment in Tennessee Medicaid\",\"url\":\"https://www.wellpoint.com/tn/medicaid/eligibility-and-enrollment\"},{\"title\":\"tn.gov\",\"url\":\"https://tn.gov/content/dam/tn/tenncare/documents/CaretakerRelativeMAGI.pdf\"},{\"title\":\"Medicaid eligibility in Tennessee — income limits for 2025\",\"url\":\"https://www.blackhealth.org/medicaid/tennessee/eligibility/\"},{\"title\":\"tn tenncare iii pa 11132023\",\"url\":\"https://www.medicaid.gov/medicaid/section-1115-demonstrations/downloads/tn-tenncare-iii-pa-11132023.pdf\"},{\"title\":\"medicaid eligibility tennessee\",\"url\":\"https://sycamoretn.org/medicaid-eligibility-tennessee/\"}]\n\nI ran one search. The sources agree that Tennessee's parent and caretaker limit is low and tied to the federal poverty level, but they give different numbers, so verify before relying on any figure.\n\n- **Most recent source (2026):** A guide checked against Division of TennCare sources on October 13, 2026 puts the parent and caretaker limit at 105% of the poverty level. For a three-person household, that is $2,391 per month. It also says the children's category runs up to 133% for ages 6–18, 142% for ages 1–5, and 195% for babies. A federal work rule arrives in 2027, but it reaches only some waiver parents.\n- **Official TennCare category page (undated):** This lists the parent and caretaker group at 100% of the poverty level, with a monthly limit of $2,277 for a household of three. It is likely older than the 2026 figure, which may explain the gap.\n- **2025 source:** A third site lists the parent and caretaker limit at 95% of the poverty level, or $24,530 annually for a three-person household.\n\nOther points that hold across the sources:\n- TennCare Medicaid benefits are available to parents and caretaker relatives of a dependent child under age 18, or 18 and a full-time student, whose income is at or below the income standard for their household size.\n- Parents and caretakers of children under 18 have no resource limit.\n- Adults without children usually can't qualify at any income.\n\nThe best next step is to check the current income chart on TennCare's website, since the state's own figures may differ by a dollar from third-party tables.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "CoverKids income limits 2026 Tennessee eligibility",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"CoverKids income limits 2026 Tennessee eligibility\"\n\nLinks: [{\"title\":\"Medicaid in Tennessee: who qualifies and income limits for 2026\",\"url\":\"https://www.talktomira.com/coverage/medicaid/tennessee/\"},{\"title\":\"chip eligibility tennessee\",\"url\":\"https://coveredusa.org/en/qa/chip-eligibility-tennessee\"},{\"title\":\"Independent Medicaid resource using CMS and state agency data\",\"url\":\"https://medicaideligibilitycalculator.com/apply-for-medicaid/tennessee/\"},{\"title\":\"Independent Medicaid resource using CMS and state agency data\",\"url\":\"https://medicaideligibilitycalculator.com/?p=247\"},{\"title\":\"CoverKids FAQ\",\"url\":\"https://www.tn.gov/coverkids/coverkids/frquently-asked-questions.html\"},{\"title\":\"redirect income guidelines\",\"url\":\"https://tn.gov/coverkids/coverkids/redirect-income-guidelines.html\"},{\"title\":\"Tennessee Health Coverage Options You Might Miss\",\"url\":\"https://shop.bottegadelsarto.com/opinion/tennessee-health-coverage-options-you-might-miss-272849\"},{\"title\":\"www.kidcentraltn.com\",\"url\":\"https://www.kidcentraltn.com/health/insurance/coverkids.html\"},{\"title\":\"Last Updated: January, 2026\",\"url\":\"https://checkmedicaid.com/tennessee-medicaid-income-limits/\"}]\n\nMost sources agree that CoverKids covers children under 19 in households up to 250% of the federal poverty level in 2026, but I couldn't find the official state chart to confirm the dollar figures.\n\n- **Base limit:** One guide says 250% FPL equals $39,900 for a single-person household and $82,500 for a family of four for 2026. Pregnant women use the same 250% threshold.\n- **Relationship to TennCare:** CoverKids is meant for children who are above TennCare's limits. TennCare covers lower-income children at tiered levels (195% for babies, 142% for ages 1–5, 133% for ages 6–18), and CoverKids covers children above those limits.\n- **Monthly figures:** A Medicaid-focused site lists the 2026 family-of-three children limit at $5,806 per month, but that figure includes a 5% income disregard. Its base chart is 250% FPL, which is about $5,700 for three people. Another site lists a single-person CoverKids limit of $3,250 per month, which doesn't match the $39,900 annual figure above (about $3,325 per month). Treat the monthly numbers with caution.\n- **Cost and enrollment:** There is no monthly premium and no enrollment window: CoverKids accepts applications year-round. Families may owe copayments that will vary based on income.\n- **How to apply:** Apply online by visiting tenncareconnect.tn.gov or over the phone by calling TennCare Connect at 855-259-0701. The state's FAQ also says you can't be part of any other plan to receive benefits, with special rules for pregnant women.\n\nFor the exact current limits, check the state's official CoverKids eligibility page or its TennCare eligibility reference guide. The guide I found was dated June 2024, so it may be out of date.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/tenncare/members-applicants/eligibility-reference-guide.html",
+      "prompt": "Give income limits (monthly and %FPL) for parents/caretaker relatives, children by age, and CoverKids, by household size 3 and 2 and 4. Include date of chart."
+     },
+     "result": "The page doesn't show a date for these charts, so I can't include one. Monthly income limits by household size:\n\n| Group | % FPL | Household of 2 | Household of 3 | Household of 4 |\n|---|---|---|---|---|\n| Caretaker Relative (parents and caretaker relatives) | 100% | $1,804 | $2,277 | $2,750 |\n| Children, age 0 to 1st birthday | 195% | $3,517 | $4,440 | $5,363 |\n| Children, age 1 to 6th birthday | 142% | $2,561 | $3,233 | $3,905 |\n| Children, age 6 to 19th birthday | 133% | $2,399 | $3,028 | $3,658 |\n| CoverKids (children under 19 and unborn children) | 250% | $4,509 | $5,692 | $6,875 |",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/coverkids/coverkids/redirect-income-guidelines.html",
+      "prompt": "Give CoverKids income limits by household size and date of the chart."
+     },
+     "result": "The page doesn't show a date for these charts, so I can't tell you when the figures took effect. CoverKids covers children under 19 and unborn children of women who don't qualify under another TennCare category. Its limit is 250% of the federal poverty level.\n\n| Household Size | Monthly Limit | Yearly Limit |\n|---|---|---|\n| 1 | $3,325 | $39,900 |\n| 2 | $4,509 | $54,100 |\n| 3 | $5,692 | $68,300 |\n| 4 | $6,875 | $82,500 |\n| 5 | $8,059 | $96,700 |\n| 6 | $9,242 | $110,900 |\n| 7 | $10,425 | $125,100 |\n| 8 | $11,609 | $139,300 |\n\nFor households larger than 8, add $5,680 per year for each additional person.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.05610880000000001,
+   "duration_ms": 23044,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.0561,
+ "sim_cost_usd": 0.0003,
+ "wall_seconds": 25.9
+}

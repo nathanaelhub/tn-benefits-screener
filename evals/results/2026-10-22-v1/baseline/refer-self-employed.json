@@ -1,0 +1,181 @@
+{
+ "case": "refer-self-employed",
+ "arm": "baseline",
+ "model": "sonnet",
+ "sim_model": "haiku",
+ "status": "done",
+ "messages": [
+  {
+   "role": "user",
+   "text": "I drive for DoorDash full time and have a 4 year old. Do we qualify for SNAP or WIC?"
+  },
+  {
+   "role": "assistant",
+   "text": "Thanks for telling me. I can help you check. I need a few details first.\n\n1. Who lives with you and shares food? Is it just you and your 4-year-old? Is anyone pregnant, or did anyone have a baby recently?\n2. About how much did you make from DoorDash last month, before taxes? Do you know roughly what you spent on work costs, like gas and car upkeep? Does anyone else in your home have income?\n\nOnce I know that, I'll look up the current Tennessee and federal rules and work it out."
+  },
+  {
+   "role": "user",
+   "text": "just me and my daughter, she's 4. nobody's pregnant. made around 2200 last month from doordash before gas and stuff. not sure exactly what gas and car stuff runs me, maybe a few hundred? no one else makes money in the house."
+  },
+  {
+   "role": "assistant",
+   "text": "**Short answer:** WIC looks **likely** for your daughter. Food assistance (SNAP) looks **possibly** or **likely** for you, but I need two more details to firm up the amount.\n\n**WIC**\n- WIC covers children under 5, so your 4-year-old fits.\n- The income limit for a 2-person household is about $3,337 a month before taxes (2026-27). Your $2,200 is under that, even before gas and car costs.\n- WIC also includes a short health check, which is normal.\n- To apply, call 1-800-DIAL-WIC or contact your county health department. You can confirm the limit at the [Tennessee WIC page](https://www.tn.gov/content/tn/health/wic.html).\n- I couldn't open that page myself, so I took the figure from a search summary of it. Please confirm it with WIC.\n\n**Food assistance (SNAP)**\n- The reported gross limit for 2 people is $3,525 a month, and the net limit is about $1,804. Tennessee recently changed its rules, and the $3,525 figure comes from the [Tennessee Justice Center](https://www.tnjustice.org/post/bbce). I couldn't find the state's own notice, so I can't say for sure which limit applies. Either way, you can still apply.\n- Your income looks well under both limits. For DoorDash, SNAP generally counts what you earn after business costs like gas. If those costs are about $300, your income is around $1,900 a month.\n- The 2026-27 federal amounts come from [Propel's summary of USDA's numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/). The official USDA page wouldn't open for me. For 2 people:\n  - The standard deduction is $217.\n  - The most SNAP can pay is $562 a month.\n  - The 20% work deduction is my own addition, based on general SNAP rules.\n- With those numbers, your counted income is about $1,300 a month. That's before any rent or utility deduction.\n- **Rough estimate: at least $170 a month, and probably more once rent is counted.** This is only an estimate. The caseworker decides the real amount, and it may differ.\n- Tennessee's rules on which DoorDash costs count may differ from what I assumed. Keep records of your gas and car costs, like mileage and receipts.\n- Tennessee reportedly dropped its savings limit. I'd still check with the agency.\n\n**Next steps**\n- Apply for SNAP through the Tennessee Department of Human Services at [tn.gov/humanservices](https://www.tn.gov/humanservices). If you can't find the right number, call 211 for free local help.\n- Only the agency can decide if you get benefits. Please report your income accurately. If you're overpaid, you'd have to pay it back.\n\n**Two more questions to sharpen the estimate:**\n1. About how much is your monthly rent or mortgage? Do you pay heating or cooling bills separately?\n2. Do you pay for child care, or pay child support, so you can work?"
+  },
+  {
+   "role": "user",
+   "text": "Rent is $900. Heating and cooling are separate, I just don't know the exact amount each month. No child care costs, and I don't pay child support."
+  },
+  {
+   "role": "assistant",
+   "text": "With a $900 rent, your food assistance (SNAP) looks **likely**, at roughly **$250 to $350 a month**. That's an estimate, not a promise.\n\n**How I got there**\n- I counted about $1,900 a month from DoorDash after about $300 in gas and car costs.\n- I took off the $217 standard deduction and a 20% work deduction. That leaves about $1,300 of counted income.\n- Rent and utilities that go over half of your counted income lower your count further. That lowers it again, and SNAP pays more.\n- **Rent only:** about $245 a month.\n- **Rent plus about $250 in heating and cooling:** about $320 a month.\n- **Rent plus about $400 in heating and cooling:** about $365 a month.\n\nI couldn't find Tennessee's heating and cooling allowance for this year. Tennessee may use a set amount instead of your real bills. That's why this is a range. The caseworker will tell you which applies. Your most recent utility bills would help.\n\nThe figures behind this are the 2026-27 federal numbers ($562 top benefit for 2 people, $217 standard deduction, $769 rent-and-utilities cap, about $1,804 net income limit). They come from [Propel's summary of USDA's numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/), because USDA's own page wouldn't open for me. Your income also looks under the reported $3,525 gross limit from the [Tennessee Justice Center](https://www.tnjustice.org/post/bbce). Tennessee's income limit has been in flux, so I can't be sure which one applies. Either way, you can still apply.\n\n**Things that could change the number**\n- If your gas and car costs are lower than $300, your benefit will be a bit lower. If they're higher, it will be a bit higher.\n- The state may count business costs differently than I did. Keep your mileage and receipts.\n\n**WIC** still looks **likely** for your daughter. Your income is well under the reported limit of about $3,337 a month for 2 people. WIC includes a short health check.\n\n**Next steps**\n- **SNAP:** Apply through the Tennessee Department of Human Services at [tn.gov/humanservices](https://www.tn.gov/humanservices). Have your DoorDash earnings, rent, and utility bills handy.\n- **WIC:** Call 1-800-DIAL-WIC or your county health department.\n- **Help finding the right office or number:** Call 211 for free local help.\n\nOnly the agency can decide whether you get benefits and how much. Please report your income and costs accurately. If you're overpaid, you'd have to pay it back."
+  }
+ ],
+ "turns": [
+  {
+   "text": "Thanks for telling me. I can help you check. I need a few details first.\n\n1. Who lives with you and shares food? Is it just you and your 4-year-old? Is anyone pregnant, or did anyone have a baby recently?\n2. About how much did you make from DoorDash last month, before taxes? Do you know roughly what you spent on work costs, like gas and car upkeep? Does anyone else in your home have income?\n\nOnce I know that, I'll look up the current Tennessee and federal rules and work it out.",
+   "tool_calls": [],
+   "cost_usd": 0.0060867000000000004,
+   "duration_ms": 4619,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "**Short answer:** WIC looks **likely** for your daughter. Food assistance (SNAP) looks **possibly** or **likely** for you, but I need two more details to firm up the amount.\n\n**WIC**\n- WIC covers children under 5, so your 4-year-old fits.\n- The income limit for a 2-person household is about $3,337 a month before taxes (2026-27). Your $2,200 is under that, even before gas and car costs.\n- WIC also includes a short health check, which is normal.\n- To apply, call 1-800-DIAL-WIC or contact your county health department. You can confirm the limit at the [Tennessee WIC page](https://www.tn.gov/content/tn/health/wic.html).\n- I couldn't open that page myself, so I took the figure from a search summary of it. Please confirm it with WIC.\n\n**Food assistance (SNAP)**\n- The reported gross limit for 2 people is $3,525 a month, and the net limit is about $1,804. Tennessee recently changed its rules, and the $3,525 figure comes from the [Tennessee Justice Center](https://www.tnjustice.org/post/bbce). I couldn't find the state's own notice, so I can't say for sure which limit applies. Either way, you can still apply.\n- Your income looks well under both limits. For DoorDash, SNAP generally counts what you earn after business costs like gas. If those costs are about $300, your income is around $1,900 a month.\n- The 2026-27 federal amounts come from [Propel's summary of USDA's numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/). The official USDA page wouldn't open for me. For 2 people:\n  - The standard deduction is $217.\n  - The most SNAP can pay is $562 a month.\n  - The 20% work deduction is my own addition, based on general SNAP rules.\n- With those numbers, your counted income is about $1,300 a month. That's before any rent or utility deduction.\n- **Rough estimate: at least $170 a month, and probably more once rent is counted.** This is only an estimate. The caseworker decides the real amount, and it may differ.\n- Tennessee's rules on which DoorDash costs count may differ from what I assumed. Keep records of your gas and car costs, like mileage and receipts.\n- Tennessee reportedly dropped its savings limit. I'd still check with the agency.\n\n**Next steps**\n- Apply for SNAP through the Tennessee Department of Human Services at [tn.gov/humanservices](https://www.tn.gov/humanservices). If you can't find the right number, call 211 for free local help.\n- Only the agency can decide if you get benefits. Please report your income accurately. If you're overpaid, you'd have to pay it back.\n\n**Two more questions to sharpen the estimate:**\n1. About how much is your monthly rent or mortgage? Do you pay heating or cooling bills separately?\n2. Do you pay for child care, or pay child support, so you can work?",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP income limits household of 2 October 2026 gross net income standard deduction",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP income limits household of 2 October 2026 gross net income standard deduction\"\n\nLinks: [{\"title\":\"Key Takeaways\",\"url\":\"https://sycamoretn.org/snap-in-tn/\"},{\"title\":\"The Supplemental Nutrition Assistance Program (SNAP) in Tennessee\",\"url\":\"https://sycamoretn.org/?p=17208\"},{\"title\":\"Tn Food Stamp Income Limit\",\"url\":\"https://congresoextension.utn.edu.ar/tn-food-stamp-income-limit\"},{\"title\":\"snap shakeup could put more food on memphis tables\",\"url\":\"https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/\"},{\"title\":\"How To Complete Your Tennessee Food Stamp Application: A Step-by-Step Guide To SNAP Benefits\",\"url\":\"https://jitsibb.subinsb.com/step-step-guide-snap-benefits-1cs8.html\"},{\"title\":\"07a490 25df805dc3e24f898074369ec661b63a\",\"url\":\"https://www.tnjustice.org/_files/ugd/07a490_25df805dc3e24f898074369ec661b63a.pdf\"},{\"title\":\"www.secondharvestmidtn.org\",\"url\":\"https://www.secondharvestmidtn.org/?p=45368\"},{\"title\":\"Resource Corner – October 2025\",\"url\":\"https://compass.vkcsites.org/?p=6969\"},{\"title\":\"the supplemental nutrition assistance program snap in tennessee\",\"url\":\"https://sycamoretn.org/wp-content/uploads/2026/01/the-supplemental-nutrition-assistance-program-snap-in-tennessee.pdf\"}]\n\nI ran one search. It did not turn up official USDA or TDHS figures for October 2026, so treat the numbers below as provisional.\n\n**Recent policy change (2026):** Tennessee adopted broad-based categorical eligibility (BBCE). One advocacy summary says that move raises the SNAP gross‑income threshold from 130% to 200% of total household gross monthly income and removes asset limits for some households. A TN Justice fact sheet, updated May 28, 2026, lists a gross monthly limit of $3,525 for a household of two under the new policy. It says the policy raises gross income limit to 200% of the Federal Poverty Line (FPL) and maintains net income limit at 100% FPL. I did not find a two-person net figure in these results.\n\n**Older figures (conflicting):** A January 2026 Sycamore Institute report still described the gross monthly income cannot exceed 130% of poverty—or $3,483 for a family of four, so it predates the BBCE change. A Second Harvest Middle Tennessee table, which doesn't state a year, gives a two-person gross limit of $1,888 and a net limit of $1,452. That table may reflect an earlier year.\n\n**Deductions:** The standard deduction for FY2026 (effective October 1, 2025) was increases to $209 for households of 1–3 people. I did not find the FY2027 standard deduction, which would take effect around October 1, 2026.\n\n**Bottom line:** For a two-person household, the gross monthly limit is likely around $3,525 under the 2026 BBCE rules. The net limit should be about 100% of the poverty line, but I could not confirm the exact figure. The FY2027 standard deduction and any October 2026 COLA adjustments still need checking against USDA's FY2027 SNAP income-limit tables or TDHS.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee WIC income eligibility guidelines 2026-2027 185% poverty household of 2",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee WIC income eligibility guidelines 2026-2027 185% poverty household of 2\"\n\nLinks: [{\"title\":\"Tennessee Women, Infants & Children (WIC) Program\",\"url\":\"https://www.tn.gov/content/tn/health/wic.html\"},{\"title\":\"Administrative and Government Law\",\"url\":\"https://legalclarity.org/tennessee-wic-eligibility-requirements-and-income-limits/\"},{\"title\":\"Income Guidelines\",\"url\":\"https://www.tn.gov/health/health-program-areas/fhw/wic/income-guidelines.html\"},{\"title\":\"tennessee wic application 2026\",\"url\":\"https://benefitsusa.org/en/blog/tennessee-wic-application-2026\"},{\"title\":\"SNAP Eligibility Calculator — Header Navigation\",\"url\":\"https://snapeligibilitycalculator.com/?p=1577\"},{\"title\":\"wic ieg2026 2027\",\"url\":\"https://www.usda.gov/sites/default/files/guidance-documents/wic-ieg2026-2027.pdf\"},{\"title\":\"public-inspection.federalregister.gov\",\"url\":\"https://public-inspection.federalregister.gov/2026-08323.pdf\"},{\"title\":\"enrolling wic\",\"url\":\"https://www.nashville.gov/departments/health/wic/enrolling-wic\"},{\"title\":\"Eligibility Guidelines One Pager FY26 27\",\"url\":\"https://content.govdelivery.com/attachments/MTDPHHS/2026/06/19/file_attachments/3689606/Eligibility Guidelines One-Pager FY26-27.pdf\"}]\n\nFor a household of two in Tennessee, the 2026-2027 WIC gross income limit (July 1, 2026 to June 30, 2027) is **$40,034 per year, or $3,337 per month**. The state's [WIC program page](https://www.tn.gov/content/tn/health/wic.html) lists the other periods as $1,669 twice monthly, $1,540 bi-weekly, and $770 weekly. The state also notes that a standard deduction is already built into these figures, so hardship deductions shouldn't be applied on top.\n\nThese numbers are set at 185% of the federal poverty guidelines. The [USDA's policy memo](https://www.usda.gov/sites/default/files/guidance-documents/wic-ieg2026-2027.pdf) confirms the 185% limit and the 2026 poverty update. A separate [Montana one-page table](https://content.govdelivery.com/attachments/MTDPHHS/2026/06/19/file_attachments/3689606/Eligibility%20Guidelines%20One-Pager%20FY26-27.pdf) shows the same $40,034 figure for a household of two, which is a useful cross-check for the national schedule.\n\nFor comparison, the prior period's (2025-2026) figure for a household of two was $39,128 per year, per the [Tennessee income guidelines page](https://www.tn.gov/health/health-program-areas/fhw/wic/income-guidelines.html).\n\nEligibility also requires Tennessee residency, a qualifying category, and a nutritional risk assessment. Applicants can contact their county health department or the statewide line at 1-800-DIAL-WIC. Some sources, such as [Nashville's WIC page](https://www.nashville.gov/departments/health/wic/enrolling-wic), point applicants to a prescreening tool for exact limits.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "USDA SNAP fiscal year 2027 cost-of-living adjustments maximum allotment standard deduction shelter cap",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"USDA SNAP fiscal year 2027 cost-of-living adjustments maximum allotment standard deduction shelter cap\"\n\nLinks: [{\"title\":\"fna.snap cola2027\",\"url\":\"https://www.usda.gov/sites/default/files/guidance-documents/fna.snap-cola2027.pdf\"},{\"title\":\"snap benefits increase for millions of americans\",\"url\":\"https://www.news4jax.com/news/local/2026/10/02/snap-benefits-increase-for-millions-of-americans/\"},{\"title\":\"What to know about SNAP increases starting Oct. 1\",\"url\":\"https://www.coloradopolitics.com/2026/09/28/what-to-know-about-snap-increases-starting-oct-1-5/\"},{\"title\":\"snap benefits are increasing october 1 new payment amounts revealed 12393704\",\"url\":\"https://www.newsweek.com/snap-benefits-are-increasing-october-1-new-payment-amounts-revealed-12393704\"},{\"title\":\"Politics & Government\",\"url\":\"https://patch.com/georgia/atlanta/snap-changes-coming-ga-what-know\"},{\"title\":\"En esta noticia\",\"url\":\"https://www.cronista.com/en/finance/snap-benefits-increase-starting-october-1-2026-new-maximum-amounts-by-household-size/\"},{\"title\":\"En esta noticia\",\"url\":\"https://www.cronista.com/en/finance/snap-benefits-change-on-october-what-millions-of-americans-need-to-know-about-the-new-rules/\"},{\"title\":\"snap 2026 2027 cola increase\",\"url\":\"https://www.propel.app/snap/snap-2026-2027-cola-increase/\"},{\"title\":\"SNAP Benefits Increase: New FY2027 Maximum Amounts & Free Calculator\",\"url\":\"https://govtschemes.org/?p=38707\"}]\n\nThe USDA's FY2027 memo confirms the key figures, effective October 1, 2026, for the 48 contiguous states and D.C.\n\n- **Maximum allotment:** A family of four can receive up to $1,023 a month. The maximum allotment for a family of four in the 48 States and D.C., will be $1,023. Other household sizes are reported as $306 for one person, $562 for two people, and $808 for three. Per-person increases above that size are $225 per additional person, and the cap for households of 18 or more is $3,887 in the 48 States and the District of Columbia.\n- **Standard deduction:** For households of one to three people, it rises to $217 per month. I did not find the figures for larger households in these results.\n- **Shelter cap:** The memo states that the shelter cap value will increase to $769 for the 48 States and D.C. The excerpt cuts off before the rest of that section, so I could not confirm how the cap applies.\n- **Minimum benefit:** It rises to $25 for the 48 states and D.C.\n- **Other areas:** The maximum allotment for a family of four in Hawaii will decrease to $1,655. Alaska, Guam, and the U.S. Virgin Islands have their own tables.\n\nThe shelter cap and standard deduction for larger households are the main gaps. The official memo at the USDA's Food and Nutrition Service site would have the complete attached tables.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP broad-based categorical eligibility 200% federal poverty level change",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP broad-based categorical eligibility 200% federal poverty level change\"\n\nLinks: [{\"title\":\"snap shakeup could put more food on memphis tables\",\"url\":\"https://hoodline.com/2026/06/snap-shakeup-could-put-more-food-on-memphis-tables/\"},{\"title\":\"top of page\",\"url\":\"https://www.tnjustice.org/post/bbce\"},{\"title\":\"07a490 6e2db852b6684364bac63d1ca6dda303\",\"url\":\"https://www.tnjustice.org/_files/ugd/07a490_6e2db852b6684364bac63d1ca6dda303.pdf\"},{\"title\":\"07a490 25df805dc3e24f898074369ec661b63a\",\"url\":\"https://www.tnjustice.org/_files/ugd/07a490_25df805dc3e24f898074369ec661b63a.pdf\"},{\"title\":\"article ea836bc5 dbbd 48ad b299 2340baad3c60\",\"url\":\"https://fox13memphis.com/news/tennessee-changes-snap-rules-could-help-more-families-qualify-for-food-assistance/article_ea836bc5-dbbd-48ad-b299-2340baad3c60.html\"},{\"title\":\"SNAP profile Tennessee\",\"url\":\"https://www.nccp.org/wp-content/uploads/2024/10/SNAP-profile-Tennessee.pdf\"},{\"title\":\"Key Takeaways\",\"url\":\"https://sycamoretn.org/snap-in-tn/\"},{\"title\":\"More forecasts: Atlanta 30 day forecast\",\"url\":\"https://hoodline.com/news/knoxville/latest/page/11/\"},{\"title\":\"The Supplemental Nutrition Assistance Program (SNAP) in Tennessee\",\"url\":\"https://sycamoretn.org/?p=17208\"},{\"title\":\"More forecasts: Atlanta 30 day forecast\",\"url\":\"https://hoodline.com/news/memphis/latest/page/23/\"}]\n\nThe search results indicate Tennessee adopted broad-based categorical eligibility (BBCE) for SNAP in 2026, raising the gross income limit from 130% to 200% of the federal poverty level and removing the asset test for many households. I didn't find the official TDHS notice, so these details come from news and advocacy sources.\n\n- **Income limits:** A June 2026 Hoodline report says the change raises the SNAP gross-income threshold from 130% to 200% of total household gross monthly income and removes asset limits for some households. A Tennessee Justice Center flyer updated May 28, 2026 says the state maintains net income limit at 100% FPL.\n- **Monthly gross figures:** The same flyer lists monthly gross limits of $2,608 for an individual, $3,525 for a household of 2, $4,442 for a household of 3, and $5,358 for a household of 4.\n- **Assets:** Per the Justice Center, families who have been previously denied for having more than the allowed amounts of liquid resources should reapply. The flyer cites a prior $3,000 in savings limit.\n- **Timing:** An earlier Sycamore Institute primer said TDHS was pending approval from the Tennessee General Assembly for the BBCE change, so that article predates the implementation reports.\n- **Federal context:** Per the USDA description cited by Hoodline, BBCE can let a state set a gross-income limit up to 200% of the federal poverty level and, in some cases, eliminate asset verification.\n\nCaveat: the Hoodline and FOX13 coverage doesn't give an exact effective date, and I didn't find the official TDHS or USDA Tennessee-specific notice. Check the TDHS site for the effective date and final rules before relying on these figures.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/fna.snap-cola2027.pdf",
+      "prompt": "Give FY2027 SNAP standard deduction for 1-3 person households, max allotment for 1 and 2 persons, excess shelter cap, minimum benefit, and the income eligibility standards (gross 130%, net 100%) for household of 2 in 48 states."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/content/tn/health/wic.html",
+      "prompt": "WIC income limit for household of 2 (2026-27), how to apply, phone number, eligibility categories including children under 5."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tnjustice.org/post/bbce",
+      "prompt": "What changed in Tennessee SNAP BBCE, effective date, gross and net income limits for household of 2, asset rules, self-employment."
+     },
+     "result": "**What changed in Tennessee's SNAP BBCE:**\n- The gross income limit rose to 200% of the Federal Poverty Limit. The net income limit stays at 100% FPL.\n- The asset test was removed, so savings no longer disqualify a household.\n- Households previously denied for exceeding liquid resource limits should reapply.\n\n**Household of 2:**\n- Gross monthly income limit: $3,525.\n- Net monthly income limit: The article says it remains at 100% FPL but gives no dollar figure for a household of 2.\n\n**Effective date:** The article does not state one.\n\n**Self-employment:** The article does not address self-employment.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.fns.usda.gov/snap/allotment/COLA",
+      "prompt": "FY2027 SNAP: standard deduction for household size 1-3, max allotment for 2 persons, shelter cap, income eligibility standards (net monthly 100% poverty for 2 persons)."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/health/health-program-areas/fhw/wic/income-guidelines.html",
+      "prompt": "WIC income limits household of 2 for 2026-27; phone number to apply."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap.html",
+      "prompt": "How to apply for SNAP in Tennessee, website, phone number, income rules, self-employment."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.usda.gov/sites/default/files/guidance-documents/wic-ieg2026-2027.pdf",
+      "prompt": "WIC income eligibility 185% for household of 2 in 48 states, annual/monthly."
+     },
+     "result": "The server returned HTTP 403 Forbidden.\n\nThe response body was not retrieved. If this URL requires authentication, use an authenticated tool (e.g. `gh` for GitHub, or an MCP-provided fetch tool) instead of WebFetch.",
+     "is_error": false
+    },
+    {
+     "name": "WebFetch",
+     "input": {
+      "url": "https://www.propel.app/snap/snap-2026-2027-cola-increase/",
+      "prompt": "FY2027 SNAP standard deduction for 1-3 person households, max benefit for household of 2, shelter cap, net income limit for 2 people, minimum benefit."
+     },
+     "result": "Here are the FY2027 figures for the 48 contiguous states and D.C., effective October 1, 2026:\n\n- **Standard deduction (1-3 people):** $217, up from $209\n- **Maximum benefit (2 people):** $562, up from $546\n- **Shelter cap (maximum excess shelter deduction):** $769, up from $744. This applies when rent and utilities exceed half of net income.\n- **Net income limit (2 people):** $1,804 per month, up from $1,763\n- **Minimum benefit (1-2 people):** $25 per month, up from $24",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.1323958,
+   "duration_ms": 43805,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  },
+  {
+   "text": "With a $900 rent, your food assistance (SNAP) looks **likely**, at roughly **$250 to $350 a month**. That's an estimate, not a promise.\n\n**How I got there**\n- I counted about $1,900 a month from DoorDash after about $300 in gas and car costs.\n- I took off the $217 standard deduction and a 20% work deduction. That leaves about $1,300 of counted income.\n- Rent and utilities that go over half of your counted income lower your count further. That lowers it again, and SNAP pays more.\n- **Rent only:** about $245 a month.\n- **Rent plus about $250 in heating and cooling:** about $320 a month.\n- **Rent plus about $400 in heating and cooling:** about $365 a month.\n\nI couldn't find Tennessee's heating and cooling allowance for this year. Tennessee may use a set amount instead of your real bills. That's why this is a range. The caseworker will tell you which applies. Your most recent utility bills would help.\n\nThe figures behind this are the 2026-27 federal numbers ($562 top benefit for 2 people, $217 standard deduction, $769 rent-and-utilities cap, about $1,804 net income limit). They come from [Propel's summary of USDA's numbers](https://www.propel.app/snap/snap-2026-2027-cola-increase/), because USDA's own page wouldn't open for me. Your income also looks under the reported $3,525 gross limit from the [Tennessee Justice Center](https://www.tnjustice.org/post/bbce). Tennessee's income limit has been in flux, so I can't be sure which one applies. Either way, you can still apply.\n\n**Things that could change the number**\n- If your gas and car costs are lower than $300, your benefit will be a bit lower. If they're higher, it will be a bit higher.\n- The state may count business costs differently than I did. Keep your mileage and receipts.\n\n**WIC** still looks **likely** for your daughter. Your income is well under the reported limit of about $3,337 a month for 2 people. WIC includes a short health check.\n\n**Next steps**\n- **SNAP:** Apply through the Tennessee Department of Human Services at [tn.gov/humanservices](https://www.tn.gov/humanservices). Have your DoorDash earnings, rent, and utility bills handy.\n- **WIC:** Call 1-800-DIAL-WIC or your county health department.\n- **Help finding the right office or number:** Call 211 for free local help.\n\nOnly the agency can decide whether you get benefits and how much. Please report your income and costs accurately. If you're overpaid, you'd have to pay it back.",
+   "tool_calls": [
+    {
+     "name": "WebSearch",
+     "input": {
+      "query": "Tennessee SNAP standard utility allowance heating cooling October 2026 FY2027",
+      "mode": "standard"
+     },
+     "result": "Web search results for query: \"Tennessee SNAP standard utility allowance heating cooling October 2026 FY2027\"\n\nLinks: [{\"title\":\"standard utility allowances\",\"url\":\"https://fns-prod.azureedge.us/snap/eligibility/deduction/standard-utility-allowances\"},{\"title\":\"standard utility allowances\",\"url\":\"https://www.fna.usda.gov/snap/eligibility/deduction/standard-utility-allowances\"},{\"title\":\"standard utility allowances\",\"url\":\"https://www.fns.usda.gov/snap/eligibility/deduction/standard-utility-allowances\"},{\"title\":\"fns-prod.azureedge.us\",\"url\":\"https://fns-prod.azureedge.us/node/7039\"},{\"title\":\"fna.snap sua2027\",\"url\":\"https://www.usda.gov/sites/default/files/guidance-documents/fna.snap-sua2027.pdf\"},{\"title\":\"snap sua regulatory impact analysis\",\"url\":\"https://frac.org/wp-content/uploads/snap-sua-regulatory-impact-analysis.pdf\"},{\"title\":\"Administrative and Government Law\",\"url\":\"https://legalclarity.org/tn-food-stamp-eligibility-calculator-and-income-limits/\"},{\"title\":\"SUA RegReformFactSheet\",\"url\":\"https://fns-prod.azureedge.us/sites/default/files/resource-files/SUA-RegReformFactSheet.pdf\"},{\"title\":\"fns-prod.azureedge.us\",\"url\":\"https://fns-prod.azureedge.us/node/11222\"}]\n\nThe search didn't turn up Tennessee's FY2027 heating and cooling SUA figure. It did find the federal guidance that governs how states set these values for FY2027.\n\n- **FY2027 method:** A USDA memo dated August 24, 2026 lets states adjust their FY2026 SUA values by the change in the all-items CPI between June 2025 and June 2026. FNA will readily approve SUA values calculated using this method. The memo also says states may not use a new SUA methodology to calculate their SUA values without approval from FNA and are required to update their SUA values each year.\n- **Tennessee specifics:** USDA's SUA page says SUAs vary based on household size in Arizona, Guam, Hawaii, North Carolina, Tennessee and Virginia. Tennessee is also one of the states without mandatory SUAs, according to a 2019-era FRAC analysis, which says the five States without mandatory SUAs are Arkansas, Hawaii, Tennessee, Virginia, and the Virgin Islands. That is older information and may have changed.\n- **Pending federal rule:** USDA proposed standardizing heating and cooling SUAs at the 80th percentile of low-income households' utility costs in the state. I did not confirm whether that rule has been finalized, so treat its status as unverified.\n\nTo get the actual Tennessee FY2027 numbers, check the Tennessee Department of Human Services SNAP policy materials or the USDA FNS state SUA table. Those would show the published heating/cooling amount by household size.\n\n\nREMINDER: You MUST include the sources above in your response to the user using markdown hyperlinks.",
+     "is_error": false
+    }
+   ],
+   "cost_usd": 0.17349870000000003,
+   "duration_ms": 19228,
+   "error": null,
+   "model": "claude-sonnet-5-5"
+  }
+ ],
+ "agent_cost_usd": 0.312,
+ "sim_cost_usd": 0.0016,
+ "wall_seconds": 78.7
+}
