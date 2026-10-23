@@ -9,6 +9,12 @@ eligibility rules live in data files, every number is tied to a quote from an of
 source, and tests fail if a number doesn't match the source text. Claude gathers the facts,
 calls the screener through MCP, and explains the result.
 
+**Try it: [nathanaelhub.github.io/tn-benefits-screener](https://nathanaelhub.github.io/tn-benefits-screener/)**.
+The page is the screener as a form, without Claude. It runs the same Python code in your
+browser through [Pyodide](https://pyodide.org), so nothing you enter leaves your device.
+Before each deploy, a browser test checks that all 40 eval households get exactly the same
+results in the browser as in Python.
+
 It's a screener, not a decision: results are *likely*, *possibly*, *unlikely*, or "a
 caseworker needs to look at this", and it always says that only the agency decides and
 anyone can apply.
@@ -117,6 +123,7 @@ src/tn_screener/
   policy.py              BM25 search over the source texts
   server.py              MCP server: screen_household, search_policy, get_rule
 plugin/                  Claude Code plugin + benefits-navigator skill (the interview)
+site/                    the web page (Pyodide); scripts/build_site.py, scripts/test_site.py
 evals/                   cases, conversation runner, scorer, results
 ```
 
@@ -155,6 +162,9 @@ uv run pytest                                 # 96 tests, offline
 echo '{"members":[{"age":24,"pregnant":true}],"income":[{"amount":4000}]}' \
   | uv run tn-screener screen -
 ```
+
+The web page: `uv run python scripts/build_site.py && python -m http.server -d _site`, and
+`uv run --with playwright python scripts/test_site.py` for the browser test.
 
 In Claude Code:
 

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tennessee Benefits Screener</title>
+<meta name="description" content="Check whether a Tennessee household might qualify for SNAP, WIC and TennCare/CoverKids, with every number cited to an official source. Runs entirely in your browser.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">Tennessee · SNAP · WIC · TennCare/CoverKids</p>
+    <h1>Might this household qualify?</h1>
+    <p class="lede">A first check using the official 2026–27 limits, with a source for every number.
+      It's a screening, not a decision: only the state decides, and anyone can apply.</p>
+    <p class="privacy">Runs entirely in your browser. Nothing you enter is sent anywhere.</p>
+  </div>
+</header>
+
+<main class="wrap grid">
+  <form id="form" class="panel" novalidate>
+    <div class="examples">
+      <span>Try an example:</span>
+      <div id="examples" class="chips"></div>
+    </div>
+
+    <fieldset>
+      <legend>Who lives together and shares food?</legend>
+      <div id="members"></div>
+      <button type="button" class="ghost" id="add-member">+ Add a person</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Income before taxes</legend>
+      <div id="incomes"></div>
+      <button type="button" class="ghost" id="add-income">+ Add income</button>
+      <p class="hint">Leave empty if nobody has income.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Monthly costs</legend>
+      <p class="hint">Leave blank if you don't know; the result will say what could change it.</p>
+      <div class="row">
+        <label>Rent or mortgage <span class="money"><input type="number" min="0" step="1" id="rent" inputmode="decimal"></span></label>
+        <label>Utilities paid separately
+          <select id="utilities">
+            <option value="">Not sure</option>
+            <option value="heating_cooling">Heating or cooling</option>
+            <option value="other">Other utilities (not heat/AC)</option>
+            <option value="phone_only">Only a phone</option>
+            <option value="none">None, all included</option>
+          </select>
+        </label>
+      </div>
+      <div class="row">
+        <label>Child care (to work or study) <span class="money"><input type="number" min="0" step="1" id="care" inputmode="decimal"></span></label>
+        <label>Child support paid out <span class="money"><input type="number" min="0" step="1" id="support" inputmode="decimal"></span></label>
+      </div>
+      <div class="row">
+        <label>Medical costs (people 60+ or disabled) <span class="money"><input type="number" min="0" step="1" id="medical" inputmode="decimal"></span></label>
+        <label>Cash and bank savings <span class="money"><input type="number" min="0" step="1" id="savings" inputmode="decimal"></span></label>
+      </div>
+      <label class="check"><input type="checkbox" id="homeless"> Experiencing homelessness</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Already getting</legend>
+      <div class="checks">
+        <label class="check"><input type="checkbox" name="receives" value="snap"> SNAP</label>
+        <label class="check"><input type="checkbox" name="receives" value="wic"> WIC</label>
+        <label class="check"><input type="checkbox" name="receives" value="tenncare"> TennCare</label>
+      </div>
+    </fieldset>
+
+    <button type="submit" id="go" class="primary" disabled>Loading the screener…</button>
+    <p id="form-error" class="error" role="alert" hidden></p>
+  </form>
+
+  <section id="results" class="results" aria-live="polite">
+    <div class="empty">
+      <h2>Results appear here</h2>
+      <p>Fill in the household, or try an example.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Free help applying: dial <strong>211</strong>. Source code, the official documents behind every rule,
+    and an evaluation of Claude using this screener:
+    <a href="https://github.com/nathanaelhub/tn-benefits-screener">github.com/nathanaelhub/tn-benefits-screener</a>.
+    Not affiliated with any agency; not legal advice.</p>
+</footer>
+
+<template id="member-tpl">
+  <div class="card member">
+    <div class="row">
+      <label>Age <input type="number" min="0" max="120" class="age" required inputmode="numeric"></label>
+      <button type="button" class="remove" aria-label="Remove this person">Remove</button>
+    </div>
+    <div class="checks">
+      <label class="check"><input type="checkbox" class="pregnant"> Pregnant</label>
+      <label class="check"><input type="checkbox" class="disabled"> Has a disability</label>
+      <label class="check"><input type="checkbox" class="student"> College student (half time+)</label>
+      <label class="check"><input type="checkbox" class="noncitizen"> Not a U.S. citizen</label>
+      <label class="check"><input type="checkbox" class="ssi"> Gets SSI</label>
+      <label class="check"><input type="checkbox" class="ff"> Gets Families First</label>
+    </div>
+    <div class="row more">
+      <label class="babies-wrap">Babies expected <input type="number" min="1" max="8" value="1" class="babies"></label>
+      <label>Gave birth … months ago <input type="number" min="0" max="24" class="postpartum" placeholder="—"></label>
+      <label class="check"><input type="checkbox" class="breastfeeding"> Breastfeeding</label>
+    </div>
+  </div>
+</template>
+
+<template id="income-tpl">
+  <div class="card income row">
+    <label>Amount <span class="money"><input type="number" min="0" step="1" class="amount" required inputmode="decimal"></span></label>
+    <label>How often
+      <select class="frequency">
+        <option value="monthly">Monthly</option>
+        <option value="weekly">Weekly</option>
+        <option value="biweekly">Every 2 weeks</option>
+        <option value="semimonthly">Twice a month</option>
+        <option value="yearly">Yearly</option>
+      </select>
+    </label>
+    <label>Kind
+      <select class="kind">
+        <option value="earned">Wages</option>
+        <option value="unearned">Social Security, SSI, unemployment, child support received…</option>
+        <option value="self_employment">Self-employment, gig work</option>
+      </select>
+    </label>
+    <button type="button" class="remove" aria-label="Remove this income">Remove</button>
+  </div>
+</template>
+
+<script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

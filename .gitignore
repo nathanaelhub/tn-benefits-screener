@@ -6,3 +6,5 @@ __pycache__/
 dist/
 src/tn_screener/data/sources/raw/
 evals/runs/
+_site/
+_site_shots/
