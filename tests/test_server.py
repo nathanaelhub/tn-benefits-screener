@@ -78,4 +78,5 @@ async def test_get_rule(call):
 
 def test_tool_schema_matches_the_engine():
     for model, dc in ((PersonIn, engine.Person), (IncomeIn, engine.Income), (HouseholdIn, engine.Household)):
-        assert set(model.model_fields) == {f.name for f in dataclasses.fields(dc)}, model.__name__
+        fields = {f.name for f in dataclasses.fields(dc)} - {"not_given"}
+        assert set(model.model_fields) == fields, model.__name__

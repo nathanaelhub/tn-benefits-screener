@@ -59,21 +59,21 @@ class HouseholdIn(BaseModel):
                                                 "together, including the person asking.")
     income: list[IncomeIn] = Field(default_factory=list, description="Every source of income for anyone in "
                                                                       "the household; empty if none.")
-    rent_or_mortgage: float = Field(0, description="Monthly rent or mortgage, including property tax and "
-                                                   "home insurance.")
-    utilities: Literal["heating_cooling", "other", "phone_only", "none"] = Field(
-        "none", description="What the household pays for separately from rent: heating_cooling = pays for "
-                            "heat or air conditioning; other = pays other utilities (electric, water) but not "
-                            "heating or cooling; phone_only; none = all included in rent.")
-    dependent_care: float = Field(0, description="Monthly child or adult care paid so someone can work or "
-                                                 "go to school.")
+    rent_or_mortgage: float | None = Field(None, description="Monthly rent or mortgage, including property "
+                                                             "tax and home insurance; 0 if none; null if not asked.")
+    utilities: Literal["heating_cooling", "other", "phone_only", "none"] | None = Field(
+        None, description="What the household pays for separately from rent: heating_cooling = pays for "
+                          "heat or air conditioning; other = pays other utilities (electric, water) but not "
+                          "heating or cooling; phone_only; none = all included in rent; null if not asked.")
+    dependent_care: float | None = Field(None, description="Monthly child or adult care paid so someone can "
+                                                           "work or go to school; null if not asked.")
     child_support_paid: float = Field(0, description="Monthly court-ordered child support paid out.")
-    medical_costs: float = Field(0, description="Monthly out-of-pocket medical costs for members 60+ or "
-                                                "disabled.")
+    medical_costs: float | None = Field(None, description="Monthly out-of-pocket medical costs for members "
+                                                          "60+ or disabled; null if not asked.")
     homeless: bool = False
     resources: float | None = Field(None, description="Cash and bank account balances; null if not asked.")
-    receives: list[Literal["snap", "wic", "tenncare"]] = Field(
-        default_factory=list, description="Programs the household already gets.")
+    receives: list[Literal["snap", "wic", "tenncare"]] | None = Field(
+        None, description="Programs the household already gets; [] if none; null if not asked.")
 
 
 def build_server() -> MCPServer:
@@ -82,6 +82,9 @@ def build_server() -> MCPServer:
     @mcp.tool(annotations=READ_ONLY)
     def screen_household(household: HouseholdIn, as_of: str | None = None) -> dict:
         """Screen a Tennessee household for SNAP, WIC and TennCare/CoverKids.
+
+        Leave a fact null if it wasn't asked: the result's `missing_facts` then
+        lists the questions that could change the answer.
 
         Returns each program's status (likely / possibly / unlikely / refer /
         already_enrolled / not_applicable), a plain-language summary, the

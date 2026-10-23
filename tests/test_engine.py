@@ -387,3 +387,26 @@ def test_pregnant_non_citizen_hears_about_coverkids_for_the_baby():
 def test_undisclosed_citizenship_gets_a_note_not_a_referral():
     s = snap({"members": [{"age": 30, "us_citizen": None}], "income": [pay(900)]})
     assert s["status"] == "likely" and any("lawfully present" in n for n in s["notes"])
+
+
+def test_facts_left_out_are_listed_but_zeros_are_not():
+    # A parent of a 4-year-old with no expenses given: rent, utilities, child
+    # care and current programs could all change the answer.
+    r = run({"members": [{"age": 30}, {"age": 4}], "income": [pay(2000)]})
+    assert [m["fact"] for m in r["missing_facts"]] == ["rent_or_mortgage", "utilities", "dependent_care",
+                                                       "receives"]
+    r = run({"members": [{"age": 30}, {"age": 4}], "income": [pay(2000)], "rent_or_mortgage": 0,
+             "utilities": "none", "dependent_care": 0, "receives": []})
+    assert r["missing_facts"] == []
+
+
+def test_medical_costs_are_only_asked_for_elderly_or_disabled():
+    facts = lambda h: [m["fact"] for m in run(h)["missing_facts"]]  # noqa: E731
+    assert "medical_costs" not in facts({"members": [{"age": 40}]})
+    assert "medical_costs" in facts({"members": [{"age": 68}]})
+
+
+def test_null_means_not_given_and_counts_as_zero():
+    h = {"members": people(), "income": [pay(1000)], "rent_or_mortgage": None, "utilities": None}
+    assert run(h)["programs"]["snap"]["estimate"] == run({**h, "rent_or_mortgage": 0, "utilities": "none"}
+                                                         )["programs"]["snap"]["estimate"]

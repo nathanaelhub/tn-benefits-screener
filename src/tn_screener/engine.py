@@ -29,6 +29,7 @@ from datetime import date
 
 from .rules import Rule, RuleSet, in_force
 
+ASKABLE = ("rent_or_mortgage", "utilities", "dependent_care", "medical_costs", "receives")
 FREQUENCIES = ("monthly", "weekly", "biweekly", "semimonthly", "yearly")
 UTILITIES = ("heating_cooling", "other", "phone_only", "none")
 PROGRAMS = ("snap", "wic", "tenncare")
@@ -78,14 +79,18 @@ class Household:
     homeless: bool = False
     resources: float | None = None  # cash and bank accounts
     receives: list[str] = field(default_factory=list)  # snap, wic, tenncare
+    # Optional facts that were left out (absent or null) rather than given as 0;
+    # the screening treats them as 0 and lists the ones that could matter.
+    not_given: frozenset[str] = frozenset()
 
     @staticmethod
     def from_dict(d: dict) -> Household:
         try:
             members = [Person(**m) for m in d["members"]]
             income = [Income(**i) for i in d.get("income", [])]
-            rest = {k: v for k, v in d.items() if k not in ("members", "income")}
-            h = Household(members=members, income=income, **rest)
+            rest = {k: v for k, v in d.items() if k not in ("members", "income") and v is not None}
+            not_given = frozenset(k for k in ASKABLE if d.get(k) is None)
+            h = Household(members=members, income=income, not_given=not_given, **rest)
         except (KeyError, TypeError) as e:
             raise InvalidHousehold(f"bad household: {e}") from None
         h.validate()
@@ -528,6 +533,30 @@ class Screen:
         return res
 
 
+def missing_facts(h: Household) -> list[dict]:
+    """Facts left out that could change a result, as questions to ask."""
+    out = []
+    if not h.homeless and "rent_or_mortgage" in h.not_given:
+        out.append({"fact": "rent_or_mortgage", "ask": "How much is rent or mortgage each month?",
+                    "why": "Housing costs can lower SNAP's countable income and raise the benefit."})
+    if not h.homeless and "utilities" in h.not_given:
+        out.append({"fact": "utilities", "ask": "Do they pay for heating or cooling, other utilities, only a "
+                    "phone, or nothing separately from rent?",
+                    "why": "Paying utilities adds a standard allowance to housing costs for SNAP."})
+    if "dependent_care" in h.not_given and any(p.age < 13 for p in h.members):
+        out.append({"fact": "dependent_care", "ask": "Do they pay for child care so someone can work, look for "
+                    "work, or go to school or training?",
+                    "why": "Child care costs are deducted from SNAP income."})
+    if "medical_costs" in h.not_given and h.elderly_or_disabled:
+        out.append({"fact": "medical_costs", "ask": "How much do members 60+ or disabled pay out of pocket for "
+                    "medical costs each month?",
+                    "why": "Medical costs over $35 a month are deducted from SNAP income."})
+    if "receives" in h.not_given:
+        out.append({"fact": "receives", "ask": "Does anyone already get SNAP, WIC or TennCare?",
+                    "why": "Programs already received change WIC's income test and what to apply for."})
+    return out
+
+
 CONTACTS = {"snap": "apply.snap", "tenncare": "apply.tenncare", "wic": "apply.wic"}
 
 
@@ -550,6 +579,7 @@ def screen(household: Household | dict, as_of: date | None = None) -> dict:
     return {
         "as_of": rs.as_of.isoformat(),
         "programs": {k: {key: v for key, v in asdict(r).items() if key != "program"} for k, r in results.items()},
+        "missing_facts": missing_facts(h),
         "next_steps": next_steps,
         "warnings": rs.warnings,
         "disclaimer": DISCLAIMER,
