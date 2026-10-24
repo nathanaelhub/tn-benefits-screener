@@ -98,6 +98,7 @@ def main() -> int:
         page.get_by_role("button", name="+ Add a person").click()
         page.get_by_role("button", name="Check eligibility").click()
         expect(page.locator("#form-error")).to_contain_text("Enter an age")
+        expect(cards).to_have_count(0)  # the earlier results are cleared, not left stale
 
         hrefs = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
         if any(not h.startswith("https://") for h in hrefs):

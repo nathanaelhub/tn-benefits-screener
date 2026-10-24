@@ -10,6 +10,7 @@ const STATUS = {
 };
 
 let screen = null;
+const EMPTY_RESULTS = $("#results").innerHTML;
 
 // Form --------------------------------------------------------------------
 
@@ -149,6 +150,8 @@ $("#form").onsubmit = (e) => {
   try {
     render(screen(household()));
   } catch (ex) {
+    // Don't leave the previous household's results next to the error.
+    $("#results").innerHTML = EMPTY_RESULTS;
     err.textContent = String(ex.message || ex).split("\n").filter(Boolean).pop();
     err.hidden = false;
   }
