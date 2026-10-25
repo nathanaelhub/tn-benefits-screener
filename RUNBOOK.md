@@ -74,7 +74,9 @@ All commands run from a copy of this repository (`git clone`, then `uv sync`).
    `evals/results/`.
 6. **Web page:** pushing to `main` rebuilds the GitHub Pages site, after a browser test
    checks it against the Python engine. The Vercel mirror is deployed by hand:
-   `uv run python scripts/build_site.py && cd _site && vercel deploy --prod`.
+   `uv run python scripts/build_site.py && cd _site && vercel link --yes --project tn-benefits-screener && vercel deploy --prod`.
+   The build recreates `_site/`, which drops its Vercel link; without `vercel link` the
+   deploy creates a new, separate project instead of updating the mirror.
 7. **Release:** commit, tag (`git tag v0.1.1`), push, and bump the version in
    `plugin/.claude-plugin/plugin.json` and the Desktop config above.
 
