@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "site/style.css"
+        ],
+        "createdAt": "2026-10-25T04:40:07.283Z",
+        "reason": "Claude triage: .note uses a 3px border in the neutral --line gray on inline caveat paragraphs (quote-style aside), not a colored accent on a card"
+      }
+    ]
+  }
+}
