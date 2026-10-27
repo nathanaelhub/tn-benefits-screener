@@ -10,6 +10,7 @@ const STATUS = {
 };
 
 let screen = null;
+let screenWhenReady = false; // an example was picked while the screener was still loading
 const EMPTY_RESULTS = $("#results").innerHTML;
 
 // Form --------------------------------------------------------------------
@@ -166,7 +167,11 @@ fetch("examples.json").then((r) => r.json()).then((list) => {
     b.type = "button";
     b.className = "chip";
     b.textContent = ex.name;
-    b.onclick = () => { fill(ex.household); if (screen) $("#form").requestSubmit(); };
+    b.onclick = () => {
+      fill(ex.household);
+      if (screen) $("#form").requestSubmit();
+      else screenWhenReady = true;
+    };
     return b;
   }));
 });
@@ -184,6 +189,7 @@ fetch("examples.json").then((r) => r.json()).then((list) => {
     window.tnScreen = screen; // for automated tests
     go.disabled = false;
     go.textContent = "Check eligibility";
+    if (screenWhenReady) $("#form").requestSubmit();
   } catch (ex) {
     go.textContent = "The screener couldn't load";
     $("#form-error").textContent = "Couldn't load the screener: " + ex;

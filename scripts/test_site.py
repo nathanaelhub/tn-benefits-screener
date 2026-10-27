@@ -104,6 +104,21 @@ def main() -> int:
         if any(not h.startswith("https://") for h in hrefs):
             failures.append(f"non-https links: {[h for h in hrefs if not h.startswith('https://')]}")
 
+        # An example picked before the screener has loaded runs once it's ready.
+        # Hold the screener package back until after the click.
+        early = browser.new_page(viewport={"width": 1280, "height": 900})
+        held = []
+        early.route("**/screener.zip", lambda r: held.append(r))
+        early.goto(url)
+        early.get_by_role("button", name="Retired, 70, Social Security").click()
+        expect(early.locator("#go")).to_be_disabled()
+        for r in held:
+            r.continue_()
+        if not held:
+            failures.append("early example: screener.zip was never requested")
+        expect(early.locator("article.program")).to_have_count(3, timeout=120_000)
+        early.close()
+
         # 3. Phone width: no horizontal scroll.
         phone = browser.new_page(viewport={"width": 375, "height": 800})
         phone.goto(url)
