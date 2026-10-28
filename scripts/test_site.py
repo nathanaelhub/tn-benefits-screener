@@ -112,12 +112,25 @@ def main() -> int:
         early.goto(url)
         early.get_by_role("button", name="Retired, 70, Social Security").click()
         expect(early.locator("#go")).to_be_disabled()
-        for r in held:
-            r.continue_()
+        for _ in range(600):  # the zip is requested only after Pyodide itself loads
+            if held:
+                break
+            early.wait_for_timeout(100)
         if not held:
             failures.append("early example: screener.zip was never requested")
+        for r in held:
+            r.continue_()
         expect(early.locator("article.program")).to_have_count(3, timeout=120_000)
         early.close()
+
+        # Without examples.json the form still works and the empty examples row is hidden.
+        bare = browser.new_page(viewport={"width": 1280, "height": 900})
+        bare.on("pageerror", lambda e: errors.append(f"no-examples page: {e}"))
+        bare.route("**/examples.json", lambda r: r.fulfill(status=404, body="not found"))
+        bare.goto(url)
+        expect(bare.locator(".examples")).to_be_hidden()
+        expect(bare.locator("#go")).to_have_text("Check eligibility", timeout=120_000)
+        bare.close()
 
         # 3. Phone width: no horizontal scroll.
         phone = browser.new_page(viewport={"width": 375, "height": 800})

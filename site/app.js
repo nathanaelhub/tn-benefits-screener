@@ -161,7 +161,10 @@ $("#form").onsubmit = (e) => {
 addMember();
 addIncome();
 
-fetch("examples.json").then((r) => r.json()).then((list) => {
+fetch("examples.json").then((r) => {
+  if (!r.ok) throw new Error(`examples.json: HTTP ${r.status}`);
+  return r.json();
+}).then((list) => {
   $("#examples").replaceChildren(...list.map((ex) => {
     const b = document.createElement("button");
     b.type = "button";
@@ -174,6 +177,9 @@ fetch("examples.json").then((r) => r.json()).then((list) => {
     };
     return b;
   }));
+}).catch(() => {
+  // The form still works without examples; don't show an empty "Try an example" row.
+  $(".examples").hidden = true;
 });
 
 (async () => {
