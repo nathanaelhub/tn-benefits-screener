@@ -2,8 +2,9 @@
 
 Updated: 2026-11-06. This file started as the screener's handoff (sections below up to "Outside the
 repo"). Since then the session moved on to the other Claude Corps projects; that work is in
-"Since the last handoff" at the end. Nothing is running and every repo below is committed and
-pushed; nothing is waiting in a branch.
+"Since the last handoff" at the end. Nothing is running, and every repo below is committed and
+pushed with nothing waiting in a branch, except this HANDOFF.md update: it's committed in
+`tn-benefits-screener` but not pushed (run `git push` there).
 
 ## What this is
 
