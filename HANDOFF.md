@@ -119,7 +119,7 @@ pull requests (the `github-flow` skill); commit email nathanaeljdj@gmail.com.
   adopt the stricter rule and re-judge everything (about $7.50), or hide BL2026-1565 by hand.
 - **Council meeting of Nov 5, 2026** (moved from Election Day) isn't in the digest yet.
 - **Workshop:** not yet run with real people; the Spanish hasn't been reviewed by a native speaker.
-- **Screener Vercel auto-deploy:** still waiting on GitHub app access (steps above).
+- **Screener Vercel auto-deploy:** connected Nov 6, 2026; RUNBOOK step 6 updated.
 - Pre-existing, not fixed: one "Unexpected token '.'" console error on nathanaeljohnson.net/work;
   some project pages there use light cover colors as text accents (low contrast).
 

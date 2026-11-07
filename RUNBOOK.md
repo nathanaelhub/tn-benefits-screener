@@ -73,10 +73,11 @@ All commands run from a copy of this repository (`git clone`, then `uv sync`).
    then `uv run python evals/score.py --run <date>`. Compare with the last results in
    `evals/results/`.
 6. **Web page:** pushing to `main` rebuilds the GitHub Pages site, after a browser test
-   checks it against the Python engine. The Vercel mirror is deployed by hand:
-   `uv run python scripts/build_site.py && cd _site && vercel link --yes --project tn-benefits-screener && vercel deploy --prod`.
-   The build recreates `_site/`, which drops its Vercel link; without `vercel link` the
-   deploy creates a new, separate project instead of updating the mirror.
+   checks it against the Python engine. Vercel also deploys the mirror
+   (https://tn-benefits-screener.vercel.app) on every push to `main`, building from
+   `vercel.json`, and makes a preview for each pull request. Vercel's deploy doesn't run the
+   browser test, so check the Pages run before trusting the mirror. To deploy by hand from the
+   repo root: `vercel link --yes --project tn-benefits-screener && vercel deploy --prod`.
 7. **Release:** commit, tag (`git tag v0.1.1`), push, and bump the version in
    `plugin/.claude-plugin/plugin.json` and the Desktop config above.
 
