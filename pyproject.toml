@@ -25,6 +25,7 @@ build-backend = "hatchling.build"
 [tool.pytest.ini_options]
 markers = ["live: downloads the real sources (deselected by default)"]
 addopts = "-m 'not live'"
+testpaths = ["tests"]  # scripts/test_site.py is the browser test; the Pages workflow runs it
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/tn_screener"]
